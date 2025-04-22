@@ -12,5 +12,17 @@ public class Refugio {
     private Comedor comedor=new Comedor();
     private Comun comun=new Comun();
     private Descanso descanso=new Descanso();
+
+    public Comedor getComedor() {
+        return comedor;
+    }
+
+    public Comun getComun() {
+        return comun;
+    }
+
+    public Descanso getDescanso() {
+        return descanso;
+    }
     
 }
