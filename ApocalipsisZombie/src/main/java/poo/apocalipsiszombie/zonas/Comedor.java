@@ -9,7 +9,7 @@ package poo.apocalipsiszombie.zonas;
  * @author unaih
  */
 public class Comedor extends Zona{
-
+    
     public Comedor() {
     }
 

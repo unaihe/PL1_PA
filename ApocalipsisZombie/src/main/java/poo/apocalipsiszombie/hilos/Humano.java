@@ -4,7 +4,7 @@
  */
 package poo.apocalipsiszombie.hilos;
 
-
+import java.util.concurrent.ThreadLocalRandom;
 import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
@@ -16,14 +16,15 @@ import poo.apocalipsiszombie.zonas.Refugio;
  *
  * @author unaih
  */
-public class Humano extends Thread{
+public class Humano extends Thread {
+
     private final String id;
-    private boolean marcado=false;
-    private boolean vivo=true;
+    private boolean marcado = false;
+    private boolean vivo = true;
     private String zonaActual;
     private Refugio refugio;
-    private int comidaRecolectada=0;
-    private boolean necesitaDescanso=false;
+    private int comidaRecolectada = 0;
+    private boolean necesitaDescanso = false;
     private Logger log;
     private Tunel tunel;
     private Tuneles tuneles;
@@ -33,15 +34,25 @@ public class Humano extends Thread{
     public String toString() {
         return "Humano{" + "id=" + id + '}';
     }
-    
-    public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas,Logger logger){
-        this.id=id;
-        this.refugio=refugio;    
-        log=logger;
-        this.tuneles=tuneles;
-        this.areaRiesgo=areas;
+
+    public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas, Logger logger) {
+        this.id = id;
+        this.refugio = refugio;
+        log = logger;
+        this.tuneles = tuneles;
+        this.areaRiesgo = areas;
     }
-    public void run(){
-        
+
+    public void run() {
+        try {
+            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001); // 1000 a 2000 ms
+            Thread.sleep(tiempoComun);
+            tuneles.getTunelAleatorio();
+            
+            
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
 }
+
