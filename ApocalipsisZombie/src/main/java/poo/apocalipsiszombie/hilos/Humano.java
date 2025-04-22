@@ -28,10 +28,18 @@ public class Humano extends Thread{
     private Tunel tunel;
     private Tuneles tuneles;
     private AreaRiesgo areaRiesgo;
+
+    @Override
+    public String toString() {
+        return "Humano{" + "id=" + id + '}';
+    }
     
-    public Humano(String id, Refugio refugio){
+    public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas,Logger logger){
         this.id=id;
         this.refugio=refugio;    
+        log=logger;
+        this.tuneles=tuneles;
+        this.areaRiesgo=areas;
     }
     public void run(){
         

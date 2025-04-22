@@ -9,5 +9,8 @@ package poo.apocalipsiszombie.zonas;
  * @author unaih
  */
 public class Comun extends Zona{
+
+    public Comun() {
+    }
     
 }

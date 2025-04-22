@@ -18,6 +18,11 @@ public class Tuneles {
     public Tuneles(){
     }
 
+    @Override
+    public String toString() {
+        return "Tuneles{" + "tunel1=" + tunel1 + ", tunel2=" + tunel2 + ", tunel3=" + tunel3 + ", tunel4=" + tunel4 + '}';
+    }
+    
     public Tunel getTunel1() {
         return tunel1;
     }

@@ -19,6 +19,14 @@ public class AreaRiesgo {
     public AreaRiesgo(){
     
     }
+
+    @Override
+    public String toString() {
+        return "AreaRiesgo{" + "zona1=" + zona1 + ", zona2=" + zona2 + ", zona3=" + zona3 + ", zona4=" + zona4 + '}';
+    }
+    
+    
+    
     public ZonaRiesgo getZona1() {
         return zona1;
     }

@@ -9,8 +9,14 @@ package poo.apocalipsiszombie.tuneles;
  * @author unaih
  */
 public class Tunel {
-    private final String id;
-    public Tunel(String id){
+    private final int id;
+    public Tunel(int id){
         this.id=id;
     }
+
+    @Override
+    public String toString() {
+        return "Tunel{" + "id=" + id + '}';
+    }
+    
 }

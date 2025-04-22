@@ -4,10 +4,21 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import java.util.ArrayList;
+import java.util.List;
+import poo.apocalipsiszombie.hilos.Humano;
+
 /**
  *
  * @author unaih
  */
 public abstract class  Zona{
-    
+    private List<Humano> personas = new ArrayList<>();
+
+    public List<Humano> getPersonas() {
+        return personas;
+    }
+    public void agregarPersona(Humano humano) {
+        personas.add(humano);
+    }
 }

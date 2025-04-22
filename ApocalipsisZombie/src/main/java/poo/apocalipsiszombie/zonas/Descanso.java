@@ -9,5 +9,8 @@ package poo.apocalipsiszombie.zonas;
  * @author unaih
  */
 public class Descanso extends Zona{
+
+    public Descanso() {
+    }
     
 }
