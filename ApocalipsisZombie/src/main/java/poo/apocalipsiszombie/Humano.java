@@ -18,6 +18,8 @@ public class Humano extends Thread{
     private boolean necesitaDescanso=false;
     private Logger log;
     private Tunel tunel;
+    private Tuneles tuneles;
+    private AreaRiesgo areaRiesgo;
     
     public Humano(String id, Refugio refugio){
         this.id=id;
