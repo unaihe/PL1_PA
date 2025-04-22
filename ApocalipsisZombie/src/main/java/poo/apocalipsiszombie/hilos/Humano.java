@@ -2,7 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package poo.apocalipsiszombie;
+package poo.apocalipsiszombie.hilos;
+
+
+import poo.apocalipsiszombie.Logger;
+import poo.apocalipsiszombie.Logger;
+import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
+import poo.apocalipsiszombie.tuneles.Tuneles;
+import poo.apocalipsiszombie.tuneles.Tunel;
+import poo.apocalipsiszombie.zonas.Refugio;
 
 /**
  *
