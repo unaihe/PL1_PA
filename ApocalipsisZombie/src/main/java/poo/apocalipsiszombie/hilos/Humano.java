@@ -47,36 +47,42 @@ public class Humano extends Thread {
         this.areaRiesgo = areas;
     }
 
+    public boolean isVivo() {
+        return vivo;
+    }
+
     public void serAtacado(int tiempo, Zombi zombi) throws InterruptedException {
+        ataqueFinalizado=false;
         siendoAtacado = true;
         Thread.sleep(tiempo);
         boolean sobrevive = ThreadLocalRandom.current().nextInt(3) < 2;
         if (sobrevive) {
             this.marcado = true;
             this.comidaRecolectada = 0;
+            this.necesitaDescanso=true;
         } else {
             this.vivo = false;
             zonaRiesgo.quitarPersona(this);
             
             String idZombi = "Z" + this.id.substring(1); 
-            Zombi nuevoZombi = new Zombi(idZombi, areaRiesgo);
+            Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo);
             
         }
+        ataqueFinalizado=true;
         siendoAtacado=false;
     }
 
     public void run() {
         try {
             refugio.getComun().agregarPersona(this);
-            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001); // 1000 a 2000 ms
+            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001); 
             Thread.sleep(tiempoComun);
             refugio.getComun().quitarPersona(this);
             tunel = tuneles.getTunelAleatorio();
-            tunel.agregarPersona(this);
+            tunel.agregarPersonaRefugio(this);
             try {
                 tunel.esperarGrupo();
-                tunel.cruzarTunel(false);
-                tunel.quitarPersona(this);
+                tunel.cruzarTunel(false,this);
                 int numero = tunel.getId();
                 switch (numero) {
                     case 1:
@@ -109,22 +115,13 @@ public class Humano extends Thread {
                                 }
                             }
                         }
-                        // Aquí termina el ataque, decide si sobrevive o no (probabilidad 2/3)
-                        boolean sobrevive = ThreadLocalRandom.current().nextInt(3) < 2;
-                        if (sobrevive) {
-                            // Marcado, vuelve sin comida
-                            this.marcado = true;
-                            // salir de la zona y volver al refugio...
-                        } else {
-                            // Muere y renace como zombi
-                            zonaRiesgo.quitarPersona(this);
-                            // Crear nuevo zombi con el mismo id numérico...
+                        if (!isVivo()) {
                             return; // Termina el hilo humano
                         }
                         break;
                     }
                     try {
-                        Thread.sleep(100); // Chequeo periódico
+                        Thread.sleep(100); 
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
@@ -132,12 +129,13 @@ public class Humano extends Thread {
                     tiempoPasado = System.currentTimeMillis() - inicio;
                 }
 
-                if (!siendoAtacado) {
+                if (!marcado) {
                     // Recolecta comida normalmente
                     this.comidaRecolectada = 2;
                 }
-
                 zonaRiesgo.quitarPersona(this);
+                
+                
 
             } catch (InterruptedException | BrokenBarrierException e) {
                 Thread.currentThread().interrupt();

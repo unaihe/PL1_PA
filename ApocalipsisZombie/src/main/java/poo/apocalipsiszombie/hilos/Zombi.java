@@ -28,21 +28,31 @@ public class Zombi extends Thread{
         zonaActual.agregarZombi(this);
     }
     
+    public Zombi(String id, ZonaRiesgo zonaRiesgo, AreaRiesgo areaRiesgo){
+        zonaActual=zonaRiesgo;
+        this.areaRiesgo=areaRiesgo;
+        this.id=id;
+    }
+        
     public void run(){
         while(true){
             int tiempo = ThreadLocalRandom.current().nextInt(500, 1501);
-            try {
-                Thread.sleep(tiempo);
-            } catch (InterruptedException ex) {}
-            zonaActual.quitarZombi(this);
-            zonaActual=areaRiesgo.getZonaRiesgoAleatoria();
+            
             zonaActual.agregarZombi(this);
             if (zonaActual.hayHumanos()){
                 Humano victima=zonaActual.seleccionarHumanoAleatorio();
                 try {
                     victima.serAtacado(tiempo,this);
+                    Thread.sleep(tiempo);
+                    if (!victima.isVivo()){
+                        muertes+=1;
+                    };
+                    int reposo = ThreadLocalRandom.current().nextInt(2000, 3001);
+                    Thread.sleep(reposo);
                 } catch (InterruptedException ex) {}
             }
+            zonaActual.quitarZombi(this);
+            zonaActual=areaRiesgo.getZonaRiesgoAleatoria();         
                     
         }
     };

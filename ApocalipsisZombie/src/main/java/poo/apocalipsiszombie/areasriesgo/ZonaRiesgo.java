@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package poo.apocalipsiszombie.areasriesgo;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ThreadLocalRandom;
 import poo.apocalipsiszombie.hilos.Humano;
 import poo.apocalipsiszombie.hilos.Zombi;
@@ -18,8 +14,8 @@ public class ZonaRiesgo {
 
     private int hZona;
     private final int id;
-    private Set<Humano> personas = new HashSet<>();
-    private Set<Zombi> zombis = new HashSet<>();
+    private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
+    private Queue<Zombi> zombis = new ConcurrentLinkedQueue<>();
 
     public ZonaRiesgo(int id) {
         this.id = id;
@@ -29,7 +25,7 @@ public class ZonaRiesgo {
         return id;
     }
 
-    public Set<Humano> getPersonas() {
+    public Queue<Humano> getPersonas() {
         return personas;
     }
 
@@ -41,7 +37,7 @@ public class ZonaRiesgo {
         personas.remove(humano);
     }
 
-    public Set<Zombi> getZombis() {
+    public Queue<Zombi> getZombis() {
         return zombis;
     }
 
@@ -69,5 +65,4 @@ public class ZonaRiesgo {
     public String toString() {
         return "ZonaRiesgo{" + "hZona=" + hZona + ", id=" + id + '}';
     }
-
 }

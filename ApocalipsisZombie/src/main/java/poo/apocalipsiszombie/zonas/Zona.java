@@ -1,22 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package poo.apocalipsiszombie.zonas;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import poo.apocalipsiszombie.hilos.Humano;
+
 
 /**
  *
  * @author unaih
  */
-
 public abstract class Zona {
-    private Set<Humano> personas = new HashSet<>();
+    private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
 
-    public Set<Humano> getPersonas() {
+    public Queue<Humano> getPersonas() {
         return personas;
     }
 
@@ -28,4 +24,3 @@ public abstract class Zona {
         personas.remove(humano);
     }
 }
-
