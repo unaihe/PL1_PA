@@ -22,7 +22,7 @@ public class ApocalipsisZombie {
         Refugio refugio=new Refugio();
         AreaRiesgo areaRiesgo=new AreaRiesgo();
         Tuneles tuneles=new Tuneles();
-        Zombi zombi=new Zombi("Z0000",areaRiesgo.getZonaRiesgoAleatoria().getId());
+        Zombi zombi=new Zombi("Z0000",areaRiesgo);
         Logger logger=new Logger();
         System.out.println(refugio);
         System.out.println(areaRiesgo);

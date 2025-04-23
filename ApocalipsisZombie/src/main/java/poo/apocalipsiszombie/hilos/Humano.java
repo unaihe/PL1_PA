@@ -47,6 +47,24 @@ public class Humano extends Thread {
         this.areaRiesgo = areas;
     }
 
+    public void serAtacado(int tiempo, Zombi zombi) throws InterruptedException {
+        siendoAtacado = true;
+        Thread.sleep(tiempo);
+        boolean sobrevive = ThreadLocalRandom.current().nextInt(3) < 2;
+        if (sobrevive) {
+            this.marcado = true;
+            this.comidaRecolectada = 0;
+        } else {
+            this.vivo = false;
+            zonaRiesgo.quitarPersona(this);
+            
+            String idZombi = "Z" + this.id.substring(1); 
+            Zombi nuevoZombi = new Zombi(idZombi, areaRiesgo);
+            
+        }
+        siendoAtacado=false;
+    }
+
     public void run() {
         try {
             refugio.getComun().agregarPersona(this);
