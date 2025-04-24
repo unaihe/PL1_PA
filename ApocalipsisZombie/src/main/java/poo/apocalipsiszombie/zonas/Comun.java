@@ -4,13 +4,16 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import poo.apocalipsiszombie.Logger;
+
 /**
  *
  * @author unaih
  */
 public class Comun extends Zona{
+    private Logger log;
 
-    public Comun() {
-    }
+    public Comun(Logger log) {
+        this.log=log;    }
     
 }

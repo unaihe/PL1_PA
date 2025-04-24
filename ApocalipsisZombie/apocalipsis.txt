@@ -1,0 +1,225 @@
+2025-04-24 19:20:55 - El humano H0000 entra en la zona común del refugio.
+2025-04-24 19:20:55 - El humano H0001 entra en la zona común del refugio.
+2025-04-24 19:20:56 - El humano H0000 sale de la zona común del refugio.
+2025-04-24 19:20:56 - El humano H0000 espera en el túnel 3 para salir al exterior.
+2025-04-24 19:20:56 - El humano H0000 espera en el grupo
+2025-04-24 19:20:57 - El humano H0002 entra en la zona común del refugio.
+2025-04-24 19:20:57 - El humano H0001 sale de la zona común del refugio.
+2025-04-24 19:20:57 - El humano H0001 espera en el túnel 4 para salir al exterior.
+2025-04-24 19:20:57 - El humano H0001 espera en el grupo
+2025-04-24 19:20:57 - El humano H0003 entra en la zona común del refugio.
+2025-04-24 19:20:58 - El humano H0002 sale de la zona común del refugio.
+2025-04-24 19:20:58 - El humano H0002 espera en el túnel 1 para salir al exterior.
+2025-04-24 19:20:58 - El humano H0002 espera en el grupo
+2025-04-24 19:20:58 - El humano H0004 entra en la zona común del refugio.
+2025-04-24 19:20:59 - El humano H0003 sale de la zona común del refugio.
+2025-04-24 19:20:59 - El humano H0003 espera en el túnel 1 para salir al exterior.
+2025-04-24 19:20:59 - El humano H0003 espera en el grupo
+2025-04-24 19:21:00 - El humano H0005 entra en la zona común del refugio.
+2025-04-24 19:21:00 - El humano H0004 sale de la zona común del refugio.
+2025-04-24 19:21:00 - El humano H0004 espera en el túnel 3 para salir al exterior.
+2025-04-24 19:21:00 - El humano H0004 espera en el grupo
+2025-04-24 19:21:02 - El humano H0005 sale de la zona común del refugio.
+2025-04-24 19:21:02 - El humano H0005 espera en el túnel 3 para salir al exterior.
+2025-04-24 19:21:02 - El humano H0005 espera en el grupo
+2025-04-24 19:21:02 - El humano H0000 quiere pasar
+2025-04-24 19:21:02 - El humano H0005 quiere pasar
+2025-04-24 19:21:02 - El humano H0004 quiere pasar
+2025-04-24 19:21:02 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:02 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:02 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:02 - El humano H0005coge el lock
+2025-04-24 19:21:02 - El humano H0000coge el lock
+2025-04-24 19:21:02 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:02 - El humano H0000espera al lock
+2025-04-24 19:21:02 - El humano H0004coge el lock
+2025-04-24 19:21:02 - El humano H0004espera al lock
+2025-04-24 19:21:02 - El humano H0006 entra en la zona común del refugio.
+2025-04-24 19:21:03 - El humano H0005 entra en la zona de riesgo 3.
+2025-04-24 19:21:03 - El humano H0000pasa el lock
+2025-04-24 19:21:03 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:03 - El humano H0004pasa el lock
+2025-04-24 19:21:03 - El humano H0004espera al lock
+2025-04-24 19:21:03 - El humano H0007 entra en la zona común del refugio.
+2025-04-24 19:21:04 - El humano H0006 sale de la zona común del refugio.
+2025-04-24 19:21:04 - El humano H0006 espera en el túnel 1 para salir al exterior.
+2025-04-24 19:21:04 - El humano H0006 espera en el grupo
+2025-04-24 19:21:04 - El humano H0006 quiere pasar
+2025-04-24 19:21:04 - El humano H0003 quiere pasar
+2025-04-24 19:21:04 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:04 - El humano H0002 quiere pasar
+2025-04-24 19:21:04 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:04 - El humano H0006coge el lock
+2025-04-24 19:21:04 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:04 - El humano H0003coge el lock
+2025-04-24 19:21:04 - El humano H0006 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:04 - El humano H0003espera al lock
+2025-04-24 19:21:04 - El humano H0002coge el lock
+2025-04-24 19:21:04 - El humano H0002espera al lock
+2025-04-24 19:21:04 - El humano H0000 entra en la zona de riesgo 3.
+2025-04-24 19:21:04 - El humano H0004pasa el lock
+2025-04-24 19:21:04 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:04 - El humano H0008 entra en la zona común del refugio.
+2025-04-24 19:21:05 - El humano H0006 entra en la zona de riesgo 1.
+2025-04-24 19:21:05 - El humano H0003pasa el lock
+2025-04-24 19:21:05 - El humano H0002pasa el lock
+2025-04-24 19:21:05 - El humano H0003 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:05 - El humano H0002espera al lock
+2025-04-24 19:21:05 - El humano H0004 entra en la zona de riesgo 3.
+2025-04-24 19:21:05 - El humano H0009 entra en la zona común del refugio.
+2025-04-24 19:21:05 - El humano H0007 sale de la zona común del refugio.
+2025-04-24 19:21:05 - El humano H0007 espera en el túnel 2 para salir al exterior.
+2025-04-24 19:21:05 - El humano H0007 espera en el grupo
+2025-04-24 19:21:05 - El humano H0008 sale de la zona común del refugio.
+2025-04-24 19:21:05 - El humano H0008 espera en el túnel 1 para salir al exterior.
+2025-04-24 19:21:05 - El humano H0008 espera en el grupo
+2025-04-24 19:21:06 - El humano H0003 entra en la zona de riesgo 1.
+2025-04-24 19:21:06 - El humano H0002pasa el lock
+2025-04-24 19:21:06 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:06 - El humano H0010 entra en la zona común del refugio.
+2025-04-24 19:21:06 - El humano H0009 sale de la zona común del refugio.
+2025-04-24 19:21:06 - El humano H0009 espera en el túnel 2 para salir al exterior.
+2025-04-24 19:21:06 - El humano H0009 espera en el grupo
+2025-04-24 19:21:07 - El humano H0002 entra en la zona de riesgo 1.
+2025-04-24 19:21:07 - El humano H0011 entra en la zona común del refugio.
+2025-04-24 19:21:07 - El humano H0005 sale de la zona de riesgo 3.
+2025-04-24 19:21:07 - El humano H0005 cruza el túnel 3 de vuelta al refugio.
+2025-04-24 19:21:07 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:07 - El humano H0005coge el lock
+2025-04-24 19:21:07 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:08 - El humano H0011 sale de la zona común del refugio.
+2025-04-24 19:21:08 - El humano H0011 espera en el túnel 4 para salir al exterior.
+2025-04-24 19:21:08 - El humano H0011 espera en el grupo
+2025-04-24 19:21:08 - El humano H0010 sale de la zona común del refugio.
+2025-04-24 19:21:08 - El humano H0010 espera en el túnel 2 para salir al exterior.
+2025-04-24 19:21:08 - El humano H0010 espera en el grupo
+2025-04-24 19:21:08 - El humano H0010 quiere pasar
+2025-04-24 19:21:08 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:08 - El humano H0010coge el lock
+2025-04-24 19:21:08 - El humano H0007 quiere pasar
+2025-04-24 19:21:08 - El humano H0010 cruza el túnel 2 hacia la zona de riesgo.
+2025-04-24 19:21:08 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:08 - El humano H0007coge el lock
+2025-04-24 19:21:08 - El humano H0009 quiere pasar
+2025-04-24 19:21:08 - El humano H0007espera al lock
+2025-04-24 19:21:08 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:08 - El humano H0009coge el lock
+2025-04-24 19:21:08 - El humano H0009espera al lock
+2025-04-24 19:21:08 - El humano H0004 sale de la zona de riesgo 3.
+2025-04-24 19:21:08 - El humano H0004 cruza el túnel 3 de vuelta al refugio.
+2025-04-24 19:21:08 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:08 - El humano H0004coge el lock
+2025-04-24 19:21:08 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:08 - El humano H0005 deja comida en el comedor.
+2025-04-24 19:21:08 - El humano H0005 entra en la zona de descanso.
+2025-04-24 19:21:08 - El humano H0000 sale de la zona de riesgo 3.
+2025-04-24 19:21:08 - El humano H0000 cruza el túnel 3 de vuelta al refugio.
+2025-04-24 19:21:08 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:08 - El humano H0000coge el lock
+2025-04-24 19:21:08 - El humano H0012 entra en la zona común del refugio.
+2025-04-24 19:21:09 - El humano H0010 entra en la zona de riesgo 2.
+2025-04-24 19:21:09 - El humano H0007pasa el lock
+2025-04-24 19:21:09 - El humano H0007 cruza el túnel 2 hacia la zona de riesgo.
+2025-04-24 19:21:09 - El humano H0009pasa el lock
+2025-04-24 19:21:09 - El humano H0009espera al lock
+2025-04-24 19:21:09 - El humano H0004 deja comida en el comedor.
+2025-04-24 19:21:09 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-04-24 19:21:09 - El humano H0004 entra en la zona de descanso.
+2025-04-24 19:21:09 - El humano H0006 sale de la zona de riesgo 1.
+2025-04-24 19:21:09 - El humano H0006 cruza el túnel 1 de vuelta al refugio.
+2025-04-24 19:21:09 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:09 - El humano H0006coge el lock
+2025-04-24 19:21:09 - El humano H0006 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:09 - El humano H0003 sale de la zona de riesgo 1.
+2025-04-24 19:21:09 - El humano H0003 cruza el túnel 1 de vuelta al refugio.
+2025-04-24 19:21:09 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:09 - El humano H0003coge el lock
+2025-04-24 19:21:10 - El humano H0013 entra en la zona común del refugio.
+2025-04-24 19:21:10 - El humano H0012 sale de la zona común del refugio.
+2025-04-24 19:21:10 - El humano H0012 espera en el túnel 4 para salir al exterior.
+2025-04-24 19:21:10 - El humano H0012 espera en el grupo
+2025-04-24 19:21:10 - El humano H0012 quiere pasar
+2025-04-24 19:21:10 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:10 - El humano H0012coge el lock
+2025-04-24 19:21:10 - El humano H0012 cruza el túnel 4 hacia la zona de riesgo.
+2025-04-24 19:21:10 - El humano H0001 quiere pasar
+2025-04-24 19:21:10 - El humano H0011 quiere pasar
+2025-04-24 19:21:10 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:10 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:10 - El humano H0011coge el lock
+2025-04-24 19:21:10 - El humano H0011espera al lock
+2025-04-24 19:21:10 - El humano H0001coge el lock
+2025-04-24 19:21:10 - El humano H0001espera al lock
+2025-04-24 19:21:10 - El humano H0007 entra en la zona de riesgo 2.
+2025-04-24 19:21:10 - El humano H0009pasa el lock
+2025-04-24 19:21:10 - El humano H0009 cruza el túnel 2 hacia la zona de riesgo.
+2025-04-24 19:21:10 - El humano H0002 sale de la zona de riesgo 1.
+2025-04-24 19:21:10 - El humano H0002 cruza el túnel 1 de vuelta al refugio.
+2025-04-24 19:21:10 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:10 - El humano H0002coge el lock
+2025-04-24 19:21:10 - El humano H0000 deja comida en el comedor.
+2025-04-24 19:21:10 - El humano H0000 entra en la zona de descanso.
+2025-04-24 19:21:10 - El humano H0006 deja comida en el comedor.
+2025-04-24 19:21:10 - El humano H0006 entra en la zona de descanso.
+2025-04-24 19:21:10 - El humano H0003 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:10 - El humano H0014 entra en la zona común del refugio.
+2025-04-24 19:21:11 - El humano H0012 entra en la zona de riesgo 4.
+2025-04-24 19:21:11 - El humano H0011pasa el lock
+2025-04-24 19:21:11 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-04-24 19:21:11 - El humano H0001pasa el lock
+2025-04-24 19:21:11 - El humano H0001espera al lock
+2025-04-24 19:21:11 - El humano H0009 entra en la zona de riesgo 2.
+2025-04-24 19:21:11 - El humano H0003 deja comida en el comedor.
+2025-04-24 19:21:11 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-04-24 19:21:11 - El humano H0003 entra en la zona de descanso.
+2025-04-24 19:21:11 - El humano H0013 sale de la zona común del refugio.
+2025-04-24 19:21:11 - El humano H0013 espera en el túnel 1 para salir al exterior.
+2025-04-24 19:21:11 - El humano H0013 espera en el grupo
+2025-04-24 19:21:11 - El humano H0005 sale de la zona de descanso.
+2025-04-24 19:21:11 - El humano H0005 entra en el comedor.
+2025-04-24 19:21:11 - El humano H0005 coge una pieza de comida del comedor.
+2025-04-24 19:21:12 - El humano H0011 entra en la zona de riesgo 4.
+2025-04-24 19:21:12 - El humano H0001pasa el lock
+2025-04-24 19:21:12 - El humano H0001 cruza el túnel 4 hacia la zona de riesgo.
+2025-04-24 19:21:12 - El humano H0015 entra en la zona común del refugio.
+2025-04-24 19:21:12 - El humano H0004 sale de la zona de descanso.
+2025-04-24 19:21:12 - El humano H0004 entra en el comedor.
+2025-04-24 19:21:12 - El humano H0004 coge una pieza de comida del comedor.
+2025-04-24 19:21:12 - El humano H0002 deja comida en el comedor.
+2025-04-24 19:21:12 - El humano H0002 entra en la zona de descanso.
+2025-04-24 19:21:12 - El humano H0016 entra en la zona común del refugio.
+2025-04-24 19:21:12 - El humano H0014 sale de la zona común del refugio.
+2025-04-24 19:21:12 - El humano H0014 espera en el túnel 3 para salir al exterior.
+2025-04-24 19:21:12 - El humano H0014 espera en el grupo
+2025-04-24 19:21:12 - El humano H0006 sale de la zona de descanso.
+2025-04-24 19:21:12 - El humano H0006 entra en el comedor.
+2025-04-24 19:21:12 - El humano H0006 coge una pieza de comida del comedor.
+2025-04-24 19:21:13 - El humano H0001 entra en la zona de riesgo 4.
+2025-04-24 19:21:13 - El humano H0017 entra en la zona común del refugio.
+2025-04-24 19:21:13 - El humano H0000 sale de la zona de descanso.
+2025-04-24 19:21:13 - El humano H0000 entra en el comedor.
+2025-04-24 19:21:13 - El humano H0000 coge una pieza de comida del comedor.
+2025-04-24 19:21:13 - El humano H0015 sale de la zona común del refugio.
+2025-04-24 19:21:13 - El humano H0015 espera en el túnel 4 para salir al exterior.
+2025-04-24 19:21:13 - El humano H0015 espera en el grupo
+2025-04-24 19:21:14 - El humano H0010 sale de la zona de riesgo 2.
+2025-04-24 19:21:14 - El humano H0010 cruza el túnel 2 de vuelta al refugio.
+2025-04-24 19:21:14 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:14 - El humano H0010coge el lock
+2025-04-24 19:21:14 - El humano H0010 cruza el túnel 2 hacia la zona de riesgo.
+2025-04-24 19:21:14 - El humano H0016 sale de la zona común del refugio.
+2025-04-24 19:21:14 - El humano H0016 espera en el túnel 4 para salir al exterior.
+2025-04-24 19:21:14 - El humano H0016 espera en el grupo
+2025-04-24 19:21:14 - El humano H0007 sale de la zona de riesgo 2.
+2025-04-24 19:21:14 - El humano H0007 cruza el túnel 2 de vuelta al refugio.
+2025-04-24 19:21:14 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:14 - El humano H0007coge el lock
+2025-04-24 19:21:14 - El humano H0012 sale de la zona de riesgo 4.
+2025-04-24 19:21:14 - El humano H0012 cruza el túnel 4 de vuelta al refugio.
+2025-04-24 19:21:14 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:14 - El humano H0012coge el lock
+2025-04-24 19:21:14 - El humano H0012 cruza el túnel 4 hacia la zona de riesgo.
+2025-04-24 19:21:14 - El humano H0009 sale de la zona de riesgo 2.
+2025-04-24 19:21:14 - El humano H0009 cruza el túnel 2 de vuelta al refugio.
+2025-04-24 19:21:14 - El humano aasdadsadsdad asdadasd espera al lock
+2025-04-24 19:21:14 - El humano H0009coge el lock

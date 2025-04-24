@@ -18,12 +18,12 @@ import poo.apocalipsiszombie.zonas.Refugio;
 public class ApocalipsisZombie {
 
     public static void main(String[] args) {
-        Random random=new Random();
-        Refugio refugio=new Refugio();
-        AreaRiesgo areaRiesgo=new AreaRiesgo();
-        Tuneles tuneles=new Tuneles();
-        Zombi zombi=new Zombi("Z0000",areaRiesgo);
+        Random random=new Random();        
         Logger logger=new Logger();
+        AreaRiesgo areaRiesgo=new AreaRiesgo(logger);
+        Zombi zombi=new Zombi("Z0000",areaRiesgo,logger);
+        Refugio refugio=new Refugio(logger);
+        Tuneles tuneles=new Tuneles(logger);
         System.out.println(refugio);
         System.out.println(areaRiesgo);
         System.out.println(tuneles);

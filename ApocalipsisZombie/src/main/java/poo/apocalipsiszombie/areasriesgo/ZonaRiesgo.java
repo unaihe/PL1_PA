@@ -3,6 +3,7 @@ package poo.apocalipsiszombie.areasriesgo;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ThreadLocalRandom;
+import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.hilos.Humano;
 import poo.apocalipsiszombie.hilos.Zombi;
 
@@ -16,9 +17,11 @@ public class ZonaRiesgo {
     private final int id;
     private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
     private Queue<Zombi> zombis = new ConcurrentLinkedQueue<>();
-
-    public ZonaRiesgo(int id) {
+    private Logger log;
+    
+    public ZonaRiesgo(int id,Logger log) {
         this.id = id;
+        this.log=log;
     }
 
     public int getId() {

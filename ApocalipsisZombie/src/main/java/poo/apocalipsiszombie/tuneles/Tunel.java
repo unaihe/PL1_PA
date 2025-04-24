@@ -8,9 +8,11 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import poo.apocalipsiszombie.Logger;
 
 public class Tunel {
     private final int id;
+    private Logger log;
     // Humanos esperando para salir del refugio (hacia el riesgo)
     private Queue<Humano> personasRefugio = new ConcurrentLinkedQueue<>();
     // Humanos esperando para volver del riesgo al refugio
@@ -23,8 +25,9 @@ public class Tunel {
     private int esperandoRefugio = 0;
     private Humano personaCruzando;
 
-    public Tunel(int id) {
+    public Tunel(int id,Logger log) {
         this.id = id;
+        this.log=log;
     }
 
     public Humano getPersonaCruzando() {
@@ -66,7 +69,9 @@ public class Tunel {
     }
 
     public void cruzarTunel(boolean entrandoRefugio,Humano humano) throws InterruptedException {
+        log.escribir("El humano aasdadsadsdad asdadasd espera al lock");
         lock.lock();
+        log.escribir("El humano " + humano.getHumanoId() + "coge el lock");
         try {
             if (entrandoRefugio) {
                 esperandoRefugio++;
@@ -77,7 +82,9 @@ public class Tunel {
                 personasRiesgo.remove(humano);
             } else {
                 while (humanosEnTunel > 0 || esperandoRefugio > 0) {
+                    log.escribir("El humano " + humano.getHumanoId() + "espera al lock");
                     puedeCruzar.await();
+                    log.escribir("El humano " + humano.getHumanoId() + "pasa el lock");
                 }
                 personasRefugio.remove(humano);
             }
@@ -86,6 +93,7 @@ public class Tunel {
             lock.unlock();
         }
         Humano personaCruzando=humano;
+        log.escribir("El humano " + personaCruzando.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
         Thread.sleep(1000);
 
         lock.lock();

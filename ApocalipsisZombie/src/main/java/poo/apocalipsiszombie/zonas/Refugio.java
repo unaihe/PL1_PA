@@ -4,14 +4,21 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import poo.apocalipsiszombie.Logger;
+
 /**
  *
  * @author unaih
  */
 public class Refugio {
-    private Comedor comedor=new Comedor();
-    private Comun comun=new Comun();
-    private Descanso descanso=new Descanso();
+    private Logger log;
+    private Comedor comedor=new Comedor(log);
+    private Comun comun=new Comun(log);
+    private Descanso descanso=new Descanso(log);
+    
+    public Refugio(Logger log) {
+        this.log=log;
+    }
 
     public Comedor getComedor() {
         return comedor;

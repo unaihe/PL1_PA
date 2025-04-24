@@ -5,17 +5,22 @@
 package poo.apocalipsiszombie.tuneles;
 
 import java.util.Random;
+import poo.apocalipsiszombie.Logger;
 
 /**
  *
  * @author unaih
  */
 public class Tuneles {
-    Tunel tunel1=new Tunel(1);
-    Tunel tunel2=new Tunel(2);
-    Tunel tunel3=new Tunel(3);
-    Tunel tunel4=new Tunel(4);
-    public Tuneles(){
+    private Logger logger;
+    private Tunel tunel1, tunel2, tunel3, tunel4;
+
+    public Tuneles(Logger logger){
+        this.logger=logger;
+        tunel1 = new Tunel(1, logger);
+        tunel2 = new Tunel(2, logger);
+        tunel3 = new Tunel(3, logger);
+        tunel4 = new Tunel(4, logger);
     }
 
     @Override

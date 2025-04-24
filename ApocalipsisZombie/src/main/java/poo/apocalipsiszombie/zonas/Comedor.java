@@ -5,6 +5,7 @@
 package poo.apocalipsiszombie.zonas;
 
 import java.util.concurrent.Semaphore;
+import poo.apocalipsiszombie.Logger;
 
 /**
  *
@@ -13,10 +14,12 @@ import java.util.concurrent.Semaphore;
 public class Comedor extends Zona{
     private int nComida=0;
     private final Semaphore semComida;
+    private Logger log;
 
     //Crear semaforo de contador
-    public Comedor() {
+    public Comedor(Logger log) {
         this.semComida = new Semaphore(0,true);
+        this.log=log;
     }
     public synchronized void dejarComida() {
         nComida += 2;

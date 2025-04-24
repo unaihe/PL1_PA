@@ -4,13 +4,17 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import poo.apocalipsiszombie.Logger;
+
 /**
  *
  * @author unaih
  */
 public class Descanso extends Zona{
+    private Logger log;
 
-    public Descanso() {
+    public Descanso(Logger log) {
+        this.log=log;
     }
     
 }

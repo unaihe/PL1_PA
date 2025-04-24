@@ -5,6 +5,7 @@
 package poo.apocalipsiszombie.areasriesgo;
 
 import java.util.Random;
+import poo.apocalipsiszombie.Logger;
 
 
 /**
@@ -12,12 +13,13 @@ import java.util.Random;
  * @author unaih
  */
 public class AreaRiesgo {
-    ZonaRiesgo zona1=new ZonaRiesgo(1);
-    ZonaRiesgo zona2=new ZonaRiesgo(2);
-    ZonaRiesgo zona3=new ZonaRiesgo(3);
-    ZonaRiesgo zona4=new ZonaRiesgo(4);
-    public AreaRiesgo(){
-    
+    private Logger log;
+    ZonaRiesgo zona1=new ZonaRiesgo(1,log);
+    ZonaRiesgo zona2=new ZonaRiesgo(2,log);
+    ZonaRiesgo zona3=new ZonaRiesgo(3,log);
+    ZonaRiesgo zona4=new ZonaRiesgo(4,log);
+    public AreaRiesgo(Logger log){
+        this.log=log;
     }
 
     @Override
