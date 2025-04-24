@@ -51,38 +51,35 @@ public class Humano extends Thread {
         return vivo;
     }
 
-    public void serAtacado(int tiempo, Zombi zombi) throws InterruptedException {
-        ataqueFinalizado=false;
+    public synchronized void serAtacado(int tiempo, Zombi zombi) throws InterruptedException {
+        ataqueFinalizado = false;
         siendoAtacado = true;
         Thread.sleep(tiempo);
         boolean sobrevive = ThreadLocalRandom.current().nextInt(3) < 2;
         if (sobrevive) {
             this.marcado = true;
             this.comidaRecolectada = 0;
-            this.necesitaDescanso=true;
+            this.necesitaDescanso = true;
         } else {
             this.vivo = false;
             zonaRiesgo.quitarPersona(this);
-            
-            String idZombi = "Z" + this.id.substring(1); 
-            Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo);
-            
         }
-        ataqueFinalizado=true;
-        siendoAtacado=false;
+        ataqueFinalizado = true;
+        siendoAtacado = false;
+        notifyAll();
     }
 
     public void run() {
         try {
             refugio.getComun().agregarPersona(this);
-            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001); 
+            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001);
             Thread.sleep(tiempoComun);
             refugio.getComun().quitarPersona(this);
             tunel = tuneles.getTunelAleatorio();
             tunel.agregarPersonaRefugio(this);
             try {
                 tunel.esperarGrupo();
-                tunel.cruzarTunel(false,this);
+                tunel.cruzarTunel(false, this);
                 int numero = tunel.getId();
                 switch (numero) {
                     case 1:
@@ -116,12 +113,15 @@ public class Humano extends Thread {
                             }
                         }
                         if (!isVivo()) {
+                            String idZombi = "Z" + this.id.substring(1);
+                            Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo);
+                            nuevoZombi.start();
                             return; // Termina el hilo humano
                         }
                         break;
                     }
                     try {
-                        Thread.sleep(100); 
+                        Thread.sleep(100);
                     } catch (InterruptedException e) {
                         Thread.currentThread().interrupt();
                         return;
@@ -134,8 +134,8 @@ public class Humano extends Thread {
                     this.comidaRecolectada = 2;
                 }
                 zonaRiesgo.quitarPersona(this);
-                
-                
+                tunel.agregarPersonaRiesgo(this);
+                tunel.cruzarTunel(true, this);
 
             } catch (InterruptedException | BrokenBarrierException e) {
                 Thread.currentThread().interrupt();

@@ -21,9 +21,14 @@ public class Tunel {
     private final Condition puedeCruzar = lock.newCondition();
     private int humanosEnTunel = 0;
     private int esperandoRefugio = 0;
+    private Humano personaCruzando;
 
     public Tunel(int id) {
         this.id = id;
+    }
+
+    public Humano getPersonaCruzando() {
+        return personaCruzando;
     }
 
     public int getId() {
@@ -69,11 +74,12 @@ public class Tunel {
                     puedeCruzar.await();
                 }
                 esperandoRefugio--;
-                personasRefugio.remove(humano);
+                personasRiesgo.remove(humano);
             } else {
                 while (humanosEnTunel > 0 || esperandoRefugio > 0) {
                     puedeCruzar.await();
                 }
+                personasRefugio.remove(humano);
             }
             humanosEnTunel++;
         } finally {

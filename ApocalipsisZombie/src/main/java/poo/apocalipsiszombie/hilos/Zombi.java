@@ -47,10 +47,12 @@ public class Zombi extends Thread{
                     if (!victima.isVivo()){
                         muertes+=1;
                     };
-                    int reposo = ThreadLocalRandom.current().nextInt(2000, 3001);
-                    Thread.sleep(reposo);
                 } catch (InterruptedException ex) {}
             }
+            int reposo = ThreadLocalRandom.current().nextInt(2000, 3001);
+            try {
+                Thread.sleep(reposo);
+            } catch (InterruptedException ex) {}
             zonaActual.quitarZombi(this);
             zonaActual=areaRiesgo.getZonaRiesgoAleatoria();         
                     
