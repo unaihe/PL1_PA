@@ -75,115 +75,116 @@ public class Humano extends Thread {
     }
 
     public void run() {
-        try {
-            refugio.getComun().agregarPersona(this);
-            log.escribir("El humano " + id + " entra en la zona común del refugio.");
-            int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001);
-            Thread.sleep(tiempoComun);
-            refugio.getComun().quitarPersona(this);
-            log.escribir("El humano " + id + " sale de la zona común del refugio.");
-            tunel = tuneles.getTunelAleatorio();
-            tunel.agregarPersonaRefugio(this);
-            log.escribir("El humano " + id + " espera en el túnel " + tunel.getId() + " para salir al exterior.");
+        while(isVivo()){    
             try {
-                log.escribir("El humano " + id + " espera en el grupo");
-                tunel.esperarGrupo();
-                log.escribir("El humano " + id + " quiere pasar");
-                tunel.cruzarTunel(false, this);
-                int numero = tunel.getId();
-                switch (numero) {
-                    case 1:
-                        zonaRiesgo = areaRiesgo.getZona1();
-                        break;
-                    case 2:
-                        zonaRiesgo = areaRiesgo.getZona2();
-                        break;
-                    case 3:
-                        zonaRiesgo = areaRiesgo.getZona3();
-                        break;
-                    case 4:
-                        zonaRiesgo = areaRiesgo.getZona4();
-                        break;
-                }
-                zonaRiesgo.agregarPersona(this);
-                log.escribir("El humano " + id + " entra en la zona de riesgo " + zonaRiesgo.getId() + ".");
-                long tiempoRecoleccion = ThreadLocalRandom.current().nextLong(3000, 5001);
-                long tiempoPasado = 0;
-                long inicio = System.currentTimeMillis();
+                refugio.getComun().agregarPersona(this);
+                log.escribir("El humano " + id + " entra en la zona común del refugio.");
+                int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001);
+                Thread.sleep(tiempoComun);
+                refugio.getComun().quitarPersona(this);
+                log.escribir("El humano " + id + " sale de la zona común del refugio.");
+                tunel = tuneles.getTunelAleatorio();
+                tunel.agregarPersonaRefugio(this);
+                log.escribir("El humano " + id + " espera en el túnel " + tunel.getId() + " para salir al exterior.");
+                try {
+                    log.escribir("El humano " + id + " espera en el grupo");
+                    tunel.esperarGrupo();
+                    tunel.cruzarTunel(false, this);
+                    int numero = tunel.getId();
+                    switch (numero) {
+                        case 1:
+                            zonaRiesgo = areaRiesgo.getZona1();
+                            break;
+                        case 2:
+                            zonaRiesgo = areaRiesgo.getZona2();
+                            break;
+                        case 3:
+                            zonaRiesgo = areaRiesgo.getZona3();
+                            break;
+                        case 4:
+                            zonaRiesgo = areaRiesgo.getZona4();
+                            break;
+                    }
+                    zonaRiesgo.agregarPersona(this);
+                    log.escribir("El humano " + id + " entra en la zona de riesgo " + zonaRiesgo.getId() + ".");
+                    long tiempoRecoleccion = ThreadLocalRandom.current().nextLong(3000, 5001);
+                    long tiempoPasado = 0;
+                    long inicio = System.currentTimeMillis();
 
-                while (tiempoPasado < tiempoRecoleccion) {
-                    if (siendoAtacado) {
-                        log.escribir("El humano " + id + " está siendo atacado por un zombi en la zona de riesgo " + zonaRiesgo.getId() + ".");
-                        synchronized (this) {
-                            while (!ataqueFinalizado) {
-                                try {
-                                    wait();
-                                } catch (InterruptedException e) {
-                                    Thread.currentThread().interrupt();
-                                    return;
+                    while (tiempoPasado < tiempoRecoleccion) {
+                        if (siendoAtacado) {
+                            log.escribir("El humano " + id + " está siendo atacado por un zombi en la zona de riesgo " + zonaRiesgo.getId() + ".");
+                            synchronized (this) {
+                                while (!ataqueFinalizado) {
+                                    try {
+                                        wait();
+                                    } catch (InterruptedException e) {
+                                        Thread.currentThread().interrupt();
+                                        return;
+                                    }
                                 }
                             }
+                            if (!isVivo()) {
+                                log.escribir("El humano " + id + " ha muerto en la zona de riesgo " + zonaRiesgo.getId() + ".");
+                                String idZombi = "Z" + this.id.substring(1);
+                                Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo, log);
+                                nuevoZombi.start();
+                                return; // Termina el hilo humano
+                            } else if (marcado) {
+                                log.escribir("El humano " + id + " ha sobrevivido al ataque y queda marcado.");
+                            }
+                            break;
                         }
-                        if (!isVivo()) {
-                            log.escribir("El humano " + id + " ha muerto en la zona de riesgo " + zonaRiesgo.getId() + ".");
-                            String idZombi = "Z" + this.id.substring(1);
-                            Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo, log);
-                            nuevoZombi.start();
-                            return; // Termina el hilo humano
-                        } else if (marcado) {
-                            log.escribir("El humano " + id + " ha sobrevivido al ataque y queda marcado.");
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                            Thread.currentThread().interrupt();
+                            return;
                         }
-                        break;
+                        tiempoPasado = System.currentTimeMillis() - inicio;
                     }
-                    try {
-                        Thread.sleep(100);
-                    } catch (InterruptedException e) {
-                        Thread.currentThread().interrupt();
-                        return;
+                    zonaRiesgo.quitarPersona(this);
+                    log.escribir("El humano " + id + " sale de la zona de riesgo " + zonaRiesgo.getId() + ".");
+                    tunel.agregarPersonaRiesgo(this);
+                    log.escribir("El humano " + id + " cruza el túnel " + tunel.getId() + " de vuelta al refugio.");
+                    tunel.cruzarTunel(true, this);
+                    if (!marcado) {
+                        // Recolecta comida normalmente
+                        this.comidaRecolectada = 2;
+                        refugio.getComedor().dejarComida();
+                        log.escribir("El humano " + id + " deja comida en el comedor.");
+                        this.comidaRecolectada = 0;
                     }
-                    tiempoPasado = System.currentTimeMillis() - inicio;
-                }
-                zonaRiesgo.quitarPersona(this);
-                log.escribir("El humano " + id + " sale de la zona de riesgo " + zonaRiesgo.getId() + ".");
-                tunel.agregarPersonaRiesgo(this);
-                log.escribir("El humano " + id + " cruza el túnel " + tunel.getId() + " de vuelta al refugio.");
-                tunel.cruzarTunel(true, this);
-                if (!marcado) {
-                    // Recolecta comida normalmente
-                    this.comidaRecolectada = 2;
-                    refugio.getComedor().dejarComida();
-                    log.escribir("El humano " + id + " deja comida en el comedor.");
-                    this.comidaRecolectada = 0;
-                }
-                refugio.getDescanso().agregarPersona(this);
-                log.escribir("El humano " + id + " entra en la zona de descanso.");
-                int tiempoDescanso = ThreadLocalRandom.current().nextInt(2000, 4001);
-                Thread.sleep(tiempoDescanso);
-                refugio.getDescanso().quitarPersona(this);
-                log.escribir("El humano " + id + " sale de la zona de descanso.");
-                refugio.getComedor().agregarPersona(this);
-                log.escribir("El humano " + id + " entra en el comedor.");
-                refugio.getComedor().cogerComida();
-                log.escribir("El humano " + id + " coge una pieza de comida del comedor.");
-                int tiempoComida = ThreadLocalRandom.current().nextInt(3000, 5001);
-                Thread.sleep(tiempoComida);
-                refugio.getComedor().quitarPersona(this);
-                log.escribir("El humano " + id + " sale del comedor.");
-                if (marcado) {
                     refugio.getDescanso().agregarPersona(this);
-                    log.escribir("El humano " + id + " entra en la zona de descanso para recuperarse tras ser atacado.");
-                    int tiempoMarcado = ThreadLocalRandom.current().nextInt(3000, 5001);
-                    Thread.sleep(tiempoMarcado);
+                    log.escribir("El humano " + id + " entra en la zona de descanso.");
+                    int tiempoDescanso = ThreadLocalRandom.current().nextInt(2000, 4001);
+                    Thread.sleep(tiempoDescanso);
                     refugio.getDescanso().quitarPersona(this);
-                    log.escribir("El humano " + id + " sale de la zona de descanso tras recuperarse.");
+                    log.escribir("El humano " + id + " sale de la zona de descanso.");
+                    refugio.getComedor().agregarPersona(this);
+                    log.escribir("El humano " + id + " entra en el comedor.");
+                    refugio.getComedor().cogerComida();
+                    log.escribir("El humano " + id + " coge una pieza de comida del comedor.");
+                    int tiempoComida = ThreadLocalRandom.current().nextInt(3000, 5001);
+                    Thread.sleep(tiempoComida);
+                    refugio.getComedor().quitarPersona(this);
+                    log.escribir("El humano " + id + " sale del comedor.");
+                    if (marcado) {
+                        refugio.getDescanso().agregarPersona(this);
+                        log.escribir("El humano " + id + " entra en la zona de descanso para recuperarse tras ser atacado.");
+                        int tiempoMarcado = ThreadLocalRandom.current().nextInt(3000, 5001);
+                        Thread.sleep(tiempoMarcado);
+                        refugio.getDescanso().quitarPersona(this);
+                        log.escribir("El humano " + id + " sale de la zona de descanso tras recuperarse.");
+                    }
+
+                } catch (InterruptedException | BrokenBarrierException e) {
+                    Thread.currentThread().interrupt();
                 }
 
-            } catch (InterruptedException | BrokenBarrierException e) {
+            } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
-
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
         }
     }
 }

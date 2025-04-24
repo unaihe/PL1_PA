@@ -69,9 +69,8 @@ public class Tunel {
     }
 
     public void cruzarTunel(boolean entrandoRefugio,Humano humano) throws InterruptedException {
-        log.escribir("El humano aasdadsadsdad asdadasd espera al lock");
         lock.lock();
-        log.escribir("El humano " + humano.getHumanoId() + "coge el lock");
+        log.escribir("El humano"+ humano.getHumanoId() + " espera a que el tunel esté libre");
         try {
             if (entrandoRefugio) {
                 esperandoRefugio++;
@@ -82,9 +81,7 @@ public class Tunel {
                 personasRiesgo.remove(humano);
             } else {
                 while (humanosEnTunel > 0 || esperandoRefugio > 0) {
-                    log.escribir("El humano " + humano.getHumanoId() + "espera al lock");
                     puedeCruzar.await();
-                    log.escribir("El humano " + humano.getHumanoId() + "pasa el lock");
                 }
                 personasRefugio.remove(humano);
             }
@@ -92,8 +89,7 @@ public class Tunel {
         } finally {
             lock.unlock();
         }
-        Humano personaCruzando=humano;
-        log.escribir("El humano " + personaCruzando.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
+        log.escribir("El humano " + humano.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
         Thread.sleep(1000);
 
         lock.lock();

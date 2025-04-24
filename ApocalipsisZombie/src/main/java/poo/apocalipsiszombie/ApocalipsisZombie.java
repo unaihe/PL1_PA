@@ -27,6 +27,7 @@ public class ApocalipsisZombie {
         System.out.println(refugio);
         System.out.println(areaRiesgo);
         System.out.println(tuneles);
+        zombi.start();
         for (int i = 0; i < 10000; i++){
             String id = String.format("H%04d", i);
             Humano h = new Humano(id, refugio, tuneles, areaRiesgo, logger);
