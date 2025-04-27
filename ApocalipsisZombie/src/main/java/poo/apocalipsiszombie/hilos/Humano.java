@@ -6,6 +6,7 @@ package poo.apocalipsiszombie.hilos;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.ThreadLocalRandom;
+import javax.swing.SwingUtilities;
 import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
 import poo.apocalipsiszombie.areasriesgo.ZonaRiesgo;
@@ -33,18 +34,20 @@ public class Humano extends Thread {
     private ZonaRiesgo zonaRiesgo;
     private boolean siendoAtacado;
     private boolean ataqueFinalizado;
+    private interfaz.Interfaz interfaz;
 
     @Override
     public String toString() {
         return "Humano{" + "id=" + id + '}';
     }
 
-    public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas, Logger logger) {
+    public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas, Logger logger, interfaz.Interfaz interfaz) {
         this.id = id;
         this.refugio = refugio;
         log = logger;
         this.tuneles = tuneles;
         this.areaRiesgo = areas;
+        this.interfaz = interfaz;
     }
 
     public boolean isVivo() {
@@ -75,9 +78,12 @@ public class Humano extends Thread {
     }
 
     public void run() {
-        while(isVivo()){    
+        while (isVivo()) {
             try {
                 refugio.getComun().agregarPersona(this);
+                SwingUtilities.invokeLater(()
+                        -> interfaz.actualizarZonaComun(refugio.getComun().getPersonas())
+                );
                 log.escribir("El humano " + id + " entra en la zona común del refugio.");
                 int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001);
                 Thread.sleep(tiempoComun);
@@ -127,7 +133,7 @@ public class Humano extends Thread {
                             if (!isVivo()) {
                                 log.escribir("El humano " + id + " ha muerto en la zona de riesgo " + zonaRiesgo.getId() + ".");
                                 String idZombi = "Z" + this.id.substring(1);
-                                Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo, log);
+                                Zombi nuevoZombi = new Zombi(idZombi, zonaRiesgo, areaRiesgo, log, interfaz);
                                 nuevoZombi.start();
                                 return; // Termina el hilo humano
                             } else if (marcado) {
