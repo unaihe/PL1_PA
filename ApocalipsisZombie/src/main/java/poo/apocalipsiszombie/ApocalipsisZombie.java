@@ -4,6 +4,7 @@
 
 package poo.apocalipsiszombie;
 
+import interfaz.Boton;
 import interfaz.Interfaz;
 import java.util.Random;
 import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
@@ -18,10 +19,10 @@ import poo.apocalipsiszombie.zonas.Refugio;
  */
 public class ApocalipsisZombie {
 
-    public static void main(String[] args) {
-        Interfaz interfaz = new Interfaz();
-        interfaz.setVisible(true);
+    public static void main(String[] args) throws InterruptedException {
         ControlPausa controlPausa = new ControlPausa();
+        Interfaz interfaz = new Interfaz(controlPausa);
+        interfaz.setVisible(true);
         Random random=new Random();        
         Logger logger=new Logger();
         AreaRiesgo areaRiesgo=new AreaRiesgo(logger,interfaz);
@@ -33,6 +34,7 @@ public class ApocalipsisZombie {
         System.out.println(tuneles);
         zombi.start();
         for (int i = 0; i < 10000; i++){
+            controlPausa.esperarSiPausado();
             String id = String.format("H%04d", i);
             Humano h = new Humano(id, refugio, tuneles, areaRiesgo, logger, interfaz,controlPausa);
             System.out.println(h); 

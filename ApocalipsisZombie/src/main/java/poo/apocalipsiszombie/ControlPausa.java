@@ -12,11 +12,11 @@ public class ControlPausa {
     private volatile boolean enPausa = false;
 
     public synchronized void pausar() {
-        enPausa = true;
+        this.enPausa = true;
     }
 
     public synchronized void reanudar() {
-        enPausa = false;
+        this.enPausa = false;
         notifyAll();
     }
 

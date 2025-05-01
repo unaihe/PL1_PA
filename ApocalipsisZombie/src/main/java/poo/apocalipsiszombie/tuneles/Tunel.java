@@ -87,7 +87,7 @@ public class Tunel {
         barrier.await();
     }
 
-     public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
+    public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
         lock.lock();
         log.escribir("El humano" + humano.getHumanoId() + " espera a que el tunel esté libre");
         try {
@@ -118,7 +118,12 @@ public class Tunel {
         SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, cruzando));
 
         log.escribir("El humano " + humano.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
-        Thread.sleep(1000);
+        int tiempoCruce = 1000; // total en ms
+        int paso = 100;
+        for (int t = 0; t < tiempoCruce; t += paso) {
+            controlPausa.esperarSiPausado();
+            Thread.sleep(paso);
+        }
         SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, java.util.Collections.emptyList()));
         lock.lock();
         try {
@@ -128,7 +133,6 @@ public class Tunel {
             lock.unlock();
         }
     }
-
 
     @Override
     public String toString() {
