@@ -32,6 +32,9 @@ public class Comedor{
         nComida += 2;
         semComida.release(2); // Libera 2 permisos (2 unidades de comida)
         notifyAll(); // Notifica a los hilos que esperan comida
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarComida(nComida)
+        );
     }
     public void cogerComida() throws InterruptedException {
         semComida.acquire(); // Intenta adquirir 1 permiso (1 unidad de comida)

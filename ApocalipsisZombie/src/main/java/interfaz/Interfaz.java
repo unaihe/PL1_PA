@@ -40,6 +40,8 @@ public class Interfaz extends javax.swing.JFrame {
         ZonaRiesgo2Zs.setModel(modeloRi2Z);
         ZonaRiesgo3Zs.setModel(modeloRi3Z);
         ZonaRiesgo4Zs.setModel(modeloRi4Z);
+        Comida.setModel(modeloComida);
+
 
     }
     private DefaultListModel<String> modeloDescanso = new DefaultListModel<>();
@@ -65,8 +67,10 @@ public class Interfaz extends javax.swing.JFrame {
     private DefaultListModel<String> modeloRi2Z = new DefaultListModel<>();
     private DefaultListModel<String> modeloRi3Z = new DefaultListModel<>();
     private DefaultListModel<String> modeloRi4Z = new DefaultListModel<>();
+    private DefaultListModel<String> modeloComida = new DefaultListModel<>();
 
-    // Refugio
+    // ----------- REFUGIO -----------
+// Descanso
     public void actualizarDescanso(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
         modeloDescanso.clear();
         for (var h : humanos) {
@@ -74,6 +78,7 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }
 
+// Comedor (personas)
     public void actualizarComedor(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
         modeloComedor.clear();
         for (var h : humanos) {
@@ -81,6 +86,14 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }
 
+// Comedor (comida)
+    public void actualizarComida(int nComida) {
+    modeloComida.clear();
+    modeloComida.addElement(""+nComida);
+}
+
+
+// Zona común
     public void actualizarZonaComun(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
         modeloComun.clear();
         for (var h : humanos) {
@@ -88,148 +101,155 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }
 
-// Túneles - Refugio (esperando para salir)
-    public void actualizarTunel1Refugio(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelR1.clear();
-        for (var h : humanos) {
-            modeloTunelR1.addElement(h.getHumanoId());
+// ----------- TÚNELES -----------
+// Refugio (esperando para salir)
+    public void actualizarTunelRefugio(int idTunel, java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
+        switch (idTunel) {
+            case 1 -> {
+                modeloTunelR1.clear();
+                for (var h : humanos) {
+                    modeloTunelR1.addElement(h.getHumanoId());
+                }
+            }
+            case 2 -> {
+                modeloTunelR2.clear();
+                for (var h : humanos) {
+                    modeloTunelR2.addElement(h.getHumanoId());
+                }
+            }
+            case 3 -> {
+                modeloTunelR3.clear();
+                for (var h : humanos) {
+                    modeloTunelR3.addElement(h.getHumanoId());
+                }
+            }
+            case 4 -> {
+                modeloTunelR4.clear();
+                for (var h : humanos) {
+                    modeloTunelR4.addElement(h.getHumanoId());
+                }
+            }
         }
     }
 
-    public void actualizarTunel2Refugio(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelR2.clear();
-        for (var h : humanos) {
-            modeloTunelR2.addElement(h.getHumanoId());
+// Cruzando
+    public void actualizarTunelCruzando(int idTunel, java.util.Collection<poo.apocalipsiszombie.hilos.Humano> cruzando) {
+        switch (idTunel) {
+            case 1 -> {
+                modeloTunelC1.clear();
+                for (var h : cruzando) {
+                    modeloTunelC1.addElement(h.getHumanoId());
+                }
+            }
+            case 2 -> {
+                modeloTunelC2.clear();
+                for (var h : cruzando) {
+                    modeloTunelC2.addElement(h.getHumanoId());
+                }
+            }
+            case 3 -> {
+                modeloTunelC3.clear();
+                for (var h : cruzando) {
+                    modeloTunelC3.addElement(h.getHumanoId());
+                }
+            }
+            case 4 -> {
+                modeloTunelC4.clear();
+                for (var h : cruzando) {
+                    modeloTunelC4.addElement(h.getHumanoId());
+                }
+            }
         }
     }
 
-    public void actualizarTunel3Refugio(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelR3.clear();
-        for (var h : humanos) {
-            modeloTunelR3.addElement(h.getHumanoId());
+// Riesgo (esperando para volver)
+    public void actualizarTunelRiesgo(int idTunel, java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
+        switch (idTunel) {
+            case 1 -> {
+                modeloTunelRi1.clear();
+                for (var h : humanos) {
+                    modeloTunelRi1.addElement(h.getHumanoId());
+                }
+            }
+            case 2 -> {
+                modeloTunelRi2.clear();
+                for (var h : humanos) {
+                    modeloTunelRi2.addElement(h.getHumanoId());
+                }
+            }
+            case 3 -> {
+                modeloTunelRi3.clear();
+                for (var h : humanos) {
+                    modeloTunelRi3.addElement(h.getHumanoId());
+                }
+            }
+            case 4 -> {
+                modeloTunelRi4.clear();
+                for (var h : humanos) {
+                    modeloTunelRi4.addElement(h.getHumanoId());
+                }
+            }
         }
     }
 
-    public void actualizarTunel4Refugio(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelR4.clear();
-        for (var h : humanos) {
-            modeloTunelR4.addElement(h.getHumanoId());
+// ----------- ZONA DE RIESGO -----------
+// Humanos
+    public void actualizarZonaRiesgoHumanos(int idZona, java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
+        switch (idZona) {
+            case 1 -> {
+                modeloRi1H.clear();
+                for (var h : humanos) {
+                    modeloRi1H.addElement(h.getHumanoId());
+                }
+            }
+            case 2 -> {
+                modeloRi2H.clear();
+                for (var h : humanos) {
+                    modeloRi2H.addElement(h.getHumanoId());
+                }
+            }
+            case 3 -> {
+                modeloRi3H.clear();
+                for (var h : humanos) {
+                    modeloRi3H.addElement(h.getHumanoId());
+                }
+            }
+            case 4 -> {
+                modeloRi4H.clear();
+                for (var h : humanos) {
+                    modeloRi4H.addElement(h.getHumanoId());
+                }
+            }
         }
     }
 
-// Túneles - Cruzando
-    public void actualizarTunel1Cruzando(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelC1.clear();
-        for (var h : humanos) {
-            modeloTunelC1.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel2Cruzando(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelC2.clear();
-        for (var h : humanos) {
-            modeloTunelC2.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel3Cruzando(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelC3.clear();
-        for (var h : humanos) {
-            modeloTunelC3.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel4Cruzando(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelC4.clear();
-        for (var h : humanos) {
-            modeloTunelC4.addElement(h.getHumanoId());
-        }
-    }
-
-// Túneles - Riesgo (esperando para volver)
-    public void actualizarTunel1Riesgo(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelRi1.clear();
-        for (var h : humanos) {
-            modeloTunelRi1.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel2Riesgo(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelRi2.clear();
-        for (var h : humanos) {
-            modeloTunelRi2.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel3Riesgo(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelRi3.clear();
-        for (var h : humanos) {
-            modeloTunelRi3.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarTunel4Riesgo(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloTunelRi4.clear();
-        for (var h : humanos) {
-            modeloTunelRi4.addElement(h.getHumanoId());
-        }
-    }
-
-// Zona de riesgo - Humanos
-    public void actualizarZonaRiesgo1Humanos(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloRi1H.clear();
-        for (var h : humanos) {
-            modeloRi1H.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarZonaRiesgo2Humanos(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloRi2H.clear();
-        for (var h : humanos) {
-            modeloRi2H.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarZonaRiesgo3Humanos(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloRi3H.clear();
-        for (var h : humanos) {
-            modeloRi3H.addElement(h.getHumanoId());
-        }
-    }
-
-    public void actualizarZonaRiesgo4Humanos(java.util.Collection<poo.apocalipsiszombie.hilos.Humano> humanos) {
-        modeloRi4H.clear();
-        for (var h : humanos) {
-            modeloRi4H.addElement(h.getHumanoId());
-        }
-    }
-
-// Zona de riesgo - Zombis
-    public void actualizarZonaRiesgo1Zombis(java.util.Collection<poo.apocalipsiszombie.hilos.Zombi> zombis) {
-        modeloRi1Z.clear();
-        for (var z : zombis) {
-            modeloRi1Z.addElement(z.getZombiId());
-        }
-    }
-
-    public void actualizarZonaRiesgo2Zombis(java.util.Collection<poo.apocalipsiszombie.hilos.Zombi> zombis) {
-        modeloRi2Z.clear();
-        for (var z : zombis) {
-            modeloRi2Z.addElement(z.getZombiId());
-        }
-    }
-
-    public void actualizarZonaRiesgo3Zombis(java.util.Collection<poo.apocalipsiszombie.hilos.Zombi> zombis) {
-        modeloRi3Z.clear();
-        for (var z : zombis) {
-            modeloRi3Z.addElement(z.getZombiId());
-        }
-    }
-
-    public void actualizarZonaRiesgo4Zombis(java.util.Collection<poo.apocalipsiszombie.hilos.Zombi> zombis) {
-        modeloRi4Z.clear();
-        for (var z : zombis) {
-            modeloRi4Z.addElement(z.getZombiId());
+// Zombis
+    public void actualizarZonaRiesgoZombis(int idZona, java.util.Collection<poo.apocalipsiszombie.hilos.Zombi> zombis) {
+        switch (idZona) {
+            case 1 -> {
+                modeloRi1Z.clear();
+                for (var z : zombis) {
+                    modeloRi1Z.addElement(z.getZombiId());
+                }
+            }
+            case 2 -> {
+                modeloRi2Z.clear();
+                for (var z : zombis) {
+                    modeloRi2Z.addElement(z.getZombiId());
+                }
+            }
+            case 3 -> {
+                modeloRi3Z.clear();
+                for (var z : zombis) {
+                    modeloRi3Z.addElement(z.getZombiId());
+                }
+            }
+            case 4 -> {
+                modeloRi4Z.clear();
+                for (var z : zombis) {
+                    modeloRi4Z.addElement(z.getZombiId());
+                }
+            }
         }
     }
 
