@@ -28,7 +28,6 @@ public class Zombi extends Thread {
         this.id = id;
         this.areaRiesgo = areaRiesgo;
         zonaActual = areaRiesgo.getZonaRiesgoAleatoria();
-        zonaActual.agregarZombi(this);
         this.log = log;
         this.interfaz = interfaz;
     }
