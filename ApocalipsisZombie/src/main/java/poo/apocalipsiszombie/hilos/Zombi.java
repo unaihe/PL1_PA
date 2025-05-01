@@ -6,6 +6,7 @@ package poo.apocalipsiszombie.hilos;
 
 import java.util.concurrent.ThreadLocalRandom;
 import javax.swing.SwingUtilities;
+import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
 import poo.apocalipsiszombie.areasriesgo.ZonaRiesgo;
@@ -23,19 +24,22 @@ public class Zombi extends Thread {
     private boolean atacando;
     private AreaRiesgo areaRiesgo;
     private interfaz.Interfaz interfaz;
+    private ControlPausa controlPausa;
 
-    public Zombi(String id, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz) {
+    public Zombi(String id, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz,ControlPausa controlPausa) {
         this.id = id;
+        this.controlPausa=controlPausa;
         this.areaRiesgo = areaRiesgo;
         zonaActual = areaRiesgo.getZonaRiesgoAleatoria();
         this.log = log;
         this.interfaz = interfaz;
     }
 
-    public Zombi(String id, ZonaRiesgo zonaRiesgo, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz) {
+    public Zombi(String id, ZonaRiesgo zonaRiesgo, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz,ControlPausa controlPausa) {
         zonaActual = zonaRiesgo;
         this.areaRiesgo = areaRiesgo;
         this.id = id;
+        this.controlPausa=controlPausa;
         this.log = log;
         this.interfaz = interfaz;
     }
@@ -45,37 +49,54 @@ public class Zombi extends Thread {
     }
 
     public void run() {
-        while (true) {
+    while (true) {
+        try {
+            controlPausa.esperarSiPausado();
+
             int tiempo = ThreadLocalRandom.current().nextInt(500, 1501);
             zonaActual.agregarZombi(this);
             log.escribir("El zombi " + id + " entra en la zona de riesgo " + zonaActual.getId() + ".");
+
+            controlPausa.esperarSiPausado();
+
             if (zonaActual.hayHumanos()) {
                 Humano victima = zonaActual.seleccionarHumanoAleatorio();
                 log.escribir("El zombi " + id + " selecciona al humano " + victima.getId() + " para atacar.");
                 try {
+                    controlPausa.esperarSiPausado();
                     victima.serAtacado(tiempo, this);
-                    
-                    Thread.sleep(tiempo);
+
+                    for (int t = 0; t < tiempo; t += 100) {
+                        controlPausa.esperarSiPausado();
+                        Thread.sleep(100);
+                    }
+
                     if (!victima.isVivo()) {
                         muertes += 1;
-                        log.escribir("El zombi " + id + " ha matado al humano " + victima.getId() + ". Número de muertes: " + muertes);
-                    
-                    };
-                    
+                        log.escribir("El zombi Z" + id + " ha matado al humano H" + victima.getId() + ". Número de muertes: " + muertes);
+                    }
                 } catch (InterruptedException ex) {
+                    Thread.currentThread().interrupt();
                 }
             }
-            
+
             int reposo = ThreadLocalRandom.current().nextInt(2000, 3001);
-            try {
-                Thread.sleep(reposo);
-            } catch (InterruptedException ex) {
+            for (int t = 0; t < reposo; t += 100) {
+                controlPausa.esperarSiPausado();
+                Thread.sleep(100);
             }
+
             zonaActual.quitarZombi(this);
             log.escribir("El zombi " + id + " sale de la zona de riesgo " + zonaActual.getId() + ".");
+
+            controlPausa.esperarSiPausado();
             zonaActual = areaRiesgo.getZonaRiesgoAleatoria();
 
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+            break;
         }
     }
-;
+}
+
 }

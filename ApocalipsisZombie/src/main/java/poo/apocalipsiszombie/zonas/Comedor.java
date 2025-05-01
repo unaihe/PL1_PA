@@ -41,7 +41,9 @@ public class Comedor{
         synchronized (this) {
             nComida--;
         }
-        
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarComida(nComida)
+        );
     }
     
     public synchronized int getCantidadComida() {

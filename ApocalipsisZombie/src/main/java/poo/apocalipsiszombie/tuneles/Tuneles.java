@@ -5,6 +5,7 @@
 package poo.apocalipsiszombie.tuneles;
 
 import java.util.Random;
+import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 
 /**
@@ -15,14 +16,15 @@ public class Tuneles {
     private Logger logger;
     private Tunel tunel1, tunel2, tunel3, tunel4;
     private interfaz.Interfaz interfaz;
-    
-    public Tuneles(Logger logger,interfaz.Interfaz interfaz){
+    private ControlPausa controlPausa;
+    public Tuneles(Logger logger,interfaz.Interfaz interfaz,ControlPausa controlPausa){
         this.logger=logger;
         this.interfaz=interfaz;
-        tunel1 = new Tunel(1, logger,interfaz);
-        tunel2 = new Tunel(2, logger,interfaz);
-        tunel3 = new Tunel(3, logger,interfaz);
-        tunel4 = new Tunel(4, logger,interfaz);
+        this.controlPausa=controlPausa;
+        tunel1 = new Tunel(1, logger,interfaz,controlPausa);
+        tunel2 = new Tunel(2, logger,interfaz,controlPausa);
+        tunel3 = new Tunel(3, logger,interfaz,controlPausa);
+        tunel4 = new Tunel(4, logger,interfaz,controlPausa);
     }
 
     @Override

@@ -9,6 +9,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import javax.swing.SwingUtilities;
+import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 
 public class Tunel {
@@ -27,9 +28,11 @@ public class Tunel {
     private int esperandoRefugio = 0;
     private Humano personaCruzando;
     private interfaz.Interfaz interfaz;
+    private ControlPausa controlPausa;
 
-    public Tunel(int id, Logger log, interfaz.Interfaz interfaz) {
+    public Tunel(int id, Logger log, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         this.id = id;
+        this.controlPausa = controlPausa;
         this.log = log;
         this.interfaz = interfaz;
     }
@@ -84,7 +87,7 @@ public class Tunel {
         barrier.await();
     }
 
-    public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
+     public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
         lock.lock();
         log.escribir("El humano" + humano.getHumanoId() + " espera a que el tunel esté libre");
         try {
@@ -125,6 +128,7 @@ public class Tunel {
             lock.unlock();
         }
     }
+
 
     @Override
     public String toString() {

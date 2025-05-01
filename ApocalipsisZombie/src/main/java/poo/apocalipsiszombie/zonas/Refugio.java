@@ -4,6 +4,7 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 
 /**
@@ -12,17 +13,20 @@ import poo.apocalipsiszombie.Logger;
  */
 public class Refugio {
     private Logger log;
+    private ControlPausa controlPausa;
     private interfaz.Interfaz interfaz;
     private Comedor comedor;
     private Comun comun;
     private Descanso descanso;
     
-    public Refugio(Logger log,interfaz.Interfaz interfaz) {
+    
+    public Refugio(Logger log,interfaz.Interfaz interfaz,ControlPausa controlPausa) {
         this.log=log;
+        this.controlPausa=controlPausa;
         this.interfaz=interfaz;
         comun=new Comun(log,interfaz);
         descanso=new Descanso(log,interfaz);
-        comedor=new Comedor(log,interfaz);
+        comedor=new Comedor(log,interfaz,controlPausa);
     }
 
     public Comedor getComedor() {
