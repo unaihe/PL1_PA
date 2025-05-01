@@ -11,7 +11,8 @@ import javax.swing.DefaultListModel;
  * @author Lucas
  */
 public class Interfaz extends javax.swing.JFrame {
-
+    private poo.apocalipsiszombie.ControlPausa controlPausa;
+    private boolean pausado=false;
     /**
      * Creates new form Interfaz
      */
@@ -43,6 +44,22 @@ public class Interfaz extends javax.swing.JFrame {
         Comida.setModel(modeloComida);
 
 
+    }
+    public void setControlPausa(poo.apocalipsiszombie.ControlPausa controlPausa){
+        this.controlPausa=controlPausa;
+    }
+    private void botonActionPerformed(java.awt.event.ActionEvent evt){
+        if (controlPausa == null) return;
+        if(!pausado){
+            controlPausa.pausar();
+            boton.setText("Reanudar");
+            pausado=true;
+        } else{
+            controlPausa.reanudar();
+            boton.setText("Pausar");
+            pausado=false;
+        }
+    
     }
     private DefaultListModel<String> modeloDescanso = new DefaultListModel<>();
     private DefaultListModel<String> modeloComedor = new DefaultListModel<>();

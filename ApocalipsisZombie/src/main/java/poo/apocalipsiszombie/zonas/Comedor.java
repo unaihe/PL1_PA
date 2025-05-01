@@ -8,6 +8,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Semaphore;
 import javax.swing.SwingUtilities;
+import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 import poo.apocalipsiszombie.hilos.Humano;
 
@@ -21,11 +22,13 @@ public class Comedor{
     private Logger log;
     private interfaz.Interfaz interfaz;
     private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
-
+    private ControlPausa controlPausa;
+    
     //Crear semaforo de contador
-    public Comedor(Logger log,interfaz.Interfaz interfaz) {
+    public Comedor(Logger log,interfaz.Interfaz interfaz,ControlPausa controlPausa) {
         this.semComida = new Semaphore(0,true);
         this.log=log;
+        this.controlPausa=controlPausa;
         this.interfaz=interfaz;
     }
     public synchronized void dejarComida() {
@@ -37,7 +40,9 @@ public class Comedor{
         );
     }
     public void cogerComida() throws InterruptedException {
+        controlPausa.esperarSiPausado();
         semComida.acquire(); // Intenta adquirir 1 permiso (1 unidad de comida)
+        controlPausa.esperarSiPausado();
         synchronized (this) {
             nComida--;
         }
