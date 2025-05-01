@@ -81,9 +81,6 @@ public class Humano extends Thread {
         while (isVivo()) {
             try {
                 refugio.getComun().agregarPersona(this);
-                SwingUtilities.invokeLater(()
-                        -> interfaz.actualizarZonaComun(refugio.getComun().getPersonas())
-                );
                 log.escribir("El humano " + id + " entra en la zona común del refugio.");
                 int tiempoComun = ThreadLocalRandom.current().nextInt(1000, 2001);
                 Thread.sleep(tiempoComun);

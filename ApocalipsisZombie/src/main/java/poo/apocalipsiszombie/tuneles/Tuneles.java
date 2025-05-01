@@ -14,13 +14,15 @@ import poo.apocalipsiszombie.Logger;
 public class Tuneles {
     private Logger logger;
     private Tunel tunel1, tunel2, tunel3, tunel4;
-
-    public Tuneles(Logger logger){
+    private interfaz.Interfaz interfaz;
+    
+    public Tuneles(Logger logger,interfaz.Interfaz interfaz){
         this.logger=logger;
-        tunel1 = new Tunel(1, logger);
-        tunel2 = new Tunel(2, logger);
-        tunel3 = new Tunel(3, logger);
-        tunel4 = new Tunel(4, logger);
+        this.interfaz=interfaz;
+        tunel1 = new Tunel(1, logger,interfaz);
+        tunel2 = new Tunel(2, logger,interfaz);
+        tunel3 = new Tunel(3, logger,interfaz);
+        tunel4 = new Tunel(4, logger,interfaz);
     }
 
     @Override

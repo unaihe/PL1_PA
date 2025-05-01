@@ -4,17 +4,41 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import javax.swing.SwingUtilities;
 import poo.apocalipsiszombie.Logger;
+import poo.apocalipsiszombie.hilos.Humano;
 
 /**
  *
  * @author unaih
  */
-public class Descanso extends Zona{
+public class Descanso {
     private Logger log;
-
-    public Descanso(Logger log) {
+    private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
+    private interfaz.Interfaz interfaz;
+    public Descanso(Logger log,interfaz.Interfaz interfaz) {
         this.log=log;
+        this.interfaz=interfaz;
+    }
+    
+    public Queue<Humano> getPersonas() {
+        return personas;
+    }
+
+    public void agregarPersona(Humano humano) {
+        personas.add(humano);
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarDescanso(personas)
+        );
+    }
+
+    public void quitarPersona(Humano humano) {
+        personas.remove(humano);
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarDescanso(personas)
+        );
     }
     
 }

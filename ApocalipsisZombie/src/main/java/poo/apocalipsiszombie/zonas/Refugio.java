@@ -12,12 +12,17 @@ import poo.apocalipsiszombie.Logger;
  */
 public class Refugio {
     private Logger log;
-    private Comedor comedor=new Comedor(log);
-    private Comun comun=new Comun(log);
-    private Descanso descanso=new Descanso(log);
+    private interfaz.Interfaz interfaz;
+    private Comedor comedor;
+    private Comun comun;
+    private Descanso descanso;
     
-    public Refugio(Logger log) {
+    public Refugio(Logger log,interfaz.Interfaz interfaz) {
         this.log=log;
+        this.interfaz=interfaz;
+        comun=new Comun(log,interfaz);
+        descanso=new Descanso(log,interfaz);
+        comedor=new Comedor(log,interfaz);
     }
 
     public Comedor getComedor() {

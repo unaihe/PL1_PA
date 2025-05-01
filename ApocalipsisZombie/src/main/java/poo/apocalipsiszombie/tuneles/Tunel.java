@@ -8,9 +8,11 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import javax.swing.SwingUtilities;
 import poo.apocalipsiszombie.Logger;
 
 public class Tunel {
+
     private final int id;
     private Logger log;
     // Humanos esperando para salir del refugio (hacia el riesgo)
@@ -24,10 +26,12 @@ public class Tunel {
     private int humanosEnTunel = 0;
     private int esperandoRefugio = 0;
     private Humano personaCruzando;
+    private interfaz.Interfaz interfaz;
 
-    public Tunel(int id,Logger log) {
+    public Tunel(int id, Logger log, interfaz.Interfaz interfaz) {
         this.id = id;
-        this.log=log;
+        this.log = log;
+        this.interfaz = interfaz;
     }
 
     public Humano getPersonaCruzando() {
@@ -45,10 +49,16 @@ public class Tunel {
 
     public void agregarPersonaRefugio(Humano humano) {
         personasRefugio.add(humano);
+        SwingUtilities.invokeLater(() -> {
+            interfaz.actualizarTunelRefugio(id, personasRefugio);
+        });
     }
 
     public void quitarPersonaRefugio(Humano humano) {
         personasRefugio.remove(humano);
+        SwingUtilities.invokeLater(() -> {
+            interfaz.actualizarTunelRefugio(id, personasRefugio);
+        });
     }
 
     // --- Métodos para personasRiesgo ---
@@ -58,19 +68,25 @@ public class Tunel {
 
     public void agregarPersonaRiesgo(Humano humano) {
         personasRiesgo.add(humano);
+        SwingUtilities.invokeLater(() -> {
+            interfaz.actualizarTunelRiesgo(id, personasRiesgo);
+        });
     }
 
     public void quitarPersonaRiesgo(Humano humano) {
         personasRiesgo.remove(humano);
+        SwingUtilities.invokeLater(() -> {
+            interfaz.actualizarTunelRiesgo(id, personasRiesgo);
+        });
     }
 
     public void esperarGrupo() throws InterruptedException, BrokenBarrierException {
         barrier.await();
     }
 
-    public void cruzarTunel(boolean entrandoRefugio,Humano humano) throws InterruptedException {
+    public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
         lock.lock();
-        log.escribir("El humano"+ humano.getHumanoId() + " espera a que el tunel esté libre");
+        log.escribir("El humano" + humano.getHumanoId() + " espera a que el tunel esté libre");
         try {
             if (entrandoRefugio) {
                 esperandoRefugio++;
@@ -79,19 +95,28 @@ public class Tunel {
                 }
                 esperandoRefugio--;
                 personasRiesgo.remove(humano);
+                SwingUtilities.invokeLater(() -> {
+                    interfaz.actualizarTunelRiesgo(id, personasRiesgo);
+                });
             } else {
                 while (humanosEnTunel > 0 || esperandoRefugio > 0) {
                     puedeCruzar.await();
                 }
                 personasRefugio.remove(humano);
+                SwingUtilities.invokeLater(() -> {
+                    interfaz.actualizarTunelRefugio(id, personasRefugio);
+                });
             }
             humanosEnTunel++;
         } finally {
             lock.unlock();
         }
+        java.util.List<Humano> cruzando = java.util.Collections.singletonList(humano);
+        SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, cruzando));
+
         log.escribir("El humano " + humano.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
         Thread.sleep(1000);
-
+        SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, java.util.Collections.emptyList()));
         lock.lock();
         try {
             humanosEnTunel--;

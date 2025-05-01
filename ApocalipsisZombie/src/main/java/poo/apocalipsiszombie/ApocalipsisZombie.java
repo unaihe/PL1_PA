@@ -23,10 +23,10 @@ public class ApocalipsisZombie {
         interfaz.setVisible(true);
         Random random=new Random();        
         Logger logger=new Logger();
-        AreaRiesgo areaRiesgo=new AreaRiesgo(logger);
+        AreaRiesgo areaRiesgo=new AreaRiesgo(logger,interfaz);
         Zombi zombi=new Zombi("Z0000",areaRiesgo,logger,interfaz);
-        Refugio refugio=new Refugio(logger);
-        Tuneles tuneles=new Tuneles(logger);
+        Refugio refugio=new Refugio(logger,interfaz);
+        Tuneles tuneles=new Tuneles(logger,interfaz);
         System.out.println(refugio);
         System.out.println(areaRiesgo);
         System.out.println(tuneles);

@@ -4,22 +4,29 @@
  */
 package poo.apocalipsiszombie.zonas;
 
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Semaphore;
+import javax.swing.SwingUtilities;
 import poo.apocalipsiszombie.Logger;
+import poo.apocalipsiszombie.hilos.Humano;
 
 /**
  *
  * @author unaih
  */
-public class Comedor extends Zona{
+public class Comedor{
     private int nComida=0;
     private final Semaphore semComida;
     private Logger log;
+    private interfaz.Interfaz interfaz;
+    private Queue<Humano> personas = new ConcurrentLinkedQueue<>();
 
     //Crear semaforo de contador
-    public Comedor(Logger log) {
+    public Comedor(Logger log,interfaz.Interfaz interfaz) {
         this.semComida = new Semaphore(0,true);
         this.log=log;
+        this.interfaz=interfaz;
     }
     public synchronized void dejarComida() {
         nComida += 2;
@@ -31,10 +38,29 @@ public class Comedor extends Zona{
         synchronized (this) {
             nComida--;
         }
+        
     }
     
     public synchronized int getCantidadComida() {
         return nComida;
+    }
+    
+    public Queue<Humano> getPersonas() {
+        return personas;
+    }
+
+    public void agregarPersona(Humano humano) {
+        personas.add(humano);
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarComedor(personas)
+        );
+    }
+
+    public void quitarPersona(Humano humano) {
+        personas.remove(humano);
+        SwingUtilities.invokeLater(()
+            -> interfaz.actualizarComedor(personas)
+        );
     }
     
 }

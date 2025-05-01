@@ -14,20 +14,24 @@ import poo.apocalipsiszombie.Logger;
  */
 public class AreaRiesgo {
     private Logger log;
-    ZonaRiesgo zona1=new ZonaRiesgo(1,log);
-    ZonaRiesgo zona2=new ZonaRiesgo(2,log);
-    ZonaRiesgo zona3=new ZonaRiesgo(3,log);
-    ZonaRiesgo zona4=new ZonaRiesgo(4,log);
-    public AreaRiesgo(Logger log){
+    private interfaz.Interfaz interfaz;
+    ZonaRiesgo zona1;
+    ZonaRiesgo zona2;
+    ZonaRiesgo zona3;
+    ZonaRiesgo zona4;
+    public AreaRiesgo(Logger log, interfaz.Interfaz interfaz){
         this.log=log;
+        this.interfaz=interfaz;
+        zona1=new ZonaRiesgo(1,log,interfaz);
+        zona2=new ZonaRiesgo(2,log,interfaz);
+        zona3=new ZonaRiesgo(3,log,interfaz);
+        zona4=new ZonaRiesgo(4,log,interfaz);
     }
 
     @Override
     public String toString() {
         return "AreaRiesgo{" + "zona1=" + zona1 + ", zona2=" + zona2 + ", zona3=" + zona3 + ", zona4=" + zona4 + '}';
     }
-    
-    
     
     public ZonaRiesgo getZona1() {
         return zona1;

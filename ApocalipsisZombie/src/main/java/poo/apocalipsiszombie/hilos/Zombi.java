@@ -48,53 +48,31 @@ public class Zombi extends Thread {
     public void run() {
         while (true) {
             int tiempo = ThreadLocalRandom.current().nextInt(500, 1501);
-
             zonaActual.agregarZombi(this);
-            SwingUtilities.invokeLater(() -> {
-                // Actualiza la lista de zombis en la zona correspondiente
-                switch (zonaActual.getId()) {
-                    case 1 ->
-                        interfaz.actualizarZonaRiesgo1Zombis(zonaActual.getZombis());
-                    case 2 ->
-                        interfaz.actualizarZonaRiesgo2Zombis(zonaActual.getZombis());
-                    case 3 ->
-                        interfaz.actualizarZonaRiesgo3Zombis(zonaActual.getZombis());
-                    case 4 ->
-                        interfaz.actualizarZonaRiesgo4Zombis(zonaActual.getZombis());
-                }
-            });
             log.escribir("El zombi " + id + " entra en la zona de riesgo " + zonaActual.getId() + ".");
             if (zonaActual.hayHumanos()) {
                 Humano victima = zonaActual.seleccionarHumanoAleatorio();
                 log.escribir("El zombi " + id + " selecciona al humano " + victima.getId() + " para atacar.");
                 try {
                     victima.serAtacado(tiempo, this);
+                    
                     Thread.sleep(tiempo);
                     if (!victima.isVivo()) {
                         muertes += 1;
                         log.escribir("El zombi " + id + " ha matado al humano " + victima.getId() + ". Número de muertes: " + muertes);
+                    
                     };
+                    
                 } catch (InterruptedException ex) {
                 }
             }
+            
             int reposo = ThreadLocalRandom.current().nextInt(2000, 3001);
             try {
                 Thread.sleep(reposo);
             } catch (InterruptedException ex) {
             }
             zonaActual.quitarZombi(this);
-            SwingUtilities.invokeLater(() -> {
-                switch (zonaActual.getId()) {
-                    case 1 ->
-                        interfaz.actualizarZonaRiesgo1Zombis(zonaActual.getZombis());
-                    case 2 ->
-                        interfaz.actualizarZonaRiesgo2Zombis(zonaActual.getZombis());
-                    case 3 ->
-                        interfaz.actualizarZonaRiesgo3Zombis(zonaActual.getZombis());
-                    case 4 ->
-                        interfaz.actualizarZonaRiesgo4Zombis(zonaActual.getZombis());
-                }
-            });
             log.escribir("El zombi " + id + " sale de la zona de riesgo " + zonaActual.getId() + ".");
             zonaActual = areaRiesgo.getZonaRiesgoAleatoria();
 
