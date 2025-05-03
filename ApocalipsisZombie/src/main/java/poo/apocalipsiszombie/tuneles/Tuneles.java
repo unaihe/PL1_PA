@@ -71,10 +71,27 @@ public class Tuneles {
 
     public List<Integer> getNumHumanosPorTunel() {
         List<Integer> resultado = new ArrayList<>();
-        resultado.add(tunel1.getPersonasRefugio().size() + tunel1.getPersonasRiesgo().size());
-        resultado.add(tunel2.getPersonasRefugio().size() + tunel2.getPersonasRiesgo().size());
-        resultado.add(tunel3.getPersonasRefugio().size() + tunel3.getPersonasRiesgo().size());
-        resultado.add(tunel4.getPersonasRefugio().size() + tunel4.getPersonasRiesgo().size());
+        resultado.add(
+                tunel1.getPersonasRefugio().size()
+                + tunel1.getPersonasRiesgo().size()
+                + (tunel1.isCruzandoTunel() ? 1 : 0)
+        );
+        resultado.add(
+                tunel2.getPersonasRefugio().size()
+                + tunel2.getPersonasRiesgo().size()
+                + (tunel2.isCruzandoTunel() ? 1 : 0)
+        );
+        resultado.add(
+                tunel3.getPersonasRefugio().size()
+                + tunel3.getPersonasRiesgo().size()
+                + (tunel3.isCruzandoTunel() ? 1 : 0)
+        );
+        resultado.add(
+                tunel4.getPersonasRefugio().size()
+                + tunel4.getPersonasRiesgo().size()
+                + (tunel4.isCruzandoTunel() ? 1 : 0)
+        );
         return resultado;
     }
+
 }

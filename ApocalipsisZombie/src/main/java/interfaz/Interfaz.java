@@ -43,6 +43,7 @@ public class Interfaz extends javax.swing.JFrame {
         ZonaRiesgo4Zs.setModel(modeloRi4Z);
         Comida.setModel(modeloComida);
         Boton botonFrame = new Boton(controlPausa);
+        botonFrame.setAlwaysOnTop(true);
         botonFrame.setVisible(true);
     }
     

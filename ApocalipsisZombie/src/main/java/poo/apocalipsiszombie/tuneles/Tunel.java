@@ -27,6 +27,7 @@ public class Tunel {
     private int humanosEnTunel = 0;
     private int esperandoRefugio = 0;
     private Humano personaCruzando;
+    private boolean cruzandoTunel;
     private interfaz.Interfaz interfaz;
     private ControlPausa controlPausa;
 
@@ -41,6 +42,10 @@ public class Tunel {
         return personaCruzando;
     }
 
+    public boolean isCruzandoTunel() {
+        return cruzandoTunel;
+    }
+    
     public int getId() {
         return id;
     }
@@ -118,6 +123,7 @@ public class Tunel {
         SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, cruzando));
 
         log.escribir("El humano " + humano.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
+        cruzandoTunel=true;
         int tiempoCruce = 1000; // total en ms
         int paso = 100;
         for (int t = 0; t < tiempoCruce; t += paso) {
@@ -128,6 +134,7 @@ public class Tunel {
         lock.lock();
         try {
             humanosEnTunel--;
+            cruzandoTunel=false;
             puedeCruzar.signalAll();
         } finally {
             lock.unlock();
