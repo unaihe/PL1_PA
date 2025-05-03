@@ -13,7 +13,7 @@ import rmi.SimulacionRemota;
  * @author unaih
  */
 public class InterfazCliente extends javax.swing.JFrame {
-
+    private boolean pausado;
     private DefaultListModel<String> modeloRankingZombis = new DefaultListModel<>();
     private rmi.SimulacionRemota simulacion;
 
@@ -75,7 +75,7 @@ public class InterfazCliente extends javax.swing.JFrame {
             modeloRankingZombis.addElement(zombi);
         }
     }
-
+   
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -329,7 +329,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         try {
             simulacion.togglePausa();
             // Opcional: cambia el texto del botón según el estado
-            boolean pausado = simulacion.isPausado();
+            pausado = simulacion.isPausado();
             Detener.setText(pausado ? "Reanudar ejecución" : "Detener ejecución");
         } catch (Exception ex) {
             javax.swing.JOptionPane.showMessageDialog(this, "Error al pausar/reanudar: " + ex.getMessage());

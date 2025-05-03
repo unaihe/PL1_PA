@@ -255,6 +255,14 @@ public class Interfaz extends javax.swing.JFrame {
             }
         }
     }
+     public void pausarBoton(){
+        boton.setText("Reanudar");
+        pausado=true;
+    }
+    public void reanudarBoton(){
+        boton.setText("Pausar");
+        pausado=false;
+    }
 
 
     /**

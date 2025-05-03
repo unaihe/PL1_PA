@@ -21,18 +21,22 @@ public class SimulacionRemotaImpl extends UnicastRemoteObject implements Simulac
     private Tuneles tuneles;
     private AreaRiesgo areaRiesgo;
     private ControlPausa controlPausa;
+    private interfaz.Interfaz interfaz;
     
-    public SimulacionRemotaImpl(Refugio refugio, Tuneles tuneles, AreaRiesgo areaRiesgo, ControlPausa controlPausa) throws RemoteException {
+    public SimulacionRemotaImpl(Refugio refugio, Tuneles tuneles, AreaRiesgo areaRiesgo, ControlPausa controlPausa, interfaz.Interfaz interfaz) throws RemoteException {
         this.refugio = refugio;
         this.tuneles = tuneles;
         this.areaRiesgo = areaRiesgo;
         this.controlPausa = controlPausa;
+        this.interfaz = interfaz;
     }
     
     @Override
     public int getNumeroHumanosRefugio() throws RemoteException {
         return refugio.contarPersonas();
     }
+    
+   
     
     @Override
     public List<Integer> getNumeroHumanosTuneles() throws RemoteException {
@@ -63,8 +67,10 @@ public class SimulacionRemotaImpl extends UnicastRemoteObject implements Simulac
     public void togglePausa() throws RemoteException {
         if (controlPausa.isEnPausa()) {
             controlPausa.reanudar();
+            interfaz.reanudarBoton();
         } else {
             controlPausa.pausar();
+            interfaz.pausarBoton();
         }
     }
 }

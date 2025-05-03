@@ -38,7 +38,7 @@ public class ApocalipsisZombie {
 
         try {
             // Crea y exporta el objeto remoto
-            SimulacionRemota simulacionRemota = new SimulacionRemotaImpl(refugio, tuneles, areaRiesgo, controlPausa);
+            SimulacionRemota simulacionRemota = new SimulacionRemotaImpl(refugio, tuneles, areaRiesgo, controlPausa,interfaz);
 
             // Arranca el registro RMI en el puerto 1099 (si no está ya iniciado)
             LocateRegistry.createRegistry(1099);
