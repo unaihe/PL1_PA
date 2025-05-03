@@ -12931,3 +12931,2475 @@
 2025-05-03 14:18:42 - El humano H0024 entra en la zona común del refugio.
 2025-05-03 14:18:42 - El humano H0012 sale del comedor.
 2025-05-03 14:18:42 - El humano H0001 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:06:39 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:06:39 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:06:40 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:06:41 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:06:41 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:06:41 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:06:41 - El humano H0000 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:41 - El humano H0000 espera en el grupo
+2025-05-03 15:06:42 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:06:42 - El humano H0001 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:42 - El humano H0001 espera en el grupo
+2025-05-03 15:06:42 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:06:43 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:06:43 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:06:43 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:06:43 - El humano H0002 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:06:43 - El humano H0002 espera en el grupo
+2025-05-03 15:06:43 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:06:44 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:06:45 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:06:45 - El humano H0003 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:06:45 - El humano H0003 espera en el grupo
+2025-05-03 15:06:46 - El humano H0005 entra en la zona común del refugio.
+2025-05-03 15:06:46 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:06:46 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:06:46 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:06:46 - El humano H0004 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:46 - El humano H0004 espera en el grupo
+2025-05-03 15:06:46 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:06:46 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:06:46 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:06:46 - El humano H0004 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:06:46 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:06:47 - El humano H0007 entra en la zona común del refugio.
+2025-05-03 15:06:47 - El humano H0000 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:06:47 - El humano H0004 entra en la zona de riesgo 4.
+2025-05-03 15:06:48 - El humano H0005 sale de la zona común del refugio.
+2025-05-03 15:06:48 - El humano H0005 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:48 - El humano H0005 espera en el grupo
+2025-05-03 15:06:48 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:06:48 - El humano H0001 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:06:48 - El humano H0000 entra en la zona de riesgo 4.
+2025-05-03 15:06:48 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:06:48 - El humano H0006 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:06:48 - El humano H0006 espera en el grupo
+2025-05-03 15:06:49 - El humano H0007 sale de la zona común del refugio.
+2025-05-03 15:06:49 - El humano H0007 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:49 - El humano H0007 espera en el grupo
+2025-05-03 15:06:49 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:06:49 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:06:49 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:06:49 - El humano H0001 entra en la zona de riesgo 4.
+2025-05-03 15:06:49 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:06:49 - El humano H0008 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:06:49 - El humano H0008 espera en el grupo
+2025-05-03 15:06:50 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:06:50 - El humano H0009 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:06:50 - El humano H0009 espera en el grupo
+2025-05-03 15:06:50 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:06:50 - El humano H0009 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:06:50 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:06:50 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:06:50 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:06:50 - El humano H0004 sale de la zona de riesgo 4.
+2025-05-03 15:06:50 - El humano H0004 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:06:50 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:06:50 - El humano H0004 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:06:51 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:06:51 - El humano H0009 entra en la zona de riesgo 1.
+2025-05-03 15:06:51 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:06:51 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:06:51 - El zombi Z0000 selecciona al humano 33 para atacar.
+2025-05-03 15:06:51 - El zombi 22 ataca al humano H0000 en la zona de riesgo 4.
+2025-05-03 15:06:51 - El humano H0000 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:06:51 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:06:51 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:06:52 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:06:52 - El humano H0002 entra en la zona de riesgo 1.
+2025-05-03 15:06:52 - El humano H0008 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:06:52 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:06:52 - El humano H0010 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:06:52 - El humano H0010 espera en el grupo
+2025-05-03 15:06:52 - El humano H0012 entra en la zona común del refugio.
+2025-05-03 15:06:53 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:06:53 - El humano H0011 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:06:53 - El humano H0011 espera en el grupo
+2025-05-03 15:06:53 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:06:53 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:06:53 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:06:53 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:06:53 - El humano H0000 ha muerto en la zona de riesgo 4.
+2025-05-03 15:06:53 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:06:53 - El zombi Z0000 selecciona al humano 34 para atacar.
+2025-05-03 15:06:53 - El zombi 46 ataca al humano H0001 en la zona de riesgo 4.
+2025-05-03 15:06:53 - El humano H0001 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:06:53 - El humano H0008 entra en la zona de riesgo 1.
+2025-05-03 15:06:53 - El humano H0013 entra en la zona común del refugio.
+2025-05-03 15:08:41 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:08:42 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:08:42 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:08:43 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:08:43 - El humano H0000 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:08:43 - El humano H0000 espera en el grupo
+2025-05-03 15:08:43 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:08:44 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:08:44 - El humano H0001 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:08:44 - El humano H0001 espera en el grupo
+2025-05-03 15:08:44 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:08:44 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:08:44 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:08:45 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:08:45 - El humano H0002 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:08:45 - El humano H0002 espera en el grupo
+2025-05-03 15:08:45 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:08:46 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:08:46 - El humano H0003 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:08:46 - El humano H0003 espera en el grupo
+2025-05-03 15:08:46 - El humano H0005 entra en la zona común del refugio.
+2025-05-03 15:08:47 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:08:47 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:08:47 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:08:47 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:08:47 - El humano H0004 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:08:47 - El humano H0004 espera en el grupo
+2025-05-03 15:08:47 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:08:47 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:08:47 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:08:47 - El humano H0004 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:48 - El humano H0005 sale de la zona común del refugio.
+2025-05-03 15:08:48 - El humano H0005 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:08:48 - El humano H0005 espera en el grupo
+2025-05-03 15:08:48 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:08:48 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:08:48 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:08:48 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:08:48 - El humano H0007 entra en la zona común del refugio.
+2025-05-03 15:08:48 - El humano H0003 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:48 - El humano H0004 entra en la zona de riesgo 1.
+2025-05-03 15:08:49 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:08:49 - El humano H0006 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:08:49 - El humano H0006 espera en el grupo
+2025-05-03 15:08:49 - El humano H0005 entra en la zona de riesgo 3.
+2025-05-03 15:08:49 - El humano H0001 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:08:49 - El humano H0000 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:49 - El humano H0003 entra en la zona de riesgo 1.
+2025-05-03 15:08:49 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:08:50 - El humano H0007 sale de la zona común del refugio.
+2025-05-03 15:08:50 - El humano H0007 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:08:50 - El humano H0007 espera en el grupo
+2025-05-03 15:08:50 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:08:50 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:08:50 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:08:50 - El humano H0001 entra en la zona de riesgo 3.
+2025-05-03 15:08:50 - El humano H0000 entra en la zona de riesgo 1.
+2025-05-03 15:08:50 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:08:51 - El humano H0002 entra en la zona de riesgo 3.
+2025-05-03 15:08:51 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:08:51 - El humano H0008 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:08:51 - El humano H0008 espera en el grupo
+2025-05-03 15:08:52 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:08:52 - El humano H0009 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:08:52 - El humano H0009 espera en el grupo
+2025-05-03 15:08:52 - El humano H0004 sale de la zona de riesgo 1.
+2025-05-03 15:08:52 - El humano H0004 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:08:52 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:08:52 - El humano H0004 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:52 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:08:53 - El humano H0005 sale de la zona de riesgo 3.
+2025-05-03 15:08:53 - El humano H0005 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:08:53 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:08:53 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:08:53 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:08:53 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:08:53 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:08:53 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:08:53 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:08:53 - El humano H0003 sale de la zona de riesgo 1.
+2025-05-03 15:08:53 - El humano H0003 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:08:53 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:08:53 - El humano H0003 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:54 - El humano H0000 sale de la zona de riesgo 1.
+2025-05-03 15:08:54 - El humano H0000 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:08:54 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:08:54 - El humano H0005 deja comida en el comedor.
+2025-05-03 15:08:54 - El humano H0005 entra en la zona de descanso.
+2025-05-03 15:08:54 - El humano H0012 entra en la zona común del refugio.
+2025-05-03 15:08:54 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:08:54 - El humano H0010 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:08:54 - El humano H0010 espera en el grupo
+2025-05-03 15:08:54 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:08:54 - El humano H0011 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:08:54 - El humano H0011 espera en el grupo
+2025-05-03 15:08:54 - El humano H0000 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:08:54 - El humano H0003 deja comida en el comedor.
+2025-05-03 15:08:54 - El humano H0003 entra en la zona de descanso.
+2025-05-03 15:08:55 - El humano H0001 sale de la zona de riesgo 3.
+2025-05-03 15:08:55 - El humano H0001 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:08:55 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:08:55 - El humano H0001 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:08:55 - El humano H0002 sale de la zona de riesgo 3.
+2025-05-03 15:08:55 - El humano H0002 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:08:55 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:11:12 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:11:12 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:11:14 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:11:14 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:11:14 - El humano H0000 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:11:14 - El humano H0000 espera en el grupo
+2025-05-03 15:11:15 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:11:15 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:11:15 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:11:15 - El humano H0001 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:11:15 - El humano H0001 espera en el grupo
+2025-05-03 15:11:15 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:11:16 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:11:16 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:11:16 - El humano H0002 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:11:16 - El humano H0002 espera en el grupo
+2025-05-03 15:11:17 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:11:55 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:11:55 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:11:58 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:11:58 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:11:58 - El humano H0000 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:11:58 - El humano H0000 espera en el grupo
+2025-05-03 15:11:59 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:11:59 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:11:59 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:11:59 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:11:59 - El humano H0001 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:11:59 - El humano H0001 espera en el grupo
+2025-05-03 15:12:00 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:12:01 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:12:01 - El humano H0002 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:01 - El humano H0002 espera en el grupo
+2025-05-03 15:12:01 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:12:01 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:12:02 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:12:02 - El humano H0003 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:02 - El humano H0003 espera en el grupo
+2025-05-03 15:12:02 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:12:03 - El humano H0005 entra en la zona común del refugio.
+2025-05-03 15:12:04 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:12:04 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:12:04 - El humano H0005 sale de la zona común del refugio.
+2025-05-03 15:12:04 - El humano H0005 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:04 - El humano H0005 espera en el grupo
+2025-05-03 15:12:04 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:12:04 - El humano H0004 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:04 - El humano H0004 espera en el grupo
+2025-05-03 15:12:04 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:04 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:12:04 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:12:04 - El humano H0004 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:04 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:12:05 - El humano H0000 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:05 - El humano H0004 entra en la zona de riesgo 2.
+2025-05-03 15:12:06 - El humano H0007 entra en la zona común del refugio.
+2025-05-03 15:12:06 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:12:06 - El humano H0006 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:06 - El humano H0006 espera en el grupo
+2025-05-03 15:12:06 - El humano H0001 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:06 - El humano H0000 entra en la zona de riesgo 2.
+2025-05-03 15:12:06 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:12:06 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:12:06 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:12:07 - El humano H0001 entra en la zona de riesgo 2.
+2025-05-03 15:12:08 - El humano H0007 sale de la zona común del refugio.
+2025-05-03 15:12:08 - El humano H0007 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:08 - El humano H0007 espera en el grupo
+2025-05-03 15:12:08 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:12:08 - El humano H0008 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:08 - El humano H0008 espera en el grupo
+2025-05-03 15:12:08 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:12:09 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:12:09 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:12:09 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:12:09 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:12:09 - El humano H0009 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:09 - El humano H0009 espera en el grupo
+2025-05-03 15:12:09 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:09 - El humano H0009 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:09 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:12:09 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:12:10 - El humano H0004 sale de la zona de riesgo 2.
+2025-05-03 15:12:10 - El humano H0004 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:10 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:10 - El humano H0004 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:10 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:12:10 - El humano H0010 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:10 - El humano H0010 espera en el grupo
+2025-05-03 15:12:10 - El humano H0000 sale de la zona de riesgo 2.
+2025-05-03 15:12:10 - El humano H0000 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:10 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:12:10 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:12:10 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:10 - El humano H0009 entra en la zona de riesgo 1.
+2025-05-03 15:12:11 - El humano H0000 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:11 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:12:11 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:12:11 - El humano H0012 entra en la zona común del refugio.
+2025-05-03 15:12:11 - El humano H0002 entra en la zona de riesgo 1.
+2025-05-03 15:12:11 - El humano H0005 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:11 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:12:11 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:12:11 - El zombi Z0000 selecciona al humano 33 para atacar.
+2025-05-03 15:12:11 - El zombi 22 ataca al humano H0001 en la zona de riesgo 2.
+2025-05-03 15:12:11 - El humano H0001 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:12 - El humano H0000 deja comida en el comedor.
+2025-05-03 15:12:12 - El humano H0000 entra en la zona de descanso.
+2025-05-03 15:12:12 - El humano H0001 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:12 - El humano H0001 sale de la zona de riesgo 2.
+2025-05-03 15:12:12 - El humano H0001 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:12 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:12:12 - El humano H0001 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:12 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:12:12 - El humano H0011 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:12 - El humano H0011 espera en el grupo
+2025-05-03 15:12:12 - El humano H0013 entra en la zona común del refugio.
+2025-05-03 15:12:12 - El humano H0005 entra en la zona de riesgo 1.
+2025-05-03 15:12:13 - El humano H0012 sale de la zona común del refugio.
+2025-05-03 15:12:13 - El humano H0012 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:13 - El humano H0012 espera en el grupo
+2025-05-03 15:12:13 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:12:13 - El humano H0004 entra en el comedor.
+2025-05-03 15:12:13 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:12:13 - El humano H0001 entra en la zona de descanso.
+2025-05-03 15:12:13 - El humano H0014 entra en la zona común del refugio.
+2025-05-03 15:12:14 - El humano H0013 sale de la zona común del refugio.
+2025-05-03 15:12:14 - El humano H0013 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:14 - El humano H0013 espera en el grupo
+2025-05-03 15:12:14 - El humano H0000 sale de la zona de descanso.
+2025-05-03 15:12:14 - El humano H0000 entra en el comedor.
+2025-05-03 15:12:14 - El humano H0000 coge una pieza de comida del comedor.
+2025-05-03 15:12:14 - El humano H0009 sale de la zona de riesgo 1.
+2025-05-03 15:12:14 - El humano H0009 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:14 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:14 - El humano H0009 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:14 - El humano H0015 entra en la zona común del refugio.
+2025-05-03 15:12:15 - El humano H0014 sale de la zona común del refugio.
+2025-05-03 15:12:15 - El humano H0014 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:15 - El humano H0014 espera en el grupo
+2025-05-03 15:12:15 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:12:15 - El humano H0014 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:15 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:12:15 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:12:15 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:12:15 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:12:15 - El zombi Z0000 selecciona al humano 37 para atacar.
+2025-05-03 15:12:15 - El zombi 22 ataca al humano H0005 en la zona de riesgo 1.
+2025-05-03 15:12:15 - El humano H0005 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:15 - El humano H0009 deja comida en el comedor.
+2025-05-03 15:12:15 - El humano H0009 entra en la zona de descanso.
+2025-05-03 15:12:15 - El humano H0002 sale de la zona de riesgo 1.
+2025-05-03 15:12:15 - El humano H0002 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:15 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:12:15 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:16 - El humano H0014 entra en la zona de riesgo 4.
+2025-05-03 15:12:16 - El humano H0003 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:16 - El humano H0015 sale de la zona común del refugio.
+2025-05-03 15:12:16 - El humano H0015 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:16 - El humano H0015 espera en el grupo
+2025-05-03 15:12:16 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:12:16 - El humano H0015 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:16 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:12:16 - El humanoH0012 espera a que el tunel esté libre
+2025-05-03 15:12:16 - El humano H0002 deja comida en el comedor.
+2025-05-03 15:12:16 - El humano H0002 entra en la zona de descanso.
+2025-05-03 15:12:16 - El humano H0016 entra en la zona común del refugio.
+2025-05-03 15:12:16 - El humano H0005 ha muerto en la zona de riesgo 1.
+2025-05-03 15:12:16 - El zombi Z0005 entra en la zona de riesgo 1.
+2025-05-03 15:12:17 - El humano H0003 entra en la zona de riesgo 4.
+2025-05-03 15:12:17 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:17 - El humano H0001 sale de la zona de descanso.
+2025-05-03 15:12:17 - El humano H0001 entra en el comedor.
+2025-05-03 15:12:17 - El humano H0001 coge una pieza de comida del comedor.
+2025-05-03 15:12:17 - El humano H0007 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:17 - El humano H0015 entra en la zona de riesgo 3.
+2025-05-03 15:12:17 - El humano H0017 entra en la zona común del refugio.
+2025-05-03 15:12:17 - El humano H0000 sale del comedor.
+2025-05-03 15:12:17 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:12:18 - El humano H0009 sale de la zona de descanso.
+2025-05-03 15:12:18 - El humano H0009 entra en el comedor.
+2025-05-03 15:12:18 - El humano H0009 coge una pieza de comida del comedor.
+2025-05-03 15:12:18 - El humano H0011 entra en la zona de riesgo 4.
+2025-05-03 15:12:18 - El humano H0004 sale del comedor.
+2025-05-03 15:12:18 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:12:18 - El zombi ZZ0000 ha matado al humano H37. Número de muertes: 1
+2025-05-03 15:12:18 - El humano H0016 sale de la zona común del refugio.
+2025-05-03 15:12:18 - El humano H0016 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:18 - El humano H0016 espera en el grupo
+2025-05-03 15:12:18 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:12:18 - El humano H0016 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:18 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:12:18 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:12:18 - El humano H0012 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:18 - El humano H0007 entra en la zona de riesgo 3.
+2025-05-03 15:12:18 - El humano H0018 entra en la zona común del refugio.
+2025-05-03 15:12:18 - El humano H0002 sale de la zona de descanso.
+2025-05-03 15:12:18 - El humano H0002 entra en el comedor.
+2025-05-03 15:12:18 - El humano H0002 coge una pieza de comida del comedor.
+2025-05-03 15:12:19 - El humano H0019 entra en la zona común del refugio.
+2025-05-03 15:12:19 - El zombi Z0005 sale de la zona de riesgo 1.
+2025-05-03 15:12:19 - El zombi Z0005 entra en la zona de riesgo 4.
+2025-05-03 15:12:19 - El zombi Z0005 selecciona al humano 47 para atacar.
+2025-05-03 15:12:19 - El zombi 50 ataca al humano H0014 en la zona de riesgo 4.
+2025-05-03 15:12:19 - El humano H0014 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:19 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:12:19 - El humano H0004 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:19 - El humano H0004 espera en el grupo
+2025-05-03 15:12:19 - El humano H0016 entra en la zona de riesgo 2.
+2025-05-03 15:12:19 - El humano H0006 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:19 - El humano H0012 entra en la zona de riesgo 3.
+2025-05-03 15:12:19 - El humano H0017 sale de la zona común del refugio.
+2025-05-03 15:12:19 - El humano H0017 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:19 - El humano H0017 espera en el grupo
+2025-05-03 15:12:19 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:12:19 - El humano H0000 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:19 - El humano H0000 espera en el grupo
+2025-05-03 15:12:20 - El humano H0018 sale de la zona común del refugio.
+2025-05-03 15:12:20 - El humano H0018 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:20 - El humano H0018 espera en el grupo
+2025-05-03 15:12:20 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humano H0018 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:20 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humanoH0013 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humano H0014 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:20 - El humano H0014 sale de la zona de riesgo 4.
+2025-05-03 15:12:20 - El humano H0014 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:20 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humano H0014 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:20 - El humano H0020 entra en la zona común del refugio.
+2025-05-03 15:12:20 - El humano H0006 entra en la zona de riesgo 2.
+2025-05-03 15:12:20 - El humano H0008 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:20 - El humano H0019 sale de la zona común del refugio.
+2025-05-03 15:12:20 - El humano H0019 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:20 - El humano H0019 espera en el grupo
+2025-05-03 15:12:20 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humano H0019 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:20 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:20 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:12:21 - El humano H0015 sale de la zona de riesgo 3.
+2025-05-03 15:12:21 - El humano H0015 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:21 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:12:21 - El humano H0010 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:21 - El humano H0018 entra en la zona de riesgo 1.
+2025-05-03 15:12:21 - El humano H0001 sale del comedor.
+2025-05-03 15:12:21 - El humano H0001 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:21 - El humano H0014 entra en la zona de descanso.
+2025-05-03 15:12:21 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:12:21 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:12:21 - El zombi Z0000 selecciona al humano 45 para atacar.
+2025-05-03 15:12:21 - El zombi 22 ataca al humano H0012 en la zona de riesgo 3.
+2025-05-03 15:12:21 - El humano H0008 entra en la zona de riesgo 2.
+2025-05-03 15:12:21 - El humano H0012 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:21 - El humano H0019 entra en la zona de riesgo 3.
+2025-05-03 15:12:21 - El humano H0015 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:21 - El humano H0003 sale de la zona de riesgo 4.
+2025-05-03 15:12:21 - El humano H0003 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:21 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:12:21 - El humano H0003 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:21 - El humano H0009 sale del comedor.
+2025-05-03 15:12:21 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:12:22 - El humano H0021 entra en la zona común del refugio.
+2025-05-03 15:12:22 - El humano H0013 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:22 - El humano H0010 entra en la zona de riesgo 1.
+2025-05-03 15:12:22 - El humano H0020 sale de la zona común del refugio.
+2025-05-03 15:12:22 - El humano H0020 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:22 - El humano H0020 espera en el grupo
+2025-05-03 15:12:22 - El humano H0012 ha muerto en la zona de riesgo 3.
+2025-05-03 15:12:22 - El zombi Z0012 entra en la zona de riesgo 3.
+2025-05-03 15:12:22 - El zombi Z0012 selecciona al humano 40 para atacar.
+2025-05-03 15:12:22 - El zombi 56 ataca al humano H0007 en la zona de riesgo 3.
+2025-05-03 15:12:22 - El humano H0007 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:22 - El humano H0015 deja comida en el comedor.
+2025-05-03 15:12:22 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:22 - El humano H0015 entra en la zona de descanso.
+2025-05-03 15:12:22 - El humano H0022 entra en la zona común del refugio.
+2025-05-03 15:12:22 - El humano H0003 deja comida en el comedor.
+2025-05-03 15:12:22 - El humano H0003 entra en la zona de descanso.
+2025-05-03 15:12:22 - El humano H0011 sale de la zona de riesgo 4.
+2025-05-03 15:12:22 - El humano H0011 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:22 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:12:22 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:23 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:12:23 - El humano H0009 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:23 - El humano H0009 espera en el grupo
+2025-05-03 15:12:23 - El humano H0013 entra en la zona de riesgo 1.
+2025-05-03 15:12:23 - El humano H0007 ha muerto en la zona de riesgo 3.
+2025-05-03 15:12:23 - El zombi Z0007 entra en la zona de riesgo 3.
+2025-05-03 15:12:23 - El zombi Z0007 selecciona al humano 53 para atacar.
+2025-05-03 15:12:23 - El zombi 58 ataca al humano H0019 en la zona de riesgo 3.
+2025-05-03 15:12:23 - El humano H0019 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:23 - El humano H0016 sale de la zona de riesgo 2.
+2025-05-03 15:12:23 - El humano H0016 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:23 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:12:23 - El humano H0016 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:23 - El humano H0002 sale del comedor.
+2025-05-03 15:12:23 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:12:23 - El humano H0014 sale de la zona de descanso.
+2025-05-03 15:12:23 - El humano H0014 entra en el comedor.
+2025-05-03 15:12:23 - El humano H0014 coge una pieza de comida del comedor.
+2025-05-03 15:12:23 - El zombi Z0005 sale de la zona de riesgo 4.
+2025-05-03 15:12:23 - El zombi Z0005 entra en la zona de riesgo 1.
+2025-05-03 15:12:23 - El zombi Z0005 selecciona al humano 52 para atacar.
+2025-05-03 15:12:23 - El zombi 50 ataca al humano H0018 en la zona de riesgo 1.
+2025-05-03 15:12:23 - El humano H0018 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:23 - El zombi ZZ0000 ha matado al humano H45. Número de muertes: 2
+2025-05-03 15:12:23 - El humano H0004 entra en la zona de riesgo 3.
+2025-05-03 15:12:23 - El humano H0017 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:23 - El humano H0021 sale de la zona común del refugio.
+2025-05-03 15:12:23 - El humano H0021 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:23 - El humano H0021 espera en el grupo
+2025-05-03 15:12:23 - El humano H0023 entra en la zona común del refugio.
+2025-05-03 15:12:23 - El humano H0011 deja comida en el comedor.
+2025-05-03 15:12:23 - El humano H0011 entra en la zona de descanso.
+2025-05-03 15:12:24 - El zombi ZZ0012 ha matado al humano H40. Número de muertes: 1
+2025-05-03 15:12:24 - El humano H0019 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:24 - El humano H0019 sale de la zona de riesgo 3.
+2025-05-03 15:12:24 - El humano H0019 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:24 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humano H0016 deja comida en el comedor.
+2025-05-03 15:12:24 - El humano H0016 entra en la zona de descanso.
+2025-05-03 15:12:24 - El humano H0001 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:24 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:12:24 - El humano H0022 sale de la zona común del refugio.
+2025-05-03 15:12:24 - El humano H0022 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:24 - El humano H0022 espera en el grupo
+2025-05-03 15:12:24 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humanoH0022 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:24 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humano H0018 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:24 - El humano H0018 sale de la zona de riesgo 1.
+2025-05-03 15:12:24 - El humano H0018 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:24 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humano H0018 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:24 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:12:24 - El humano H0002 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:24 - El humano H0002 espera en el grupo
+2025-05-03 15:12:24 - El humano H0017 entra en la zona de riesgo 3.
+2025-05-03 15:12:24 - El humano H0019 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:24 - El humano H0006 sale de la zona de riesgo 2.
+2025-05-03 15:12:24 - El humano H0006 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:24 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:12:24 - El humano H0006 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:25 - El humano H0024 entra en la zona común del refugio.
+2025-05-03 15:12:25 - El humano H0022 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:25 - El humano H0009 entra en la zona de riesgo 4.
+2025-05-03 15:12:25 - El humano H0003 sale de la zona de descanso.
+2025-05-03 15:12:25 - El humano H0003 entra en el comedor.
+2025-05-03 15:12:25 - El humano H0003 coge una pieza de comida del comedor.
+2025-05-03 15:12:25 - El humano H0008 sale de la zona de riesgo 2.
+2025-05-03 15:12:25 - El humano H0008 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:25 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:12:25 - El humano H0018 entra en la zona de descanso.
+2025-05-03 15:12:25 - El humano H0019 entra en la zona de descanso.
+2025-05-03 15:12:25 - El humano H0025 entra en la zona común del refugio.
+2025-05-03 15:12:25 - El humano H0023 sale de la zona común del refugio.
+2025-05-03 15:12:25 - El humano H0023 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:25 - El humano H0023 espera en el grupo
+2025-05-03 15:12:25 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:12:25 - El humano H0001 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:25 - El humano H0001 espera en el grupo
+2025-05-03 15:12:25 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:12:25 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:12:25 - El humano H0001 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:25 - El humanoH0020 espera a que el tunel esté libre
+2025-05-03 15:12:25 - El humano H0006 deja comida en el comedor.
+2025-05-03 15:12:25 - El humano H0008 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:25 - El humano H0006 entra en la zona de descanso.
+2025-05-03 15:12:26 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:12:26 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:12:26 - El zombi Z0000 selecciona al humano 46 para atacar.
+2025-05-03 15:12:26 - El zombi 22 ataca al humano H0013 en la zona de riesgo 1.
+2025-05-03 15:12:26 - El humano H0013 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:26 - El humano H0010 sale de la zona de riesgo 1.
+2025-05-03 15:12:26 - El humano H0010 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:26 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:12:26 - El humano H0015 sale de la zona de descanso.
+2025-05-03 15:12:26 - El humano H0015 entra en el comedor.
+2025-05-03 15:12:26 - El humano H0015 coge una pieza de comida del comedor.
+2025-05-03 15:12:26 - El humano H0000 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:26 - El humano H0022 entra en la zona de riesgo 4.
+2025-05-03 15:12:26 - El zombi Z0012 sale de la zona de riesgo 3.
+2025-05-03 15:12:26 - El zombi Z0012 entra en la zona de riesgo 4.
+2025-05-03 15:12:26 - El zombi Z0012 selecciona al humano 42 para atacar.
+2025-05-03 15:12:26 - El zombi 56 ataca al humano H0009 en la zona de riesgo 4.
+2025-05-03 15:12:26 - El humano H0009 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:26 - El humano H0026 entra en la zona común del refugio.
+2025-05-03 15:12:26 - El humano H0001 entra en la zona de riesgo 1.
+2025-05-03 15:12:26 - El humano H0010 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:26 - El humano H0008 deja comida en el comedor.
+2025-05-03 15:12:26 - El humano H0008 entra en la zona de descanso.
+2025-05-03 15:12:27 - El humano H0024 sale de la zona común del refugio.
+2025-05-03 15:12:27 - El humano H0024 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:27 - El humano H0024 espera en el grupo
+2025-05-03 15:12:27 - El humano H0025 sale de la zona común del refugio.
+2025-05-03 15:12:27 - El humano H0025 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:27 - El humano H0025 espera en el grupo
+2025-05-03 15:12:27 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:12:27 - El humanoH0021 espera a que el tunel esté libre
+2025-05-03 15:12:27 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:12:27 - El humano H0025 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:27 - El humano H0013 ha muerto en la zona de riesgo 1.
+2025-05-03 15:12:27 - El zombi Z0013 entra en la zona de riesgo 1.
+2025-05-03 15:12:27 - El zombi Z0013 selecciona al humano 33 para atacar.
+2025-05-03 15:12:27 - El zombi 63 ataca al humano H0001 en la zona de riesgo 1.
+2025-05-03 15:12:27 - El humano H0001 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:27 - El humano H0000 entra en la zona de riesgo 4.
+2025-05-03 15:12:27 - El humano H0009 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:27 - El humano H0009 sale de la zona de riesgo 4.
+2025-05-03 15:12:27 - El humano H0009 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:27 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:27 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:27 - El humano H0011 sale de la zona de descanso.
+2025-05-03 15:12:27 - El humano H0011 entra en el comedor.
+2025-05-03 15:12:27 - El humano H0011 coge una pieza de comida del comedor.
+2025-05-03 15:12:27 - El humano H0027 entra en la zona común del refugio.
+2025-05-03 15:12:27 - El humano H0023 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:27 - El humano H0010 deja comida en el comedor.
+2025-05-03 15:12:27 - El humano H0010 entra en la zona de descanso.
+2025-05-03 15:12:28 - El humano H0004 sale de la zona de riesgo 3.
+2025-05-03 15:12:28 - El humano H0004 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:28 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:28 - El zombi Z0007 sale de la zona de riesgo 3.
+2025-05-03 15:12:28 - El zombi Z0007 entra en la zona de riesgo 4.
+2025-05-03 15:12:28 - El zombi Z0007 selecciona al humano 57 para atacar.
+2025-05-03 15:12:28 - El zombi 58 ataca al humano H0022 en la zona de riesgo 4.
+2025-05-03 15:12:28 - El humano H0025 entra en la zona de riesgo 3.
+2025-05-03 15:12:28 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:28 - El humano H0022 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:28 - El humano H0016 sale de la zona de descanso.
+2025-05-03 15:12:28 - El humano H0016 entra en el comedor.
+2025-05-03 15:12:28 - El humano H0016 coge una pieza de comida del comedor.
+2025-05-03 15:12:28 - El humano H0028 entra en la zona común del refugio.
+2025-05-03 15:12:28 - El humano H0014 sale del comedor.
+2025-05-03 15:12:28 - El humano H0014 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:28 - El humano H0001 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:28 - El humano H0001 sale de la zona de riesgo 1.
+2025-05-03 15:12:28 - El humano H0001 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:28 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:12:28 - El zombi Z0005 sale de la zona de riesgo 1.
+2025-05-03 15:12:28 - El zombi Z0005 entra en la zona de riesgo 1.
+2025-05-03 15:12:28 - El humano H0009 entra en la zona de descanso.
+2025-05-03 15:12:28 - El zombi ZZ0000 ha matado al humano H46. Número de muertes: 3
+2025-05-03 15:12:28 - El humano H0026 sale de la zona común del refugio.
+2025-05-03 15:12:28 - El humano H0026 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:28 - El humano H0026 espera en el grupo
+2025-05-03 15:12:29 - El humano H0022 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:29 - El humano H0022 sale de la zona de riesgo 4.
+2025-05-03 15:12:29 - El humano H0022 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:29 - El humanoH0022 espera a que el tunel esté libre
+2025-05-03 15:12:29 - El humano H0022 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:29 - El humano H0027 sale de la zona común del refugio.
+2025-05-03 15:12:29 - El humano H0023 entra en la zona de riesgo 1.
+2025-05-03 15:12:29 - El humano H0001 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:29 - El humano H0027 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:29 - El humano H0027 espera en el grupo
+2025-05-03 15:12:29 - El humano H0029 entra en la zona común del refugio.
+2025-05-03 15:12:29 - El humano H0006 sale de la zona de descanso.
+2025-05-03 15:12:29 - El humano H0006 entra en el comedor.
+2025-05-03 15:12:29 - El humano H0006 coge una pieza de comida del comedor.
+2025-05-03 15:12:29 - El humano H0018 sale de la zona de descanso.
+2025-05-03 15:12:29 - El humano H0018 entra en el comedor.
+2025-05-03 15:12:29 - El humano H0018 coge una pieza de comida del comedor.
+2025-05-03 15:12:29 - El humano H0003 sale del comedor.
+2025-05-03 15:12:29 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:12:29 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:12:29 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:12:29 - El humano H0021 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:29 - El humano H0017 sale de la zona de riesgo 3.
+2025-05-03 15:12:29 - El humano H0017 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:29 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:12:29 - El humano H0030 entra en la zona común del refugio.
+2025-05-03 15:12:29 - El humano H0015 sale del comedor.
+2025-05-03 15:12:29 - El humano H0015 entra en la zona común del refugio.
+2025-05-03 15:12:29 - El humano H0008 sale de la zona de descanso.
+2025-05-03 15:12:29 - El humano H0008 entra en el comedor.
+2025-05-03 15:12:29 - El humano H0008 coge una pieza de comida del comedor.
+2025-05-03 15:12:29 - El humano H0019 sale de la zona de descanso.
+2025-05-03 15:12:29 - El humano H0019 entra en el comedor.
+2025-05-03 15:12:29 - El humano H0019 coge una pieza de comida del comedor.
+2025-05-03 15:12:30 - El humano H0028 sale de la zona común del refugio.
+2025-05-03 15:12:30 - El humano H0028 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:30 - El humano H0028 espera en el grupo
+2025-05-03 15:12:30 - El humanoH0028 espera a que el tunel esté libre
+2025-05-03 15:12:30 - El humano H0028 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:30 - El humanoH0024 espera a que el tunel esté libre
+2025-05-03 15:12:30 - El humanoH0026 espera a que el tunel esté libre
+2025-05-03 15:12:30 - El humano H0022 entra en la zona de descanso.
+2025-05-03 15:12:30 - El humano H0001 entra en la zona de descanso.
+2025-05-03 15:12:30 - El humano H0020 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:30 - El humano H0021 entra en la zona de riesgo 3.
+2025-05-03 15:12:30 - El humano H0017 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:30 - El humano H0000 sale de la zona de riesgo 4.
+2025-05-03 15:12:30 - El humano H0000 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:30 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:12:30 - El humano H0000 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:30 - El humano H0030 sale de la zona común del refugio.
+2025-05-03 15:12:30 - El humano H0030 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:30 - El humano H0030 espera en el grupo
+2025-05-03 15:12:30 - El humano H0031 entra en la zona común del refugio.
+2025-05-03 15:12:31 - El humano H0024 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:31 - El humano H0028 entra en la zona de riesgo 2.
+2025-05-03 15:12:31 - El humano H0010 sale de la zona de descanso.
+2025-05-03 15:12:31 - El humano H0010 entra en el comedor.
+2025-05-03 15:12:31 - El humano H0010 coge una pieza de comida del comedor.
+2025-05-03 15:12:31 - El humano H0009 sale de la zona de descanso.
+2025-05-03 15:12:31 - El humano H0009 entra en el comedor.
+2025-05-03 15:12:31 - El humano H0009 coge una pieza de comida del comedor.
+2025-05-03 15:12:31 - El humano H0029 sale de la zona común del refugio.
+2025-05-03 15:12:31 - El humano H0020 entra en la zona de riesgo 1.
+2025-05-03 15:12:31 - El humano H0029 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:31 - El humano H0029 espera en el grupo
+2025-05-03 15:12:31 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:12:31 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:12:31 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:12:31 - El humano H0003 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:31 - El humano H0003 espera en el grupo
+2025-05-03 15:12:31 - El zombi Z0005 sale de la zona de riesgo 1.
+2025-05-03 15:12:31 - El zombi Z0005 entra en la zona de riesgo 4.
+2025-05-03 15:12:31 - El zombi Z0012 sale de la zona de riesgo 4.
+2025-05-03 15:12:31 - El zombi Z0012 entra en la zona de riesgo 2.
+2025-05-03 15:12:31 - El zombi Z0012 selecciona al humano 65 para atacar.
+2025-05-03 15:12:31 - El zombi 56 ataca al humano H0028 en la zona de riesgo 2.
+2025-05-03 15:12:31 - El humano H0017 deja comida en el comedor.
+2025-05-03 15:12:31 - El humano H0017 entra en la zona de descanso.
+2025-05-03 15:12:31 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:31 - El humano H0028 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:31 - El humano H0025 sale de la zona de riesgo 3.
+2025-05-03 15:12:31 - El humano H0025 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:31 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:12:31 - El humano H0014 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:31 - El humano H0014 entra en la zona común del refugio.
+2025-05-03 15:12:31 - El humano H0015 sale de la zona común del refugio.
+2025-05-03 15:12:31 - El humano H0015 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:31 - El humano H0015 espera en el grupo
+2025-05-03 15:12:31 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:12:31 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:12:31 - El humanoH0029 espera a que el tunel esté libre
+2025-05-03 15:12:32 - El humano H0000 deja comida en el comedor.
+2025-05-03 15:12:32 - El humano H0015 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:32 - El humano H0000 entra en la zona de descanso.
+2025-05-03 15:12:32 - El humano H0011 sale del comedor.
+2025-05-03 15:12:32 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:12:32 - El humano H0026 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:32 - El humano H0024 entra en la zona de riesgo 2.
+2025-05-03 15:12:32 - El humano H0016 sale del comedor.
+2025-05-03 15:12:32 - El humano H0016 entra en la zona común del refugio.
+2025-05-03 15:12:32 - El zombi Z0007 sale de la zona de riesgo 4.
+2025-05-03 15:12:32 - El zombi Z0007 entra en la zona de riesgo 2.
+2025-05-03 15:12:32 - El zombi Z0007 selecciona al humano 65 para atacar.
+2025-05-03 15:12:32 - El zombi Z0013 sale de la zona de riesgo 1.
+2025-05-03 15:12:32 - El zombi Z0013 entra en la zona de riesgo 1.
+2025-05-03 15:12:32 - El zombi Z0013 selecciona al humano 54 para atacar.
+2025-05-03 15:12:32 - El zombi 63 ataca al humano H0020 en la zona de riesgo 1.
+2025-05-03 15:12:32 - El humano H0020 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:32 - El humano H0025 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:32 - El humano H0002 entra en la zona de riesgo 3.
+2025-05-03 15:12:32 - El humano H0031 sale de la zona común del refugio.
+2025-05-03 15:12:32 - El humano H0031 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:32 - El humano H0031 espera en el grupo
+2025-05-03 15:12:32 - El humano H0032 entra en la zona común del refugio.
+2025-05-03 15:12:32 - El zombi 58 ataca al humano H0028 en la zona de riesgo 2.
+2025-05-03 15:12:33 - El humano H0023 sale de la zona de riesgo 1.
+2025-05-03 15:12:33 - El humano H0023 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:33 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:12:33 - El humano H0023 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:33 - El humano H0015 entra en la zona de riesgo 4.
+2025-05-03 15:12:33 - El humano H0027 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:33 - El humano H0014 sale de la zona común del refugio.
+2025-05-03 15:12:33 - El humano H0014 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:33 - El humano H0014 espera en el grupo
+2025-05-03 15:12:33 - El humano H0026 entra en la zona de riesgo 2.
+2025-05-03 15:12:33 - El humano H0008 sale del comedor.
+2025-05-03 15:12:33 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:12:33 - El humano H0001 sale de la zona de descanso.
+2025-05-03 15:12:33 - El humano H0001 entra en el comedor.
+2025-05-03 15:12:33 - El humano H0001 coge una pieza de comida del comedor.
+2025-05-03 15:12:33 - El humano H0020 ha muerto en la zona de riesgo 1.
+2025-05-03 15:12:33 - El zombi Z0020 entra en la zona de riesgo 1.
+2025-05-03 15:12:33 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:12:33 - El humano H0004 entra en el comedor.
+2025-05-03 15:12:33 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:12:33 - El humano H0016 sale de la zona común del refugio.
+2025-05-03 15:12:33 - El humano H0016 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:33 - El humano H0016 espera en el grupo
+2025-05-03 15:12:33 - El humano H0025 deja comida en el comedor.
+2025-05-03 15:12:33 - El humano H0025 entra en la zona de descanso.
+2025-05-03 15:12:33 - El humano H0028 ha muerto en la zona de riesgo 2.
+2025-05-03 15:12:33 - El zombi Z0028 entra en la zona de riesgo 2.
+2025-05-03 15:12:33 - El zombi Z0028 selecciona al humano 62 para atacar.
+2025-05-03 15:12:33 - El zombi 71 ataca al humano H0026 en la zona de riesgo 2.
+2025-05-03 15:12:33 - El humano H0026 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:33 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:12:33 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:12:33 - El humano H0022 sale de la zona de descanso.
+2025-05-03 15:12:33 - El humano H0022 entra en el comedor.
+2025-05-03 15:12:33 - El humano H0022 coge una pieza de comida del comedor.
+2025-05-03 15:12:34 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:12:34 - El humano H0011 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:34 - El humano H0011 espera en el grupo
+2025-05-03 15:12:34 - El humano H0006 sale del comedor.
+2025-05-03 15:12:34 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:12:34 - El humano H0023 deja comida en el comedor.
+2025-05-03 15:12:34 - El humano H0023 entra en la zona de descanso.
+2025-05-03 15:12:34 - El humano H0033 entra en la zona común del refugio.
+2025-05-03 15:12:34 - El humano H0027 entra en la zona de riesgo 4.
+2025-05-03 15:12:34 - El humano H0029 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:34 - El humano H0018 sale del comedor.
+2025-05-03 15:12:34 - El humano H0018 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:34 - El humano H0032 sale de la zona común del refugio.
+2025-05-03 15:12:34 - El humano H0032 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:34 - El humano H0032 espera en el grupo
+2025-05-03 15:12:34 - El humanoH0032 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humano H0032 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:34 - El humanoH0030 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El zombi ZZ0012 ha matado al humano H65. Número de muertes: 2
+2025-05-03 15:12:34 - El humano H0019 sale del comedor.
+2025-05-03 15:12:34 - El humano H0019 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:34 - El zombi Z0005 sale de la zona de riesgo 4.
+2025-05-03 15:12:34 - El zombi Z0005 entra en la zona de riesgo 2.
+2025-05-03 15:12:34 - El zombi Z0005 selecciona al humano 62 para atacar.
+2025-05-03 15:12:34 - El humano H0034 entra en la zona común del refugio.
+2025-05-03 15:12:34 - El zombi ZZ0013 ha matado al humano H54. Número de muertes: 1
+2025-05-03 15:12:34 - El humano H0021 sale de la zona de riesgo 3.
+2025-05-03 15:12:34 - El humano H0021 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:34 - El humanoH0021 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humano H0021 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:34 - El zombi ZZ0007 ha matado al humano H65. Número de muertes: 1
+2025-05-03 15:12:34 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:12:34 - El humano H0008 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:34 - El humano H0008 espera en el grupo
+2025-05-03 15:12:34 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humanoH0031 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:12:34 - El humano H0008 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:34 - El humano H0010 sale del comedor.
+2025-05-03 15:12:34 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:12:35 - El zombi 50 ataca al humano H0026 en la zona de riesgo 2.
+2025-05-03 15:12:35 - El humano H0029 entra en la zona de riesgo 4.
+2025-05-03 15:12:35 - El humano H0032 entra en la zona de riesgo 2.
+2025-05-03 15:12:35 - El humano H0030 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:35 - El humano H0000 sale de la zona de descanso.
+2025-05-03 15:12:35 - El humano H0000 entra en el comedor.
+2025-05-03 15:12:35 - El humano H0000 coge una pieza de comida del comedor.
+2025-05-03 15:12:35 - El humano H0033 sale de la zona común del refugio.
+2025-05-03 15:12:35 - El humano H0033 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:35 - El humano H0033 espera en el grupo
+2025-05-03 15:12:35 - El humano H0021 deja comida en el comedor.
+2025-05-03 15:12:35 - El humano H0017 sale de la zona de descanso.
+2025-05-03 15:12:35 - El humano H0017 entra en el comedor.
+2025-05-03 15:12:35 - El humano H0021 entra en la zona de descanso.
+2025-05-03 15:12:35 - El humano H0017 coge una pieza de comida del comedor.
+2025-05-03 15:12:35 - El humano H0008 entra en la zona de riesgo 1.
+2025-05-03 15:12:35 - El humano H0031 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:36 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:12:36 - El humano H0006 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:36 - El humano H0006 espera en el grupo
+2025-05-03 15:12:36 - El humano H0009 sale del comedor.
+2025-05-03 15:12:36 - El humano H0009 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:36 - El humano H0035 entra en la zona común del refugio.
+2025-05-03 15:12:36 - El humano H0030 entra en la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0020 sale de la zona de riesgo 1.
+2025-05-03 15:12:36 - El humano H0003 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:36 - El zombi Z0020 entra en la zona de riesgo 1.
+2025-05-03 15:12:36 - El zombi Z0020 selecciona al humano 41 para atacar.
+2025-05-03 15:12:36 - El zombi 70 ataca al humano H0008 en la zona de riesgo 1.
+2025-05-03 15:12:36 - El humano H0024 sale de la zona de riesgo 2.
+2025-05-03 15:12:36 - El humano H0024 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:36 - El humanoH0024 espera a que el tunel esté libre
+2025-05-03 15:12:36 - El humano H0008 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:36 - El humano H0026 ha muerto en la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0026 entra en la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0026 selecciona al humano 67 para atacar.
+2025-05-03 15:12:36 - El zombi 75 ataca al humano H0030 en la zona de riesgo 2.
+2025-05-03 15:12:36 - El humano H0034 sale de la zona común del refugio.
+2025-05-03 15:12:36 - El humano H0034 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:36 - El humano H0034 espera en el grupo
+2025-05-03 15:12:36 - El humanoH0034 espera a que el tunel esté libre
+2025-05-03 15:12:36 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:12:36 - El humano H0034 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:36 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:12:36 - El humano H0030 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:12:36 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:12:36 - El zombi Z0000 selecciona al humano 41 para atacar.
+2025-05-03 15:12:36 - El zombi ZZ0028 ha matado al humano H62. Número de muertes: 1
+2025-05-03 15:12:36 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:12:36 - El humano H0010 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:36 - El humano H0010 espera en el grupo
+2025-05-03 15:12:36 - El humano H0002 sale de la zona de riesgo 3.
+2025-05-03 15:12:36 - El humano H0002 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:36 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:12:36 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:36 - El zombi Z0012 sale de la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0012 entra en la zona de riesgo 2.
+2025-05-03 15:12:36 - El zombi Z0012 selecciona al humano 69 para atacar.
+2025-05-03 15:12:36 - El zombi 56 ataca al humano H0032 en la zona de riesgo 2.
+2025-05-03 15:12:37 - El humano H0032 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:37 - El humano H0031 entra en la zona de riesgo 1.
+2025-05-03 15:12:37 - El humano H0016 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:37 - El humano H0023 sale de la zona de descanso.
+2025-05-03 15:12:37 - El humano H0023 entra en el comedor.
+2025-05-03 15:12:37 - El humano H0023 coge una pieza de comida del comedor.
+2025-05-03 15:12:37 - El humano H0001 sale del comedor.
+2025-05-03 15:12:37 - El humano H0001 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:37 - El humano H0025 sale de la zona de descanso.
+2025-05-03 15:12:37 - El humano H0025 entra en el comedor.
+2025-05-03 15:12:37 - El humano H0025 coge una pieza de comida del comedor.
+2025-05-03 15:12:37 - El humano H0015 sale de la zona de riesgo 4.
+2025-05-03 15:12:37 - El humano H0015 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:37 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:12:37 - El zombi Z0013 sale de la zona de riesgo 1.
+2025-05-03 15:12:37 - El zombi Z0013 entra en la zona de riesgo 3.
+2025-05-03 15:12:37 - El humano H0030 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:37 - El humano H0030 sale de la zona de riesgo 2.
+2025-05-03 15:12:37 - El humano H0030 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:37 - El humanoH0030 espera a que el tunel esté libre
+2025-05-03 15:12:37 - El humano H0024 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:37 - El humano H0003 entra en la zona de riesgo 2.
+2025-05-03 15:12:37 - El humano H0015 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:37 - El humano H0034 entra en la zona de riesgo 4.
+2025-05-03 15:12:37 - El humano H0018 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:37 - El humano H0018 entra en la zona común del refugio.
+2025-05-03 15:12:37 - El humano H0035 sale de la zona común del refugio.
+2025-05-03 15:12:37 - El humano H0035 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:37 - El humano H0035 espera en el grupo
+2025-05-03 15:12:37 - El zombi 22 ataca al humano H0008 en la zona de riesgo 1.
+2025-05-03 15:12:37 - El humano H0004 sale del comedor.
+2025-05-03 15:12:37 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:12:37 - El humano H0002 deja comida en el comedor.
+2025-05-03 15:12:37 - El humano H0002 entra en la zona de descanso.
+2025-05-03 15:12:38 - El zombi ZZ0005 ha matado al humano H62. Número de muertes: 1
+2025-05-03 15:12:38 - El humano H0032 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:38 - El humano H0032 sale de la zona de riesgo 2.
+2025-05-03 15:12:38 - El humano H0032 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:38 - El humanoH0032 espera a que el tunel esté libre
+2025-05-03 15:12:38 - El zombi Z0007 sale de la zona de riesgo 2.
+2025-05-03 15:12:38 - El zombi Z0007 entra en la zona de riesgo 1.
+2025-05-03 15:12:38 - El zombi Z0007 selecciona al humano 68 para atacar.
+2025-05-03 15:12:38 - El zombi 58 ataca al humano H0031 en la zona de riesgo 1.
+2025-05-03 15:12:38 - El humano H0031 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:38 - El humano H0016 entra en la zona de riesgo 1.
+2025-05-03 15:12:38 - El humano H0019 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:38 - El humano H0019 entra en la zona común del refugio.
+2025-05-03 15:12:38 - El humano H0036 entra en la zona común del refugio.
+2025-05-03 15:12:38 - El humano H0027 sale de la zona de riesgo 4.
+2025-05-03 15:12:38 - El humano H0027 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:38 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:12:38 - El humano H0024 deja comida en el comedor.
+2025-05-03 15:12:38 - El humano H0024 entra en la zona de descanso.
+2025-05-03 15:12:38 - El humano H0030 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:38 - El humano H0022 sale del comedor.
+2025-05-03 15:12:38 - El humano H0022 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:38 - El humano H0015 deja comida en el comedor.
+2025-05-03 15:12:38 - El humano H0027 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:38 - El humano H0015 entra en la zona de descanso.
+2025-05-03 15:12:38 - El humano H0008 ha muerto en la zona de riesgo 1.
+2025-05-03 15:12:38 - El zombi Z0008 entra en la zona de riesgo 1.
+2025-05-03 15:12:38 - El zombi Z0008 selecciona al humano 68 para atacar.
+2025-05-03 15:12:38 - El humano H0000 sale del comedor.
+2025-05-03 15:12:38 - El humano H0029 sale de la zona de riesgo 4.
+2025-05-03 15:12:38 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:12:38 - El humano H0029 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:38 - El humanoH0029 espera a que el tunel esté libre
+2025-05-03 15:12:38 - El humano H0021 sale de la zona de descanso.
+2025-05-03 15:12:38 - El humano H0021 entra en el comedor.
+2025-05-03 15:12:38 - El humano H0021 coge una pieza de comida del comedor.
+2025-05-03 15:12:39 - El humano H0018 sale de la zona común del refugio.
+2025-05-03 15:12:39 - El humano H0018 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:39 - El humano H0018 espera en el grupo
+2025-05-03 15:12:39 - El zombi 77 ataca al humano H0031 en la zona de riesgo 1.
+2025-05-03 15:12:39 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:12:39 - El humano H0004 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:39 - El humano H0004 espera en el grupo
+2025-05-03 15:12:39 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:39 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:39 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:12:39 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:12:39 - El zombi ZZ0020 ha matado al humano H41. Número de muertes: 1
+2025-05-03 15:12:39 - El humano H0037 entra en la zona común del refugio.
+2025-05-03 15:12:39 - El zombi Z0028 sale de la zona de riesgo 2.
+2025-05-03 15:12:39 - El zombi Z0028 entra en la zona de riesgo 1.
+2025-05-03 15:12:39 - El zombi Z0028 selecciona al humano 68 para atacar.
+2025-05-03 15:12:39 - El humano H0019 sale de la zona común del refugio.
+2025-05-03 15:12:39 - El humano H0019 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:39 - El humano H0019 espera en el grupo
+2025-05-03 15:12:39 - El humano H0032 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:39 - El humano H0030 entra en la zona de descanso.
+2025-05-03 15:12:39 - El humano H0036 sale de la zona común del refugio.
+2025-05-03 15:12:39 - El humano H0036 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:39 - El humano H0036 espera en el grupo
+2025-05-03 15:12:39 - El humano H0027 deja comida en el comedor.
+2025-05-03 15:12:39 - El humano H0027 entra en la zona de descanso.
+2025-05-03 15:12:39 - El humano H0029 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:39 - El zombi ZZ0000 ha matado al humano H41. Número de muertes: 4
+2025-05-03 15:12:40 - El humano H0009 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:40 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:12:40 - El humano H0031 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:40 - El zombi 71 ataca al humano H0031 en la zona de riesgo 1.
+2025-05-03 15:12:40 - El humano H0031 sale de la zona de riesgo 1.
+2025-05-03 15:12:40 - El humano H0031 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:40 - El humanoH0031 espera a que el tunel esté libre
+2025-05-03 15:12:40 - El humano H0031 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:40 - El humano H0038 entra en la zona común del refugio.
+2025-05-03 15:12:40 - El humano H0004 entra en la zona de riesgo 3.
+2025-05-03 15:12:40 - El humano H0014 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:40 - El humano H0037 sale de la zona común del refugio.
+2025-05-03 15:12:40 - El humano H0037 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:40 - El humano H0037 espera en el grupo
+2025-05-03 15:12:40 - El humano H0017 sale del comedor.
+2025-05-03 15:12:40 - El humano H0017 entra en la zona común del refugio.
+2025-05-03 15:12:40 - El zombi Z0013 sale de la zona de riesgo 3.
+2025-05-03 15:12:40 - El zombi Z0013 entra en la zona de riesgo 3.
+2025-05-03 15:12:40 - El zombi Z0013 selecciona al humano 36 para atacar.
+2025-05-03 15:12:40 - El zombi 63 ataca al humano H0004 en la zona de riesgo 3.
+2025-05-03 15:12:40 - El humano H0034 sale de la zona de riesgo 4.
+2025-05-03 15:12:40 - El humano H0034 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:40 - El humanoH0034 espera a que el tunel esté libre
+2025-05-03 15:12:40 - El humano H0004 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:40 - El humano H0032 entra en la zona de descanso.
+2025-05-03 15:12:40 - El humano H0029 deja comida en el comedor.
+2025-05-03 15:12:40 - El humano H0029 entra en la zona de descanso.
+2025-05-03 15:12:40 - El humano H0034 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:40 - El humano H0003 sale de la zona de riesgo 2.
+2025-05-03 15:12:40 - El humano H0003 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:40 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:12:40 - El humano H0003 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:40 - El zombi Z0026 sale de la zona de riesgo 2.
+2025-05-03 15:12:40 - El zombi Z0026 entra en la zona de riesgo 2.
+2025-05-03 15:12:41 - El humano H0025 sale del comedor.
+2025-05-03 15:12:41 - El humano H0025 entra en la zona común del refugio.
+2025-05-03 15:12:41 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:12:41 - El humano H0000 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:41 - El humano H0000 espera en el grupo
+2025-05-03 15:12:41 - El zombi Z0005 sale de la zona de riesgo 2.
+2025-05-03 15:12:41 - El zombi Z0005 entra en la zona de riesgo 4.
+2025-05-03 15:12:41 - El humano H0039 entra en la zona común del refugio.
+2025-05-03 15:12:41 - El humano H0031 entra en la zona de descanso.
+2025-05-03 15:12:41 - El humano H0014 entra en la zona de riesgo 3.
+2025-05-03 15:12:41 - El humano H0010 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:41 - El humano H0004 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:41 - El humano H0004 sale de la zona de riesgo 3.
+2025-05-03 15:12:41 - El humano H0004 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:41 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humano H0038 sale de la zona común del refugio.
+2025-05-03 15:12:41 - El humano H0038 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:41 - El humano H0038 espera en el grupo
+2025-05-03 15:12:41 - El humanoH0038 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humanoH0033 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humanoH0035 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humano H0024 sale de la zona de descanso.
+2025-05-03 15:12:41 - El humano H0024 entra en el comedor.
+2025-05-03 15:12:41 - El humano H0024 coge una pieza de comida del comedor.
+2025-05-03 15:12:41 - El zombi Z0020 sale de la zona de riesgo 1.
+2025-05-03 15:12:41 - El zombi Z0020 entra en la zona de riesgo 1.
+2025-05-03 15:12:41 - El zombi Z0020 selecciona al humano 49 para atacar.
+2025-05-03 15:12:41 - El zombi 70 ataca al humano H0016 en la zona de riesgo 1.
+2025-05-03 15:12:41 - El humano H0016 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:41 - El humano H0034 deja comida en el comedor.
+2025-05-03 15:12:41 - El humano H0006 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:41 - El humano H0034 entra en la zona de descanso.
+2025-05-03 15:12:41 - El humano H0003 deja comida en el comedor.
+2025-05-03 15:12:41 - El humano H0038 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:41 - El humano H0003 entra en la zona de descanso.
+2025-05-03 15:12:41 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:12:41 - El humano H0009 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:41 - El humano H0009 espera en el grupo
+2025-05-03 15:12:41 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humanoH0036 espera a que el tunel esté libre
+2025-05-03 15:12:41 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:12:42 - El humano H0015 sale de la zona de descanso.
+2025-05-03 15:12:42 - El humano H0015 entra en el comedor.
+2025-05-03 15:12:42 - El humano H0015 coge una pieza de comida del comedor.
+2025-05-03 15:12:42 - El zombi Z0012 sale de la zona de riesgo 2.
+2025-05-03 15:12:42 - El zombi Z0012 entra en la zona de riesgo 2.
+2025-05-03 15:12:42 - El humano H0002 sale de la zona de descanso.
+2025-05-03 15:12:42 - El humano H0002 entra en el comedor.
+2025-05-03 15:12:42 - El humano H0002 coge una pieza de comida del comedor.
+2025-05-03 15:12:42 - El zombi Z0007 sale de la zona de riesgo 1.
+2025-05-03 15:12:42 - El zombi Z0007 entra en la zona de riesgo 2.
+2025-05-03 15:12:42 - El humano H0022 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:42 - El humano H0022 entra en la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0023 sale del comedor.
+2025-05-03 15:12:42 - El humano H0023 entra en la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0001 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:42 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0010 entra en la zona de riesgo 3.
+2025-05-03 15:12:42 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:42 - El humano H0039 sale de la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0039 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:42 - El humano H0039 espera en el grupo
+2025-05-03 15:12:42 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:12:42 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:12:42 - El zombi Z0000 selecciona al humano 47 para atacar.
+2025-05-03 15:12:42 - El zombi 22 ataca al humano H0014 en la zona de riesgo 3.
+2025-05-03 15:12:42 - El humano H0014 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:42 - El humano H0025 sale de la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0025 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:42 - El humano H0025 espera en el grupo
+2025-05-03 15:12:42 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:12:42 - El humano H0025 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:42 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:12:42 - El humanoH0037 espera a que el tunel esté libre
+2025-05-03 15:12:42 - El humano H0040 entra en la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0017 sale de la zona común del refugio.
+2025-05-03 15:12:42 - El humano H0017 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:42 - El humano H0017 espera en el grupo
+2025-05-03 15:12:42 - El humano H0006 entra en la zona de riesgo 4.
+2025-05-03 15:12:42 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:42 - El humano H0027 sale de la zona de descanso.
+2025-05-03 15:12:42 - El humano H0027 entra en el comedor.
+2025-05-03 15:12:42 - El humano H0027 coge una pieza de comida del comedor.
+2025-05-03 15:12:42 - El humano H0038 entra en la zona de riesgo 2.
+2025-05-03 15:12:42 - El humano H0033 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:43 - El humano H0016 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:43 - El humano H0016 sale de la zona de riesgo 1.
+2025-05-03 15:12:43 - El humano H0016 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:43 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:12:43 - El humano H0041 entra en la zona común del refugio.
+2025-05-03 15:12:43 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:12:43 - El humano H0025 entra en la zona de riesgo 1.
+2025-05-03 15:12:43 - El humano H0016 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:43 - El zombi Z0026 sale de la zona de riesgo 2.
+2025-05-03 15:12:43 - El zombi Z0026 entra en la zona de riesgo 4.
+2025-05-03 15:12:43 - El zombi Z0026 selecciona al humano 38 para atacar.
+2025-05-03 15:12:43 - El zombi 75 ataca al humano H0006 en la zona de riesgo 4.
+2025-05-03 15:12:43 - El zombi Z0005 sale de la zona de riesgo 4.
+2025-05-03 15:12:43 - El zombi Z0005 entra en la zona de riesgo 4.
+2025-05-03 15:12:43 - El zombi Z0005 selecciona al humano 38 para atacar.
+2025-05-03 15:12:43 - El humano H0006 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:43 - El humano H0030 sale de la zona de descanso.
+2025-05-03 15:12:43 - El humano H0030 entra en el comedor.
+2025-05-03 15:12:43 - El humano H0030 coge una pieza de comida del comedor.
+2025-05-03 15:12:43 - El zombi Z0028 sale de la zona de riesgo 1.
+2025-05-03 15:12:43 - El zombi Z0028 entra en la zona de riesgo 3.
+2025-05-03 15:12:43 - El zombi Z0028 selecciona al humano 47 para atacar.
+2025-05-03 15:12:43 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:12:43 - El humano H0001 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:43 - El humano H0001 espera en el grupo
+2025-05-03 15:12:43 - El humano H0032 sale de la zona de descanso.
+2025-05-03 15:12:43 - El humano H0032 entra en el comedor.
+2025-05-03 15:12:43 - El humano H0032 coge una pieza de comida del comedor.
+2025-05-03 15:12:43 - El humano H0023 sale de la zona común del refugio.
+2025-05-03 15:12:43 - El humano H0023 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:43 - El humano H0023 espera en el grupo
+2025-05-03 15:12:43 - El humano H0031 sale de la zona de descanso.
+2025-05-03 15:12:43 - El humano H0031 entra en el comedor.
+2025-05-03 15:12:43 - El humano H0031 coge una pieza de comida del comedor.
+2025-05-03 15:12:43 - El humano H0040 sale de la zona común del refugio.
+2025-05-03 15:12:43 - El humano H0040 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:43 - El humano H0040 espera en el grupo
+2025-05-03 15:12:43 - El humano H0029 sale de la zona de descanso.
+2025-05-03 15:12:43 - El humano H0029 entra en el comedor.
+2025-05-03 15:12:43 - El humano H0029 coge una pieza de comida del comedor.
+2025-05-03 15:12:43 - El zombi 71 ataca al humano H0014 en la zona de riesgo 3.
+2025-05-03 15:12:43 - El humano H0011 entra en la zona de riesgo 4.
+2025-05-03 15:12:43 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:43 - El humano H0033 entra en la zona de riesgo 2.
+2025-05-03 15:12:43 - El humano H0035 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:44 - El humano H0021 sale del comedor.
+2025-05-03 15:12:44 - El humano H0021 entra en la zona común del refugio.
+2025-05-03 15:12:44 - El humano H0003 sale de la zona de descanso.
+2025-05-03 15:12:44 - El humano H0003 entra en el comedor.
+2025-05-03 15:12:44 - El humano H0003 coge una pieza de comida del comedor.
+2025-05-03 15:12:44 - El humano H0022 sale de la zona común del refugio.
+2025-05-03 15:12:44 - El humano H0022 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:44 - El humano H0022 espera en el grupo
+2025-05-03 15:12:44 - El humano H0006 ha muerto en la zona de riesgo 4.
+2025-05-03 15:12:44 - El zombi 50 ataca al humano H0006 en la zona de riesgo 4.
+2025-05-03 15:12:44 - El zombi Z0006 entra en la zona de riesgo 4.
+2025-05-03 15:12:44 - El zombi Z0006 selecciona al humano 44 para atacar.
+2025-05-03 15:12:44 - El zombi 83 ataca al humano H0011 en la zona de riesgo 4.
+2025-05-03 15:12:44 - El humano H0011 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:44 - El humano H0041 sale de la zona común del refugio.
+2025-05-03 15:12:44 - El humano H0041 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:44 - El humano H0041 espera en el grupo
+2025-05-03 15:12:44 - El humanoH0041 espera a que el tunel esté libre
+2025-05-03 15:12:44 - El humano H0041 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:44 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:12:44 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:12:44 - El zombi Z0008 sale de la zona de riesgo 1.
+2025-05-03 15:12:44 - El zombi Z0008 entra en la zona de riesgo 2.
+2025-05-03 15:12:44 - El zombi Z0008 selecciona al humano 79 para atacar.
+2025-05-03 15:12:44 - El zombi 77 ataca al humano H0038 en la zona de riesgo 2.
+2025-05-03 15:12:44 - El humano H0016 entra en la zona de descanso.
+2025-05-03 15:12:44 - El humano H0018 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:44 - El humano H0038 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:44 - El zombi Z0012 sale de la zona de riesgo 2.
+2025-05-03 15:12:44 - El zombi Z0012 entra en la zona de riesgo 1.
+2025-05-03 15:12:44 - El zombi Z0012 selecciona al humano 61 para atacar.
+2025-05-03 15:12:44 - El zombi 56 ataca al humano H0025 en la zona de riesgo 1.
+2025-05-03 15:12:44 - El humano H0034 sale de la zona de descanso.
+2025-05-03 15:12:44 - El humano H0034 entra en el comedor.
+2025-05-03 15:12:44 - El humano H0034 coge una pieza de comida del comedor.
+2025-05-03 15:12:44 - El humano H0025 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:44 - El zombi Z0007 sale de la zona de riesgo 2.
+2025-05-03 15:12:44 - El zombi Z0007 entra en la zona de riesgo 3.
+2025-05-03 15:12:44 - El zombi Z0007 selecciona al humano 47 para atacar.
+2025-05-03 15:12:44 - El humano H0042 entra en la zona común del refugio.
+2025-05-03 15:12:44 - El humano H0009 entra en la zona de riesgo 4.
+2025-05-03 15:12:44 - El humano H0036 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:44 - El humano H0035 entra en la zona de riesgo 2.
+2025-05-03 15:12:44 - El humano H0014 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:44 - El zombi 58 ataca al humano H0014 en la zona de riesgo 3.
+2025-05-03 15:12:44 - El humano H0014 sale de la zona de riesgo 3.
+2025-05-03 15:12:44 - El humano H0014 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:44 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humano H0011 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:45 - El humano H0011 sale de la zona de riesgo 4.
+2025-05-03 15:12:45 - El humano H0011 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:45 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El zombi ZZ0026 ha matado al humano H38. Número de muertes: 1
+2025-05-03 15:12:45 - El humano H0021 sale de la zona común del refugio.
+2025-05-03 15:12:45 - El zombi Z0013 sale de la zona de riesgo 3.
+2025-05-03 15:12:45 - El zombi Z0013 entra en la zona de riesgo 4.
+2025-05-03 15:12:45 - El humano H0021 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:45 - El humano H0021 espera en el grupo
+2025-05-03 15:12:45 - El humanoH0021 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El zombi Z0013 selecciona al humano 42 para atacar.
+2025-05-03 15:12:45 - El zombi 63 ataca al humano H0009 en la zona de riesgo 4.
+2025-05-03 15:12:45 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humanoH0022 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humano H0025 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:45 - El humano H0025 sale de la zona de riesgo 1.
+2025-05-03 15:12:45 - El humano H0025 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:45 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humano H0009 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:45 - El humano H0015 sale del comedor.
+2025-05-03 15:12:45 - El humano H0015 entra en la zona común del refugio.
+2025-05-03 15:12:45 - El humano H0041 entra en la zona de riesgo 3.
+2025-05-03 15:12:45 - El humano H0014 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:45 - El humano H0018 entra en la zona de riesgo 1.
+2025-05-03 15:12:45 - El humano H0025 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:45 - El humano H0024 sale del comedor.
+2025-05-03 15:12:45 - El humano H0024 entra en la zona común del refugio.
+2025-05-03 15:12:45 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:12:45 - El humano H0004 entra en el comedor.
+2025-05-03 15:12:45 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:12:45 - El humano H0043 entra en la zona común del refugio.
+2025-05-03 15:12:45 - El humano H0038 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:45 - El humano H0038 sale de la zona de riesgo 2.
+2025-05-03 15:12:45 - El humano H0038 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:45 - El humanoH0038 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humano H0038 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:45 - El humano H0036 entra en la zona de riesgo 4.
+2025-05-03 15:12:45 - El humano H0011 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:45 - El humano H0042 sale de la zona común del refugio.
+2025-05-03 15:12:45 - El humano H0042 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:45 - El humano H0042 espera en el grupo
+2025-05-03 15:12:45 - El humanoH0042 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:12:45 - El humanoH0040 espera a que el tunel esté libre
+2025-05-03 15:12:46 - El humano H0010 sale de la zona de riesgo 3.
+2025-05-03 15:12:46 - El humano H0010 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:46 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:12:46 - El humano H0009 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:46 - El humano H0009 sale de la zona de riesgo 4.
+2025-05-03 15:12:46 - El humano H0009 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:46 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:12:46 - El humano H0014 entra en la zona de descanso.
+2025-05-03 15:12:46 - El humano H0010 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:46 - El humano H0002 sale del comedor.
+2025-05-03 15:12:46 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:12:46 - El humano H0025 entra en la zona de descanso.
+2025-05-03 15:12:46 - El humano H0037 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:46 - El humano H0015 sale de la zona común del refugio.
+2025-05-03 15:12:46 - El humano H0015 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:46 - El humano H0015 espera en el grupo
+2025-05-03 15:12:46 - El humano H0038 entra en la zona de descanso.
+2025-05-03 15:12:46 - El humano H0011 entra en la zona de descanso.
+2025-05-03 15:12:46 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:46 - El humano H0032 sale del comedor.
+2025-05-03 15:12:46 - El humano H0032 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:47 - El zombi Z0020 sale de la zona de riesgo 1.
+2025-05-03 15:12:47 - El zombi Z0020 entra en la zona de riesgo 2.
+2025-05-03 15:12:47 - El zombi Z0020 selecciona al humano 72 para atacar.
+2025-05-03 15:12:47 - El zombi 70 ataca al humano H0033 en la zona de riesgo 2.
+2025-05-03 15:12:47 - El humano H0030 sale del comedor.
+2025-05-03 15:12:47 - El humano H0030 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:47 - El humano H0024 sale de la zona común del refugio.
+2025-05-03 15:12:47 - El humano H0024 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:47 - El humano H0024 espera en el grupo
+2025-05-03 15:12:47 - El humano H0033 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:47 - El humano H0027 sale del comedor.
+2025-05-03 15:12:47 - El humano H0027 entra en la zona común del refugio.
+2025-05-03 15:12:47 - El humano H0044 entra en la zona común del refugio.
+2025-05-03 15:12:47 - El zombi ZZ0005 ha matado al humano H38. Número de muertes: 2
+2025-05-03 15:12:47 - El zombi Z0026 sale de la zona de riesgo 4.
+2025-05-03 15:12:47 - El zombi Z0026 entra en la zona de riesgo 4.
+2025-05-03 15:12:47 - El zombi Z0026 selecciona al humano 76 para atacar.
+2025-05-03 15:12:47 - El zombi 75 ataca al humano H0036 en la zona de riesgo 4.
+2025-05-03 15:12:47 - El humano H0036 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:12:47 - El humano H0031 sale del comedor.
+2025-05-03 15:12:47 - El humano H0031 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:47 - El humano H0010 deja comida en el comedor.
+2025-05-03 15:12:47 - El humano H0010 entra en la zona de descanso.
+2025-05-03 15:12:47 - El humano H0019 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:47 - El humano H0021 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:47 - El humano H0037 entra en la zona de riesgo 1.
+2025-05-03 15:12:47 - El humano H0043 sale de la zona común del refugio.
+2025-05-03 15:12:47 - El humano H0043 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:47 - El humano H0043 espera en el grupo
+2025-05-03 15:12:47 - El humanoH0043 espera a que el tunel esté libre
+2025-05-03 15:12:47 - El humano H0043 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:47 - El humanoH0039 espera a que el tunel esté libre
+2025-05-03 15:12:47 - El humanoH0024 espera a que el tunel esté libre
+2025-05-03 15:12:47 - El humano H0029 sale del comedor.
+2025-05-03 15:12:47 - El humano H0029 entra en la zona común del refugio.
+2025-05-03 15:12:47 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:12:47 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:12:47 - El zombi Z0000 selecciona al humano 82 para atacar.
+2025-05-03 15:12:47 - El zombi 22 ataca al humano H0041 en la zona de riesgo 3.
+2025-05-03 15:12:47 - El humano H0041 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:47 - El humano H0009 entra en la zona de descanso.
+2025-05-03 15:12:47 - El humano H0000 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:48 - El humano H0033 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:48 - El humano H0033 sale de la zona de riesgo 2.
+2025-05-03 15:12:48 - El humano H0033 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:48 - El humanoH0033 espera a que el tunel esté libre
+2025-05-03 15:12:48 - El humano H0036 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:48 - El humano H0036 sale de la zona de riesgo 4.
+2025-05-03 15:12:48 - El humano H0036 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:12:48 - El humanoH0036 espera a que el tunel esté libre
+2025-05-03 15:12:48 - El humano H0045 entra en la zona común del refugio.
+2025-05-03 15:12:48 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:12:48 - El humano H0002 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:48 - El humano H0002 espera en el grupo
+2025-05-03 15:12:48 - El humano H0003 sale del comedor.
+2025-05-03 15:12:48 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:12:48 - El zombi Z0028 sale de la zona de riesgo 3.
+2025-05-03 15:12:48 - El zombi Z0028 entra en la zona de riesgo 3.
+2025-05-03 15:12:48 - El zombi Z0028 selecciona al humano 82 para atacar.
+2025-05-03 15:12:48 - El humano H0016 sale de la zona de descanso.
+2025-05-03 15:12:48 - El humano H0016 entra en el comedor.
+2025-05-03 15:12:48 - El humano H0016 coge una pieza de comida del comedor.
+2025-05-03 15:12:48 - El humano H0019 entra en la zona de riesgo 3.
+2025-05-03 15:12:48 - El humano H0017 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:48 - El humano H0021 entra en la zona de riesgo 1.
+2025-05-03 15:12:48 - El humano H0023 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:48 - El zombi Z0006 sale de la zona de riesgo 4.
+2025-05-03 15:12:48 - El zombi Z0006 entra en la zona de riesgo 1.
+2025-05-03 15:12:48 - El zombi Z0006 selecciona al humano 52 para atacar.
+2025-05-03 15:12:48 - El zombi 83 ataca al humano H0018 en la zona de riesgo 1.
+2025-05-03 15:12:48 - El humano H0018 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:48 - El humano H0043 entra en la zona de riesgo 2.
+2025-05-03 15:12:48 - El humano H0033 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:48 - El zombi Z0012 sale de la zona de riesgo 1.
+2025-05-03 15:12:48 - El zombi Z0012 entra en la zona de riesgo 4.
+2025-05-03 15:12:48 - El humano H0014 sale de la zona de descanso.
+2025-05-03 15:12:48 - El humano H0014 entra en el comedor.
+2025-05-03 15:12:48 - El humano H0014 coge una pieza de comida del comedor.
+2025-05-03 15:12:48 - El humano H0000 entra en la zona de riesgo 4.
+2025-05-03 15:12:48 - El humano H0036 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:48 - El zombi 71 ataca al humano H0041 en la zona de riesgo 3.
+2025-05-03 15:12:49 - El humano H0027 sale de la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0027 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:49 - El humano H0027 espera en el grupo
+2025-05-03 15:12:49 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:12:49 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:12:49 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:12:49 - El humano H0044 sale de la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0044 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:49 - El humano H0044 espera en el grupo
+2025-05-03 15:12:49 - El humano H0034 sale del comedor.
+2025-05-03 15:12:49 - El humano H0034 entra en la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0029 sale de la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0029 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:49 - El humano H0029 espera en el grupo
+2025-05-03 15:12:49 - El humano H0025 sale de la zona de descanso.
+2025-05-03 15:12:49 - El humano H0025 entra en el comedor.
+2025-05-03 15:12:49 - El humano H0025 coge una pieza de comida del comedor.
+2025-05-03 15:12:49 - El zombi Z0005 sale de la zona de riesgo 4.
+2025-05-03 15:12:49 - El zombi Z0005 entra en la zona de riesgo 3.
+2025-05-03 15:12:49 - El zombi Z0005 selecciona al humano 53 para atacar.
+2025-05-03 15:12:49 - El zombi 50 ataca al humano H0019 en la zona de riesgo 3.
+2025-05-03 15:12:49 - El humano H0019 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:49 - El humano H0017 entra en la zona de riesgo 3.
+2025-05-03 15:12:49 - El humano H0027 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:49 - El humano H0004 sale del comedor.
+2025-05-03 15:12:49 - El humano H0004 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:49 - El humano H0023 entra en la zona de riesgo 1.
+2025-05-03 15:12:49 - El humano H0022 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:49 - El humano H0033 entra en la zona de descanso.
+2025-05-03 15:12:49 - El humano H0039 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:49 - El humano H0018 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:49 - El humano H0018 sale de la zona de riesgo 1.
+2025-05-03 15:12:49 - El humano H0018 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:49 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:12:49 - El humano H0046 entra en la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0038 sale de la zona de descanso.
+2025-05-03 15:12:49 - El humano H0038 entra en el comedor.
+2025-05-03 15:12:49 - El humano H0038 coge una pieza de comida del comedor.
+2025-05-03 15:12:49 - El humano H0010 sale de la zona de descanso.
+2025-05-03 15:12:49 - El humano H0010 entra en el comedor.
+2025-05-03 15:12:49 - El humano H0010 coge una pieza de comida del comedor.
+2025-05-03 15:12:49 - El humano H0035 sale de la zona de riesgo 2.
+2025-05-03 15:12:49 - El humano H0035 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:49 - El humanoH0035 espera a que el tunel esté libre
+2025-05-03 15:12:49 - El humano H0045 sale de la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0045 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:49 - El humano H0045 espera en el grupo
+2025-05-03 15:12:49 - El humano H0036 entra en la zona de descanso.
+2025-05-03 15:12:49 - El humano H0042 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:49 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:12:49 - El humano H0003 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:49 - El humano H0003 espera en el grupo
+2025-05-03 15:12:50 - El zombi ZZ0000 ha matado al humano H82. Número de muertes: 5
+2025-05-03 15:12:50 - El humano H0041 ha muerto en la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0041 entra en la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0041 selecciona al humano 53 para atacar.
+2025-05-03 15:12:50 - El humano H0030 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:50 - El humano H0030 entra en la zona común del refugio.
+2025-05-03 15:12:50 - El zombi Z0013 sale de la zona de riesgo 4.
+2025-05-03 15:12:50 - El zombi Z0013 entra en la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0013 selecciona al humano 51 para atacar.
+2025-05-03 15:12:50 - El zombi 63 ataca al humano H0017 en la zona de riesgo 3.
+2025-05-03 15:12:50 - El humano H0011 sale de la zona de descanso.
+2025-05-03 15:12:50 - El humano H0009 sale de la zona de descanso.
+2025-05-03 15:12:50 - El humano H0009 entra en el comedor.
+2025-05-03 15:12:50 - El humano H0011 entra en el comedor.
+2025-05-03 15:12:50 - El humano H0009 coge una pieza de comida del comedor.
+2025-05-03 15:12:50 - El humano H0011 coge una pieza de comida del comedor.
+2025-05-03 15:12:50 - El humano H0017 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0008 sale de la zona de riesgo 2.
+2025-05-03 15:12:50 - El zombi Z0008 entra en la zona de riesgo 1.
+2025-05-03 15:12:50 - El zombi Z0008 selecciona al humano 78 para atacar.
+2025-05-03 15:12:50 - El zombi 77 ataca al humano H0037 en la zona de riesgo 1.
+2025-05-03 15:12:50 - El humano H0037 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:50 - El zombi Z0007 sale de la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0007 entra en la zona de riesgo 3.
+2025-05-03 15:12:50 - El zombi Z0007 selecciona al humano 51 para atacar.
+2025-05-03 15:12:50 - El zombi 89 ataca al humano H0019 en la zona de riesgo 3.
+2025-05-03 15:12:50 - El humano H0027 entra en la zona de riesgo 3.
+2025-05-03 15:12:50 - El humano H0015 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:50 - El humano H0022 entra en la zona de riesgo 1.
+2025-05-03 15:12:50 - El humano H0018 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:50 - El humano H0039 entra en la zona de riesgo 2.
+2025-05-03 15:12:50 - El humano H0035 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:50 - El humano H0034 sale de la zona común del refugio.
+2025-05-03 15:12:50 - El humano H0034 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:12:50 - El humano H0034 espera en el grupo
+2025-05-03 15:12:50 - El humano H0047 entra en la zona común del refugio.
+2025-05-03 15:12:50 - El humano H0037 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:50 - El humano H0037 sale de la zona de riesgo 1.
+2025-05-03 15:12:50 - El humano H0037 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:50 - El humanoH0037 espera a que el tunel esté libre
+2025-05-03 15:12:50 - El humano H0042 entra en la zona de riesgo 4.
+2025-05-03 15:12:50 - El humano H0001 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:51 - El humano H0019 ha muerto en la zona de riesgo 3.
+2025-05-03 15:12:51 - El humano H0031 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:51 - El humano H0031 entra en la zona común del refugio.
+2025-05-03 15:12:51 - El zombi Z0019 entra en la zona de riesgo 3.
+2025-05-03 15:12:51 - El zombi Z0019 selecciona al humano 51 para atacar.
+2025-05-03 15:12:51 - El humano H0046 sale de la zona común del refugio.
+2025-05-03 15:12:51 - El humano H0046 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:51 - El humano H0046 espera en el grupo
+2025-05-03 15:12:51 - El zombi Z0020 sale de la zona de riesgo 2.
+2025-05-03 15:12:51 - El zombi Z0020 entra en la zona de riesgo 2.
+2025-05-03 15:12:51 - El zombi Z0020 selecciona al humano 85 para atacar.
+2025-05-03 15:12:51 - El zombi 70 ataca al humano H0043 en la zona de riesgo 2.
+2025-05-03 15:12:51 - El humano H0043 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:12:51 - El zombi Z0026 sale de la zona de riesgo 4.
+2025-05-03 15:12:51 - El zombi Z0026 entra en la zona de riesgo 1.
+2025-05-03 15:12:51 - El zombi Z0026 selecciona al humano 57 para atacar.
+2025-05-03 15:12:51 - El zombi 75 ataca al humano H0022 en la zona de riesgo 1.
+2025-05-03 15:12:51 - El humano H0022 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:51 - El zombi Z0012 sale de la zona de riesgo 4.
+2025-05-03 15:12:51 - El zombi Z0012 entra en la zona de riesgo 3.
+2025-05-03 15:12:51 - El zombi Z0012 selecciona al humano 64 para atacar.
+2025-05-03 15:12:51 - El zombi 56 ataca al humano H0027 en la zona de riesgo 3.
+2025-05-03 15:12:51 - El zombi ZZ0028 ha matado al humano H82. Número de muertes: 2
+2025-05-03 15:12:51 - El humano H0027 está siendo atacado por un zombi en la zona de riesgo 3.
+2025-05-03 15:12:51 - El zombi 91 ataca al humano H0017 en la zona de riesgo 3.
+2025-05-03 15:12:51 - El humano H0032 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:51 - El humano H0032 entra en la zona común del refugio.
+2025-05-03 15:12:51 - El humano H0030 sale de la zona común del refugio.
+2025-05-03 15:12:51 - El humano H0015 entra en la zona de riesgo 3.
+2025-05-03 15:12:51 - El humano H0030 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:12:51 - El humano H0030 espera en el grupo
+2025-05-03 15:12:51 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:51 - El humanoH0030 espera a que el tunel esté libre
+2025-05-03 15:12:51 - El humanoH0044 espera a que el tunel esté libre
+2025-05-03 15:12:51 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:12:51 - El humano H0018 entra en la zona de descanso.
+2025-05-03 15:12:51 - El humano H0037 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:51 - El zombi ZZ0005 ha matado al humano H53. Número de muertes: 3
+2025-05-03 15:12:51 - El zombi ZZ0041 ha matado al humano H53. Número de muertes: 1
+2025-05-03 15:12:51 - El humano H0016 sale del comedor.
+2025-05-03 15:12:51 - El humano H0016 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:51 - El humano H0035 deja comida en el comedor.
+2025-05-03 15:12:51 - El humano H0035 entra en la zona de descanso.
+2025-05-03 15:12:51 - El humano H0024 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:51 - El humano H0001 entra en la zona de riesgo 4.
+2025-05-03 15:12:51 - El humano H0040 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:52 - El humano H0033 sale de la zona de descanso.
+2025-05-03 15:12:52 - El humano H0033 entra en el comedor.
+2025-05-03 15:12:52 - El humano H0033 coge una pieza de comida del comedor.
+2025-05-03 15:12:52 - El humano H0048 entra en la zona común del refugio.
+2025-05-03 15:12:52 - El humano H0047 sale de la zona común del refugio.
+2025-05-03 15:12:52 - El humano H0047 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:52 - El humano H0047 espera en el grupo
+2025-05-03 15:12:52 - El zombi 58 ataca al humano H0017 en la zona de riesgo 3.
+2025-05-03 15:12:52 - El humano H0022 ha muerto en la zona de riesgo 1.
+2025-05-03 15:12:52 - El zombi Z0022 entra en la zona de riesgo 1.
+2025-05-03 15:12:52 - El zombi Z0022 selecciona al humano 55 para atacar.
+2025-05-03 15:12:52 - El zombi 93 ataca al humano H0021 en la zona de riesgo 1.
+2025-05-03 15:12:52 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:12:52 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:12:52 - El zombi Z0000 selecciona al humano 55 para atacar.
+2025-05-03 15:12:52 - El humano H0021 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:12:52 - El humano H0043 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:52 - El humano H0043 sale de la zona de riesgo 2.
+2025-05-03 15:12:52 - El humano H0043 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:12:52 - El humanoH0043 espera a que el tunel esté libre
+2025-05-03 15:12:52 - El humano H0002 entra en la zona de riesgo 3.
+2025-05-03 15:12:52 - El humano H0037 entra en la zona de descanso.
+2025-05-03 15:12:52 - El humano H0030 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:12:52 - El humano H0027 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:12:52 - El humano H0027 sale de la zona de riesgo 3.
+2025-05-03 15:12:52 - El humano H0027 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:12:52 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:12:52 - El humano H0027 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:12:52 - El humano H0024 entra en la zona de riesgo 2.
+2025-05-03 15:12:52 - El humano H0043 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:12:52 - El humano H0004 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:12:52 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:12:52 - El humano H0040 entra en la zona de riesgo 4.
+2025-05-03 15:12:52 - El humano H0031 sale de la zona común del refugio.
+2025-05-03 15:12:52 - El humano H0031 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:12:52 - El humano H0031 espera en el grupo
+2025-05-03 15:12:53 - El humano H0038 sale del comedor.
+2025-05-03 15:12:53 - El humano H0038 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:53 - El zombi Z0006 sale de la zona de riesgo 1.
+2025-05-03 15:12:53 - El zombi Z0006 entra en la zona de riesgo 1.
+2025-05-03 15:12:53 - El zombi Z0006 selecciona al humano 55 para atacar.
+2025-05-03 15:12:53 - El humano H0014 sale del comedor.
+2025-05-03 15:12:53 - El humano H0014 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:12:53 - El humano H0032 sale de la zona común del refugio.
+2025-05-03 15:12:53 - El humano H0010 sale del comedor.
+2025-05-03 15:12:53 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:12:53 - El humano H0032 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:12:53 - El humano H0032 espera en el grupo
+2025-05-03 15:12:53 - El humanoH0032 espera a que el tunel esté libre
+2025-05-03 15:12:53 - El humano H0032 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:12:53 - El humanoH0045 espera a que el tunel esté libre
+2025-05-03 15:12:53 - El humanoH0047 espera a que el tunel esté libre
+2025-05-03 15:12:53 - El zombi 83 ataca al humano H0021 en la zona de riesgo 1.
+2025-05-03 15:12:53 - El humano H0023 sale de la zona de riesgo 1.
+2025-05-03 15:12:53 - El humano H0023 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:12:53 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:12:53 - El humano H0000 sale de la zona de riesgo 4.
+2025-05-03 15:13:59 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:13:59 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:14:01 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:14:01 - El humano H0000 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:01 - El humano H0000 espera en el grupo
+2025-05-03 15:14:01 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:14:02 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:02 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:02 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:14:03 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:14:03 - El humano H0001 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:03 - El humano H0001 espera en el grupo
+2025-05-03 15:14:04 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:04 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:14:04 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:14:04 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:14:04 - El humano H0002 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:04 - El humano H0002 espera en el grupo
+2025-05-03 15:14:05 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:14:05 - El humano H0003 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:05 - El humano H0003 espera en el grupo
+2025-05-03 15:14:06 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:14:07 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:14:07 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:14:08 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:14:08 - El humano H0004 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:08 - El humano H0004 espera en el grupo
+2025-05-03 15:14:08 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:08 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:14:08 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:14:08 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:08 - El humano H0005 entra en la zona común del refugio.
+2025-05-03 15:14:09 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:09 - El humano H0004 entra en la zona de riesgo 3.
+2025-05-03 15:14:09 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:14:09 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:14:09 - El humano H0005 sale de la zona común del refugio.
+2025-05-03 15:14:09 - El humano H0005 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:09 - El humano H0005 espera en el grupo
+2025-05-03 15:14:10 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:14:10 - El humano H0000 entra en la zona de riesgo 3.
+2025-05-03 15:14:10 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:11 - El humano H0007 entra en la zona común del refugio.
+2025-05-03 15:14:11 - El humano H0002 entra en la zona de riesgo 3.
+2025-05-03 15:14:11 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:14:11 - El humano H0006 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:11 - El humano H0006 espera en el grupo
+2025-05-03 15:14:11 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:14:11 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:14:12 - El humano H0007 sale de la zona común del refugio.
+2025-05-03 15:14:12 - El humano H0007 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:12 - El humano H0007 espera en el grupo
+2025-05-03 15:14:12 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:14:13 - El humano H0004 sale de la zona de riesgo 3.
+2025-05-03 15:14:13 - El humano H0004 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:13 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:13 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:13 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:14:13 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:14:13 - El humano H0008 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:13 - El humano H0008 espera en el grupo
+2025-05-03 15:14:14 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:14:14 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:14:14 - El zombi Z0000 sale de la zona de riesgo 4.
+2025-05-03 15:14:14 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:14 - El humano H0000 sale de la zona de riesgo 3.
+2025-05-03 15:14:14 - El humano H0000 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:14 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:14:14 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:15 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:14:15 - El humano H0002 sale de la zona de riesgo 3.
+2025-05-03 15:14:15 - El humano H0002 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:15 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:14:15 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:14:15 - El humano H0009 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:15 - El humano H0009 espera en el grupo
+2025-05-03 15:14:15 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:14:15 - El humano H0009 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:15 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:14:15 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:14:15 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:14:15 - El humano H0000 deja comida en el comedor.
+2025-05-03 15:14:15 - El humano H0002 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:15 - El humano H0000 entra en la zona de descanso.
+2025-05-03 15:14:16 - El humano H0009 entra en la zona de riesgo 2.
+2025-05-03 15:14:16 - El humano H0003 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:16 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:14:16 - El humano H0004 entra en el comedor.
+2025-05-03 15:14:16 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:14:16 - El humano H0002 deja comida en el comedor.
+2025-05-03 15:14:16 - El humano H0002 entra en la zona de descanso.
+2025-05-03 15:14:16 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:14:16 - El humano H0010 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:16 - El humano H0010 espera en el grupo
+2025-05-03 15:14:16 - El humano H0012 entra en la zona común del refugio.
+2025-05-03 15:14:17 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:17 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:14:17 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:14:17 - El humano H0011 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:17 - El humano H0011 espera en el grupo
+2025-05-03 15:14:17 - El humano H0003 entra en la zona de riesgo 2.
+2025-05-03 15:14:17 - El humano H0006 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:17 - El humano H0013 entra en la zona común del refugio.
+2025-05-03 15:14:18 - El humano H0006 entra en la zona de riesgo 2.
+2025-05-03 15:14:18 - El humano H0012 sale de la zona común del refugio.
+2025-05-03 15:14:18 - El humano H0012 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:18 - El humano H0012 espera en el grupo
+2025-05-03 15:14:18 - El humanoH0012 espera a que el tunel esté libre
+2025-05-03 15:14:18 - El humano H0012 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:18 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:14:18 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:14:18 - El humano H0014 entra en la zona común del refugio.
+2025-05-03 15:14:19 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:14:19 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:19 - El zombi Z0000 selecciona al humano 39 para atacar.
+2025-05-03 15:14:19 - El zombi 22 ataca al humano H0006 en la zona de riesgo 2.
+2025-05-03 15:14:19 - El humano H0015 entra en la zona común del refugio.
+2025-05-03 15:14:19 - El humano H0006 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:14:19 - El humano H0000 sale de la zona de descanso.
+2025-05-03 15:14:19 - El humano H0000 entra en el comedor.
+2025-05-03 15:14:19 - El humano H0000 coge una pieza de comida del comedor.
+2025-05-03 15:14:19 - El humano H0012 entra en la zona de riesgo 4.
+2025-05-03 15:14:19 - El humano H0008 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:19 - El humano H0013 sale de la zona común del refugio.
+2025-05-03 15:14:19 - El humano H0013 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:19 - El humano H0013 espera en el grupo
+2025-05-03 15:14:19 - El humano H0002 sale de la zona de descanso.
+2025-05-03 15:14:19 - El humano H0002 entra en el comedor.
+2025-05-03 15:14:19 - El humano H0002 coge una pieza de comida del comedor.
+2025-05-03 15:14:19 - El humano H0014 sale de la zona común del refugio.
+2025-05-03 15:14:19 - El humano H0014 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:19 - El humano H0014 espera en el grupo
+2025-05-03 15:14:20 - El humano H0006 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:20 - El humano H0006 sale de la zona de riesgo 2.
+2025-05-03 15:14:20 - El humano H0006 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:20 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:14:20 - El humano H0006 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:20 - El humano H0016 entra en la zona común del refugio.
+2025-05-03 15:14:20 - El humano H0010 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:20 - El humano H0008 entra en la zona de riesgo 4.
+2025-05-03 15:14:20 - El humano H0003 sale de la zona de riesgo 2.
+2025-05-03 15:14:20 - El humano H0003 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:20 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:14:20 - El humano H0015 sale de la zona común del refugio.
+2025-05-03 15:14:20 - El humano H0015 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:20 - El humano H0015 espera en el grupo
+2025-05-03 15:14:20 - El humano H0004 sale del comedor.
+2025-05-03 15:14:20 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:14:21 - El humano H0006 entra en la zona de descanso.
+2025-05-03 15:14:21 - El humano H0003 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:21 - El humano H0009 sale de la zona de riesgo 2.
+2025-05-03 15:14:21 - El humano H0009 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:21 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humano H0017 entra en la zona común del refugio.
+2025-05-03 15:14:21 - El humano H0010 entra en la zona de riesgo 4.
+2025-05-03 15:14:21 - El humano H0016 sale de la zona común del refugio.
+2025-05-03 15:14:21 - El humano H0016 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:21 - El humano H0016 espera en el grupo
+2025-05-03 15:14:21 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:14:21 - El humano H0004 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:21 - El humano H0004 espera en el grupo
+2025-05-03 15:14:21 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:21 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:14:21 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:14:22 - El humano H0003 deja comida en el comedor.
+2025-05-03 15:14:22 - El humano H0009 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:22 - El humano H0003 entra en la zona de descanso.
+2025-05-03 15:14:22 - El humano H0018 entra en la zona común del refugio.
+2025-05-03 15:14:22 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:22 - El humano H0004 entra en la zona de riesgo 3.
+2025-05-03 15:14:23 - El humano H0019 entra en la zona común del refugio.
+2025-05-03 15:14:23 - El humano H0017 sale de la zona común del refugio.
+2025-05-03 15:14:23 - El humano H0017 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:23 - El humano H0017 espera en el grupo
+2025-05-03 15:14:23 - El humano H0009 deja comida en el comedor.
+2025-05-03 15:14:23 - El humano H0016 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:23 - El humano H0009 entra en la zona de descanso.
+2025-05-03 15:14:23 - El humano H0018 sale de la zona común del refugio.
+2025-05-03 15:14:23 - El humano H0018 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:23 - El humano H0018 espera en el grupo
+2025-05-03 15:14:23 - El humano H0006 sale de la zona de descanso.
+2025-05-03 15:14:23 - El humano H0006 entra en el comedor.
+2025-05-03 15:14:23 - El humano H0006 coge una pieza de comida del comedor.
+2025-05-03 15:14:23 - El humano H0020 entra en la zona común del refugio.
+2025-05-03 15:14:23 - El humano H0000 sale del comedor.
+2025-05-03 15:14:23 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:14:23 - El humano H0012 sale de la zona de riesgo 4.
+2025-05-03 15:14:23 - El humano H0012 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:23 - El humanoH0012 espera a que el tunel esté libre
+2025-05-03 15:14:23 - El humano H0012 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:23 - El humano H0005 entra en la zona de riesgo 3.
+2025-05-03 15:14:23 - El humano H0007 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:24 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:28 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:14:28 - El humano H0021 entra en la zona común del refugio.
+2025-05-03 15:14:28 - El humano H0008 sale de la zona de riesgo 4.
+2025-05-03 15:14:28 - El humano H0005 sale de la zona de riesgo 3.
+2025-05-03 15:14:28 - El humano H0008 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:28 - El humano H0010 sale de la zona de riesgo 4.
+2025-05-03 15:14:28 - El humano H0004 sale de la zona de riesgo 3.
+2025-05-03 15:14:28 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:14:28 - El humano H0010 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:28 - El humano H0004 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:28 - El humano H0005 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:28 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:14:28 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:28 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humano H0016 entra en la zona de riesgo 2.
+2025-05-03 15:14:29 - El humano H0014 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:29 - El humano H0019 sale de la zona común del refugio.
+2025-05-03 15:14:29 - El humano H0019 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:29 - El humano H0019 espera en el grupo
+2025-05-03 15:14:29 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humanoH0013 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humano H0003 sale de la zona de descanso.
+2025-05-03 15:14:29 - El humano H0003 entra en el comedor.
+2025-05-03 15:14:29 - El humano H0003 coge una pieza de comida del comedor.
+2025-05-03 15:14:29 - El humano H0002 sale del comedor.
+2025-05-03 15:14:29 - El humano H0012 deja comida en el comedor.
+2025-05-03 15:14:29 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:14:29 - El humano H0012 entra en la zona de descanso.
+2025-05-03 15:14:29 - El humano H0008 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:29 - El humano H0020 sale de la zona común del refugio.
+2025-05-03 15:14:29 - El humano H0020 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:29 - El humano H0020 espera en el grupo
+2025-05-03 15:14:29 - El humanoH0020 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humano H0020 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:29 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:14:29 - El humano H0007 entra en la zona de riesgo 3.
+2025-05-03 15:14:29 - El humano H0004 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:30 - El humano H0014 entra en la zona de riesgo 2.
+2025-05-03 15:14:30 - El humano H0015 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:30 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:14:30 - El humano H0000 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:30 - El humano H0000 espera en el grupo
+2025-05-03 15:14:30 - El humano H0021 sale de la zona común del refugio.
+2025-05-03 15:14:30 - El humano H0021 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:30 - El humano H0021 espera en el grupo
+2025-05-03 15:14:30 - El humano H0022 entra en la zona común del refugio.
+2025-05-03 15:14:30 - El humano H0009 sale de la zona de descanso.
+2025-05-03 15:14:30 - El humano H0009 entra en el comedor.
+2025-05-03 15:14:30 - El humano H0009 coge una pieza de comida del comedor.
+2025-05-03 15:14:30 - El humano H0008 deja comida en el comedor.
+2025-05-03 15:14:30 - El humano H0008 entra en la zona de descanso.
+2025-05-03 15:14:30 - El humano H0010 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:30 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:14:30 - El humano H0005 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:30 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:14:30 - El humano H0020 entra en la zona de riesgo 1.
+2025-05-03 15:14:30 - El humano H0001 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:30 - El humano H0002 sale de la zona común del refugio.
+2025-05-03 15:14:30 - El humano H0002 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:30 - El humano H0002 espera en el grupo
+2025-05-03 15:14:30 - El humano H0023 entra en la zona común del refugio.
+2025-05-03 15:14:31 - El humano H0015 entra en la zona de riesgo 2.
+2025-05-03 15:14:31 - El humano H0022 sale de la zona común del refugio.
+2025-05-03 15:14:31 - El humano H0022 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:31 - El humano H0022 espera en el grupo
+2025-05-03 15:14:31 - El humano H0010 deja comida en el comedor.
+2025-05-03 15:14:31 - El humano H0019 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:31 - El humano H0010 entra en la zona de descanso.
+2025-05-03 15:14:31 - El humano H0005 deja comida en el comedor.
+2025-05-03 15:14:31 - El humano H0005 entra en la zona de descanso.
+2025-05-03 15:14:31 - El humano H0001 entra en la zona de riesgo 1.
+2025-05-03 15:14:31 - El humano H0011 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:31 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:14:31 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:31 - El zombi Z0000 selecciona al humano 49 para atacar.
+2025-05-03 15:14:31 - El zombi 22 ataca al humano H0016 en la zona de riesgo 2.
+2025-05-03 15:14:31 - El humano H0016 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:14:32 - El humano H0024 entra en la zona común del refugio.
+2025-05-03 15:14:32 - El humano H0023 sale de la zona común del refugio.
+2025-05-03 15:14:32 - El humano H0023 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:32 - El humano H0023 espera en el grupo
+2025-05-03 15:14:32 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:14:32 - El humano H0023 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:32 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:14:32 - El humanoH0021 espera a que el tunel esté libre
+2025-05-03 15:14:32 - El humano H0016 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:32 - El humano H0016 sale de la zona de riesgo 2.
+2025-05-03 15:14:32 - El humano H0016 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:32 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:14:32 - El humano H0016 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:32 - El humano H0019 entra en la zona de riesgo 4.
+2025-05-03 15:14:32 - El humano H0013 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:32 - El humano H0011 entra en la zona de riesgo 1.
+2025-05-03 15:14:33 - El humano H0007 sale de la zona de riesgo 3.
+2025-05-03 15:14:33 - El humano H0007 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:33 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:14:33 - El humano H0007 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:33 - El humano H0023 entra en la zona de riesgo 3.
+2025-05-03 15:14:33 - El humano H0012 sale de la zona de descanso.
+2025-05-03 15:14:33 - El humano H0012 entra en el comedor.
+2025-05-03 15:14:33 - El humano H0012 coge una pieza de comida del comedor.
+2025-05-03 15:14:33 - El humano H0006 sale del comedor.
+2025-05-03 15:14:33 - El humano H0006 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:14:33 - El humano H0025 entra en la zona común del refugio.
+2025-05-03 15:14:33 - El humano H0024 sale de la zona común del refugio.
+2025-05-03 15:14:33 - El humano H0024 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:33 - El humano H0024 espera en el grupo
+2025-05-03 15:14:33 - El humano H0016 entra en la zona de descanso.
+2025-05-03 15:14:33 - El humano H0018 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:33 - El humano H0008 sale de la zona de descanso.
+2025-05-03 15:14:33 - El humano H0008 entra en el comedor.
+2025-05-03 15:14:33 - El humano H0008 coge una pieza de comida del comedor.
+2025-05-03 15:14:33 - El humano H0013 entra en la zona de riesgo 4.
+2025-05-03 15:14:33 - El humano H0014 sale de la zona de riesgo 2.
+2025-05-03 15:14:33 - El humano H0014 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:33 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:14:33 - El humano H0014 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:33 - El humano H0003 sale del comedor.
+2025-05-03 15:14:33 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:14:34 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:34 - El humano H0007 deja comida en el comedor.
+2025-05-03 15:14:34 - El humano H0007 entra en la zona de descanso.
+2025-05-03 15:14:34 - El humano H0005 sale de la zona de descanso.
+2025-05-03 15:14:34 - El humano H0005 entra en el comedor.
+2025-05-03 15:14:34 - El humano H0005 coge una pieza de comida del comedor.
+2025-05-03 15:14:34 - El humano H0009 sale del comedor.
+2025-05-03 15:14:34 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:14:34 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:14:34 - El humano H0004 entra en el comedor.
+2025-05-03 15:14:34 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:14:34 - El humano H0020 sale de la zona de riesgo 1.
+2025-05-03 15:14:34 - El humano H0020 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:34 - El humanoH0020 espera a que el tunel esté libre
+2025-05-03 15:14:34 - El humano H0020 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:34 - El humano H0018 entra en la zona de riesgo 4.
+2025-05-03 15:14:34 - El humano H0015 sale de la zona de riesgo 2.
+2025-05-03 15:14:34 - El humano H0015 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:34 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:14:34 - El humano H0015 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:34 - El humano H0014 deja comida en el comedor.
+2025-05-03 15:14:34 - El humano H0014 entra en la zona de descanso.
+2025-05-03 15:14:34 - El humano H0025 sale de la zona común del refugio.
+2025-05-03 15:14:34 - El humano H0025 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:34 - El humano H0025 espera en el grupo
+2025-05-03 15:14:34 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:14:34 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:14:34 - El humanoH0022 espera a que el tunel esté libre
+2025-05-03 15:14:34 - El humano H0010 sale de la zona de descanso.
+2025-05-03 15:14:34 - El humano H0010 entra en el comedor.
+2025-05-03 15:14:34 - El humano H0010 coge una pieza de comida del comedor.
+2025-05-03 15:14:35 - El humano H0000 entra en la zona de riesgo 3.
+2025-05-03 15:14:35 - El humano H0021 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:35 - El humano H0026 entra en la zona común del refugio.
+2025-05-03 15:14:35 - El humano H0020 deja comida en el comedor.
+2025-05-03 15:14:35 - El humano H0020 entra en la zona de descanso.
+2025-05-03 15:14:35 - El humano H0016 sale de la zona de descanso.
+2025-05-03 15:14:35 - El humano H0016 entra en el comedor.
+2025-05-03 15:14:35 - El humano H0016 coge una pieza de comida del comedor.
+2025-05-03 15:14:35 - El humano H0025 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:35 - El humano H0015 deja comida en el comedor.
+2025-05-03 15:14:35 - El humano H0015 entra en la zona de descanso.
+2025-05-03 15:14:35 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:35 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:14:35 - El zombi Z0000 selecciona al humano 44 para atacar.
+2025-05-03 15:14:35 - El zombi 22 ataca al humano H0011 en la zona de riesgo 1.
+2025-05-03 15:14:35 - El humano H0019 sale de la zona de riesgo 4.
+2025-05-03 15:14:35 - El humano H0019 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:35 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:14:35 - El humano H0019 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:35 - El humano H0011 está siendo atacado por un zombi en la zona de riesgo 1.
+2025-05-03 15:14:35 - El humano H0003 sale de la zona común del refugio.
+2025-05-03 15:14:35 - El humano H0003 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:35 - El humano H0003 espera en el grupo
+2025-05-03 15:14:36 - El humano H0009 sale de la zona común del refugio.
+2025-05-03 15:14:36 - El humano H0009 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:36 - El humano H0009 espera en el grupo
+2025-05-03 15:14:36 - El humano H0021 entra en la zona de riesgo 3.
+2025-05-03 15:14:36 - El humano H0001 sale de la zona de riesgo 1.
+2025-05-03 15:14:36 - El humano H0001 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:36 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:14:36 - El humano H0001 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:36 - El humano H0011 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:36 - El humano H0011 sale de la zona de riesgo 1.
+2025-05-03 15:14:36 - El humano H0011 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:36 - El humanoH0011 espera a que el tunel esté libre
+2025-05-03 15:14:36 - El humano H0017 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:36 - El humano H0025 entra en la zona de riesgo 2.
+2025-05-03 15:14:37 - El humano H0019 deja comida en el comedor.
+2025-05-03 15:14:37 - El humano H0019 entra en la zona de descanso.
+2025-05-03 15:14:37 - El humano H0026 sale de la zona común del refugio.
+2025-05-03 15:14:37 - El humano H0026 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:37 - El humano H0026 espera en el grupo
+2025-05-03 15:14:37 - El humano H0008 sale del comedor.
+2025-05-03 15:14:37 - El humano H0008 entra en la zona común del refugio.
+2025-05-03 15:14:37 - El humano H0027 entra en la zona común del refugio.
+2025-05-03 15:14:37 - El humano H0013 sale de la zona de riesgo 4.
+2025-05-03 15:14:37 - El humano H0013 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:37 - El humanoH0013 espera a que el tunel esté libre
+2025-05-03 15:14:37 - El humano H0013 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:37 - El humano H0014 sale de la zona de descanso.
+2025-05-03 15:14:37 - El humano H0014 entra en el comedor.
+2025-05-03 15:14:37 - El humano H0014 coge una pieza de comida del comedor.
+2025-05-03 15:14:37 - El humano H0011 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:37 - El humano H0001 deja comida en el comedor.
+2025-05-03 15:14:37 - El humano H0001 entra en la zona de descanso.
+2025-05-03 15:14:37 - El humano H0012 sale del comedor.
+2025-05-03 15:14:37 - El humano H0012 entra en la zona común del refugio.
+2025-05-03 15:14:37 - El humano H0017 entra en la zona de riesgo 2.
+2025-05-03 15:14:37 - El humano H0022 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:37 - El humano H0006 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:14:37 - El humano H0006 entra en la zona común del refugio.
+2025-05-03 15:14:37 - El humano H0023 sale de la zona de riesgo 3.
+2025-05-03 15:14:37 - El humano H0023 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:37 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:14:37 - El humano H0023 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:38 - El humano H0010 sale del comedor.
+2025-05-03 15:14:38 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:14:38 - El humano H0028 entra en la zona común del refugio.
+2025-05-03 15:14:38 - El humano H0007 sale de la zona de descanso.
+2025-05-03 15:14:38 - El humano H0007 entra en el comedor.
+2025-05-03 15:14:38 - El humano H0007 coge una pieza de comida del comedor.
+2025-05-03 15:14:38 - El humano H0005 sale del comedor.
+2025-05-03 15:14:38 - El humano H0005 entra en la zona común del refugio.
+2025-05-03 15:14:38 - El humano H0008 sale de la zona común del refugio.
+2025-05-03 15:14:38 - El humano H0008 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:38 - El humano H0008 espera en el grupo
+2025-05-03 15:14:38 - El humano H0013 deja comida en el comedor.
+2025-05-03 15:14:38 - El humano H0013 entra en la zona de descanso.
+2025-05-03 15:14:38 - El humano H0018 sale de la zona de riesgo 4.
+2025-05-03 15:14:38 - El humano H0018 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:38 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:14:38 - El humano H0018 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:38 - El humano H0011 entra en la zona de descanso.
+2025-05-03 15:14:38 - El humano H0004 sale del comedor.
+2025-05-03 15:14:38 - El humano H0022 entra en la zona de riesgo 2.
+2025-05-03 15:14:38 - El humano H0004 entra en la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0029 entra en la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0023 deja comida en el comedor.
+2025-05-03 15:14:39 - El humano H0023 entra en la zona de descanso.
+2025-05-03 15:14:39 - El humano H0012 sale de la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0012 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:39 - El humano H0012 espera en el grupo
+2025-05-03 15:14:39 - El humano H0006 sale de la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0020 sale de la zona de descanso.
+2025-05-03 15:14:39 - El humano H0020 entra en el comedor.
+2025-05-03 15:14:39 - El humano H0020 coge una pieza de comida del comedor.
+2025-05-03 15:14:39 - El humano H0006 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:39 - El humano H0006 espera en el grupo
+2025-05-03 15:14:39 - El humano H0027 sale de la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0027 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:39 - El humano H0027 espera en el grupo
+2025-05-03 15:14:39 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humanoH0026 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0027 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:39 - El humanoH0012 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0010 sale de la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0010 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:39 - El humano H0010 espera en el grupo
+2025-05-03 15:14:39 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0010 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:39 - El humanoH0024 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0005 sale de la zona común del refugio.
+2025-05-03 15:14:39 - El humano H0018 deja comida en el comedor.
+2025-05-03 15:14:39 - El humano H0018 entra en la zona de descanso.
+2025-05-03 15:14:39 - El humano H0005 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:39 - El humano H0005 espera en el grupo
+2025-05-03 15:14:39 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0005 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:39 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:14:39 - El humano H0015 sale de la zona de descanso.
+2025-05-03 15:14:39 - El humano H0015 entra en el comedor.
+2025-05-03 15:14:39 - El humano H0015 coge una pieza de comida del comedor.
+2025-05-03 15:14:40 - El humano H0028 sale de la zona común del refugio.
+2025-05-03 15:14:40 - El humano H0028 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:40 - El humano H0028 espera en el grupo
+2025-05-03 15:14:40 - El humano H0000 sale de la zona de riesgo 3.
+2025-05-03 15:14:40 - El humano H0000 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:40 - El humanoH0000 espera a que el tunel esté libre
+2025-05-03 15:14:40 - El zombi Z0000 sale de la zona de riesgo 1.
+2025-05-03 15:14:40 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:40 - El zombi Z0000 selecciona al humano 58 para atacar.
+2025-05-03 15:14:40 - El zombi 22 ataca al humano H0025 en la zona de riesgo 2.
+2025-05-03 15:14:40 - El humano H0026 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:40 - El humano H0027 entra en la zona de riesgo 2.
+2025-05-03 15:14:40 - El humano H0030 entra en la zona común del refugio.
+2025-05-03 15:14:40 - El humano H0019 sale de la zona de descanso.
+2025-05-03 15:14:40 - El humano H0025 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:14:40 - El humano H0019 entra en el comedor.
+2025-05-03 15:14:40 - El humano H0019 coge una pieza de comida del comedor.
+2025-05-03 15:14:40 - El humano H0000 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:40 - El humano H0010 entra en la zona de riesgo 3.
+2025-05-03 15:14:40 - El humano H0005 entra en la zona de riesgo 4.
+2025-05-03 15:14:40 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:40 - El humano H0016 sale del comedor.
+2025-05-03 15:14:40 - El humano H0016 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:14:40 - El humano H0004 sale de la zona común del refugio.
+2025-05-03 15:14:40 - El humano H0004 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:40 - El humano H0004 espera en el grupo
+2025-05-03 15:14:40 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:40 - El humano H0004 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:40 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:14:40 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:14:41 - El humano H0021 sale de la zona de riesgo 3.
+2025-05-03 15:14:41 - El humano H0021 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:41 - El humanoH0021 espera a que el tunel esté libre
+2025-05-03 15:14:41 - El humano H0017 sale de la zona de riesgo 2.
+2025-05-03 15:14:41 - El humano H0017 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:41 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:14:41 - El humano H0029 sale de la zona común del refugio.
+2025-05-03 15:14:41 - El humano H0029 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:41 - El humano H0029 espera en el grupo
+2025-05-03 15:14:41 - El humano H0001 sale de la zona de descanso.
+2025-05-03 15:14:41 - El humano H0014 sale del comedor.
+2025-05-03 15:14:41 - El humano H0014 entra en la zona común del refugio.
+2025-05-03 15:14:41 - El humano H0001 entra en el comedor.
+2025-05-03 15:14:41 - El humano H0001 coge una pieza de comida del comedor.
+2025-05-03 15:14:41 - El humano H0026 entra en la zona de riesgo 2.
+2025-05-03 15:14:41 - El humano H0017 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:41 - El humano H0025 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:41 - El humano H0025 sale de la zona de riesgo 2.
+2025-05-03 15:14:41 - El humano H0025 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:41 - El humanoH0025 espera a que el tunel esté libre
+2025-05-03 15:14:41 - El humano H0000 deja comida en el comedor.
+2025-05-03 15:14:41 - El humano H0021 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:41 - El humano H0000 entra en la zona de descanso.
+2025-05-03 15:14:41 - El humano H0007 sale del comedor.
+2025-05-03 15:14:41 - El humano H0007 entra en la zona común del refugio.
+2025-05-03 15:14:41 - El humano H0031 entra en la zona común del refugio.
+2025-05-03 15:14:41 - El humano H0013 sale de la zona de descanso.
+2025-05-03 15:14:41 - El humano H0013 entra en el comedor.
+2025-05-03 15:14:41 - El humano H0013 coge una pieza de comida del comedor.
+2025-05-03 15:14:41 - El humano H0008 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:41 - El humano H0009 entra en la zona de riesgo 4.
+2025-05-03 15:14:42 - El humano H0030 sale de la zona común del refugio.
+2025-05-03 15:14:42 - El humano H0030 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:42 - El humano H0030 espera en el grupo
+2025-05-03 15:14:42 - El humano H0004 entra en la zona de riesgo 1.
+2025-05-03 15:14:42 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:42 - El humano H0017 deja comida en el comedor.
+2025-05-03 15:14:42 - El humano H0017 entra en la zona de descanso.
+2025-05-03 15:14:42 - El humano H0025 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:42 - El humano H0024 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:42 - El humano H0021 deja comida en el comedor.
+2025-05-03 15:14:42 - El humano H0021 entra en la zona de descanso.
+2025-05-03 15:14:42 - El humano H0014 sale de la zona común del refugio.
+2025-05-03 15:14:42 - El humano H0014 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:42 - El humano H0014 espera en el grupo
+2025-05-03 15:14:42 - El humano H0032 entra en la zona común del refugio.
+2025-05-03 15:14:43 - El humano H0008 entra en la zona de riesgo 4.
+2025-05-03 15:14:43 - El humano H0011 sale de la zona de descanso.
+2025-05-03 15:14:43 - El humano H0011 entra en el comedor.
+2025-05-03 15:14:43 - El humano H0011 coge una pieza de comida del comedor.
+2025-05-03 15:14:43 - El humano H0002 entra en la zona de riesgo 1.
+2025-05-03 15:14:43 - El humano H0006 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:43 - El humano H0018 sale de la zona de descanso.
+2025-05-03 15:14:43 - El humano H0020 sale del comedor.
+2025-05-03 15:14:43 - El humano H0020 entra en la zona común del refugio.
+2025-05-03 15:14:43 - El humano H0018 entra en el comedor.
+2025-05-03 15:14:43 - El humano H0018 coge una pieza de comida del comedor.
+2025-05-03 15:14:43 - El humano H0023 sale de la zona de descanso.
+2025-05-03 15:14:43 - El humano H0023 entra en el comedor.
+2025-05-03 15:14:43 - El humano H0023 coge una pieza de comida del comedor.
+2025-05-03 15:14:43 - El humano H0007 sale de la zona común del refugio.
+2025-05-03 15:14:43 - El humano H0007 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:43 - El humano H0007 espera en el grupo
+2025-05-03 15:14:43 - El humano H0012 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:43 - El humano H0025 entra en la zona de descanso.
+2025-05-03 15:14:43 - El humano H0024 entra en la zona de riesgo 3.
+2025-05-03 15:14:43 - El humano H0003 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:43 - El humano H0022 sale de la zona de riesgo 2.
+2025-05-03 15:14:43 - El humano H0022 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:43 - El humanoH0022 espera a que el tunel esté libre
+2025-05-03 15:14:44 - El humano H0031 sale de la zona común del refugio.
+2025-05-03 15:14:44 - El humano H0031 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:44 - El humano H0031 espera en el grupo
+2025-05-03 15:14:44 - El humano H0006 entra en la zona de riesgo 1.
+2025-05-03 15:14:44 - El humano H0033 entra en la zona común del refugio.
+2025-05-03 15:14:44 - El humano H0027 sale de la zona de riesgo 2.
+2025-05-03 15:14:44 - El humano H0027 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:44 - El humanoH0027 espera a que el tunel esté libre
+2025-05-03 15:14:44 - El humano H0032 sale de la zona común del refugio.
+2025-05-03 15:14:44 - El humano H0010 sale de la zona de riesgo 3.
+2025-05-03 15:14:44 - El humano H0010 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:44 - El humanoH0010 espera a que el tunel esté libre
+2025-05-03 15:14:44 - El humano H0032 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:44 - El humano H0032 espera en el grupo
+2025-05-03 15:14:44 - El humano H0022 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:44 - El humano H0012 entra en la zona de riesgo 2.
+2025-05-03 15:14:44 - El humano H0010 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:44 - El humano H0003 entra en la zona de riesgo 3.
+2025-05-03 15:14:45 - El humano H0020 sale de la zona común del refugio.
+2025-05-03 15:14:45 - El humano H0020 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:45 - El humano H0020 espera en el grupo
+2025-05-03 15:14:45 - El humanoH0020 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humano H0020 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:45 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humanoH0032 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humano H0026 sale de la zona de riesgo 2.
+2025-05-03 15:14:45 - El humano H0026 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:45 - El humanoH0026 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humano H0004 sale de la zona de riesgo 1.
+2025-05-03 15:14:45 - El humano H0004 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:45 - El humanoH0004 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humano H0015 sale del comedor.
+2025-05-03 15:14:45 - El humano H0015 entra en la zona común del refugio.
+2025-05-03 15:14:45 - El humano H0009 sale de la zona de riesgo 4.
+2025-05-03 15:14:45 - El humano H0009 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:45 - El humanoH0009 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El humano H0009 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:45 - El humano H0019 sale del comedor.
+2025-05-03 15:14:45 - El humano H0019 entra en la zona común del refugio.
+2025-05-03 15:14:45 - El humano H0005 sale de la zona de riesgo 4.
+2025-05-03 15:14:45 - El humano H0005 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:45 - El humanoH0005 espera a que el tunel esté libre
+2025-05-03 15:14:45 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:45 - El zombi Z0000 entra en la zona de riesgo 2.
+2025-05-03 15:14:45 - El zombi Z0000 selecciona al humano 45 para atacar.
+2025-05-03 15:14:45 - El zombi 22 ataca al humano H0012 en la zona de riesgo 2.
+2025-05-03 15:14:45 - El humano H0000 sale de la zona de descanso.
+2025-05-03 15:14:45 - El humano H0013 sale del comedor.
+2025-05-03 15:14:45 - El humano H0000 entra en el comedor.
+2025-05-03 15:14:45 - El humano H0013 entra en la zona común del refugio.
+2025-05-03 15:14:45 - El humano H0000 coge una pieza de comida del comedor.
+2025-05-03 15:14:45 - El humano H0012 está siendo atacado por un zombi en la zona de riesgo 2.
+2025-05-03 15:14:45 - El humano H0016 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:14:45 - El humano H0016 entra en la zona común del refugio.
+2025-05-03 15:14:45 - El humano H0027 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:45 - El humano H0022 deja comida en el comedor.
+2025-05-03 15:14:45 - El humano H0022 entra en la zona de descanso.
+2025-05-03 15:14:46 - El humano H0010 deja comida en el comedor.
+2025-05-03 15:14:46 - El humano H0010 entra en la zona de descanso.
+2025-05-03 15:14:46 - El humano H0034 entra en la zona común del refugio.
+2025-05-03 15:14:46 - El humano H0017 sale de la zona de descanso.
+2025-05-03 15:14:46 - El humano H0017 entra en el comedor.
+2025-05-03 15:14:46 - El humano H0017 coge una pieza de comida del comedor.
+2025-05-03 15:14:46 - El humano H0020 entra en la zona de riesgo 1.
+2025-05-03 15:14:46 - El humano H0004 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:46 - El humano H0033 sale de la zona común del refugio.
+2025-05-03 15:14:46 - El humano H0033 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:46 - El humano H0033 espera en el grupo
+2025-05-03 15:14:46 - El humano H0025 sale de la zona de descanso.
+2025-05-03 15:14:46 - El humano H0025 entra en el comedor.
+2025-05-03 15:14:46 - El humano H0025 coge una pieza de comida del comedor.
+2025-05-03 15:14:46 - El humano H0009 deja comida en el comedor.
+2025-05-03 15:14:46 - El humano H0005 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:46 - El humano H0009 entra en la zona de descanso.
+2025-05-03 15:14:46 - El humano H0001 sale del comedor.
+2025-05-03 15:14:46 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:14:46 - El humano H0012 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:46 - El humano H0012 sale de la zona de riesgo 2.
+2025-05-03 15:14:46 - El humano H0012 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:46 - El humanoH0012 espera a que el tunel esté libre
+2025-05-03 15:14:46 - El humano H0015 sale de la zona común del refugio.
+2025-05-03 15:14:46 - El humano H0015 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:46 - El humano H0015 espera en el grupo
+2025-05-03 15:14:47 - El humano H0023 sale del comedor.
+2025-05-03 15:14:47 - El humano H0023 entra en la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0011 sale del comedor.
+2025-05-03 15:14:47 - El humano H0011 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:14:47 - El humano H0027 deja comida en el comedor.
+2025-05-03 15:14:47 - El humano H0027 entra en la zona de descanso.
+2025-05-03 15:14:47 - El humano H0026 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:47 - El humano H0035 entra en la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0002 sale de la zona de riesgo 1.
+2025-05-03 15:14:47 - El humano H0021 sale de la zona de descanso.
+2025-05-03 15:14:47 - El humano H0002 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:47 - El humano H0008 sale de la zona de riesgo 4.
+2025-05-03 15:14:47 - El humanoH0002 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0021 entra en el comedor.
+2025-05-03 15:14:47 - El humano H0008 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:47 - El humano H0021 coge una pieza de comida del comedor.
+2025-05-03 15:14:47 - El humanoH0008 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0016 sale de la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0016 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:47 - El humano H0016 espera en el grupo
+2025-05-03 15:14:47 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0016 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:47 - El humanoH0028 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humanoH0031 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0004 deja comida en el comedor.
+2025-05-03 15:14:47 - El humano H0002 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:47 - El humano H0013 sale de la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0013 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:47 - El humano H0013 espera en el grupo
+2025-05-03 15:14:47 - El humanoH0013 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humanoH0033 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humanoH0015 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0004 entra en la zona de descanso.
+2025-05-03 15:14:47 - El humano H0005 deja comida en el comedor.
+2025-05-03 15:14:47 - El humano H0008 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:47 - El humano H0005 entra en la zona de descanso.
+2025-05-03 15:14:47 - El humano H0024 sale de la zona de riesgo 3.
+2025-05-03 15:14:47 - El humano H0024 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:47 - El humanoH0024 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0034 sale de la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0034 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:47 - El humano H0034 espera en el grupo
+2025-05-03 15:14:47 - El humano H0019 sale de la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0019 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:47 - El humano H0019 espera en el grupo
+2025-05-03 15:14:47 - El humano H0006 sale de la zona de riesgo 1.
+2025-05-03 15:14:47 - El humano H0006 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:47 - El humanoH0006 espera a que el tunel esté libre
+2025-05-03 15:14:47 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:14:47 - El humano H0001 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:47 - El humano H0001 espera en el grupo
+2025-05-03 15:14:48 - El humano H0003 sale de la zona de riesgo 3.
+2025-05-03 15:14:48 - El humano H0003 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:48 - El humanoH0003 espera a que el tunel esté libre
+2025-05-03 15:14:48 - El humano H0026 deja comida en el comedor.
+2025-05-03 15:14:48 - El humano H0012 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:48 - El humano H0026 entra en la zona de descanso.
+2025-05-03 15:14:48 - El humano H0016 entra en la zona de riesgo 3.
+2025-05-03 15:14:48 - El humano H0024 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:48 - El humano H0002 deja comida en el comedor.
+2025-05-03 15:14:48 - El humano H0002 entra en la zona de descanso.
+2025-05-03 15:14:48 - El humano H0006 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:48 - El humano H0035 sale de la zona común del refugio.
+2025-05-03 15:14:48 - El humano H0035 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:48 - El humano H0035 espera en el grupo
+2025-05-03 15:14:48 - El humanoH0035 espera a que el tunel esté libre
+2025-05-03 15:14:48 - El humanoH0029 espera a que el tunel esté libre
+2025-05-03 15:14:48 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:14:48 - El humano H0008 deja comida en el comedor.
+2025-05-03 15:14:48 - El humano H0008 entra en la zona de descanso.
+2025-05-03 15:14:48 - El humano H0035 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:48 - El humano H0023 sale de la zona común del refugio.
+2025-05-03 15:14:48 - El humano H0023 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:48 - El humano H0023 espera en el grupo
+2025-05-03 15:14:48 - El humano H0018 sale del comedor.
+2025-05-03 15:14:48 - El humano H0018 entra en la zona común del refugio.
+2025-05-03 15:14:48 - El humano H0009 sale de la zona de descanso.
+2025-05-03 15:14:48 - El humano H0009 entra en el comedor.
+2025-05-03 15:14:48 - El humano H0009 coge una pieza de comida del comedor.
+2025-05-03 15:14:49 - El humano H0010 sale de la zona de descanso.
+2025-05-03 15:14:49 - El humano H0010 entra en el comedor.
+2025-05-03 15:14:49 - El humano H0010 coge una pieza de comida del comedor.
+2025-05-03 15:14:49 - El humano H0036 entra en la zona común del refugio.
+2025-05-03 15:14:49 - El humano H0020 sale de la zona de riesgo 1.
+2025-05-03 15:14:49 - El humano H0020 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:49 - El humanoH0020 espera a que el tunel esté libre
+2025-05-03 15:14:49 - El humano H0012 entra en la zona de descanso.
+2025-05-03 15:14:49 - El humano H0024 deja comida en el comedor.
+2025-05-03 15:14:49 - El humano H0024 entra en la zona de descanso.
+2025-05-03 15:14:49 - El humano H0003 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:49 - El humano H0006 entra en la zona de descanso.
+2025-05-03 15:14:49 - El humano H0020 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:49 - El humano H0027 sale de la zona de descanso.
+2025-05-03 15:14:49 - El humano H0027 entra en el comedor.
+2025-05-03 15:14:49 - El humano H0027 coge una pieza de comida del comedor.
+2025-05-03 15:14:49 - El humano H0035 entra en la zona de riesgo 4.
+2025-05-03 15:14:49 - El humano H0029 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:49 - El humano H0022 sale de la zona de descanso.
+2025-05-03 15:14:49 - El humano H0022 entra en el comedor.
+2025-05-03 15:14:49 - El humano H0022 coge una pieza de comida del comedor.
+2025-05-03 15:14:49 - El humano H0037 entra en la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0005 sale de la zona de descanso.
+2025-05-03 15:14:50 - El humano H0005 entra en el comedor.
+2025-05-03 15:14:50 - El humano H0005 coge una pieza de comida del comedor.
+2025-05-03 15:14:50 - El zombi Z0000 sale de la zona de riesgo 2.
+2025-05-03 15:14:50 - El zombi Z0000 entra en la zona de riesgo 4.
+2025-05-03 15:14:50 - El zombi Z0000 selecciona al humano 68 para atacar.
+2025-05-03 15:14:50 - El zombi 22 ataca al humano H0035 en la zona de riesgo 4.
+2025-05-03 15:14:50 - El humano H0025 sale del comedor.
+2025-05-03 15:14:50 - El humano H0017 sale del comedor.
+2025-05-03 15:14:50 - El humano H0025 entra en la zona de descanso para recuperarse tras ser atacado.
+2025-05-03 15:14:50 - El humano H0017 entra en la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0035 está siendo atacado por un zombi en la zona de riesgo 4.
+2025-05-03 15:14:50 - El humano H0003 deja comida en el comedor.
+2025-05-03 15:14:50 - El humano H0003 entra en la zona de descanso.
+2025-05-03 15:14:50 - El humano H0028 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:50 - El humano H0020 deja comida en el comedor.
+2025-05-03 15:14:50 - El humano H0018 sale de la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0020 entra en la zona de descanso.
+2025-05-03 15:14:50 - El humano H0018 espera en el túnel 2 para salir al exterior.
+2025-05-03 15:14:50 - El humano H0018 espera en el grupo
+2025-05-03 15:14:50 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:14:50 - El humano H0014 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:50 - El humanoH0030 espera a que el tunel esté libre
+2025-05-03 15:14:50 - El humano H0018 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:50 - El humanoH0034 espera a que el tunel esté libre
+2025-05-03 15:14:50 - El humano H0036 sale de la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0036 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:50 - El humano H0036 espera en el grupo
+2025-05-03 15:14:50 - El humano H0026 sale de la zona de descanso.
+2025-05-03 15:14:50 - El humano H0026 entra en el comedor.
+2025-05-03 15:14:50 - El humano H0026 coge una pieza de comida del comedor.
+2025-05-03 15:14:50 - El humano H0029 entra en la zona de riesgo 4.
+2025-05-03 15:14:50 - El humano H0007 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:50 - El humano H0008 sale de la zona de descanso.
+2025-05-03 15:14:50 - El humano H0008 entra en el comedor.
+2025-05-03 15:14:50 - El humano H0008 coge una pieza de comida del comedor.
+2025-05-03 15:14:50 - El humano H0000 sale del comedor.
+2025-05-03 15:14:50 - El humano H0021 sale del comedor.
+2025-05-03 15:14:50 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0021 entra en la zona común del refugio.
+2025-05-03 15:14:50 - El humano H0038 entra en la zona común del refugio.
+2025-05-03 15:14:51 - El humano H0035 ha sobrevivido al ataque y queda marcado.
+2025-05-03 15:14:51 - El humano H0035 sale de la zona de riesgo 4.
+2025-05-03 15:14:51 - El humano H0035 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:51 - El humanoH0035 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humano H0004 sale de la zona de descanso.
+2025-05-03 15:14:51 - El humano H0004 entra en el comedor.
+2025-05-03 15:14:51 - El humano H0004 coge una pieza de comida del comedor.
+2025-05-03 15:14:51 - El humano H0017 sale de la zona común del refugio.
+2025-05-03 15:14:51 - El humano H0017 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:51 - El humano H0017 espera en el grupo
+2025-05-03 15:14:51 - El humanoH0017 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humanoH0023 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humanoH0036 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humano H0016 sale de la zona de riesgo 3.
+2025-05-03 15:14:51 - El humano H0028 entra en la zona de riesgo 3.
+2025-05-03 15:14:51 - El humano H0031 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:51 - El humano H0016 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:51 - El humanoH0016 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humano H0014 entra en la zona de riesgo 1.
+2025-05-03 15:14:51 - El humano H0018 entra en la zona de riesgo 2.
+2025-05-03 15:14:51 - El humano H0030 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:51 - El humano H0032 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:51 - El humano H0037 sale de la zona común del refugio.
+2025-05-03 15:14:51 - El humano H0037 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:51 - El humano H0037 espera en el grupo
+2025-05-03 15:14:51 - El humanoH0037 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humanoH0019 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humanoH0001 espera a que el tunel esté libre
+2025-05-03 15:14:51 - El humano H0007 entra en la zona de riesgo 4.
+2025-05-03 15:14:51 - El humano H0035 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:52 - El humano H0011 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:14:52 - El humano H0011 entra en la zona común del refugio.
+2025-05-03 15:14:52 - El humano H0002 sale de la zona de descanso.
+2025-05-03 15:14:52 - El humano H0002 entra en el comedor.
+2025-05-03 15:14:52 - El humano H0002 coge una pieza de comida del comedor.
+2025-05-03 15:14:55 - El humano H0039 entra en la zona común del refugio.
+2025-05-03 15:14:55 - El humano H0012 sale de la zona de descanso.
+2025-05-03 15:14:55 - El humano H0029 sale de la zona de riesgo 4.
+2025-05-03 15:14:55 - El humano H0029 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:55 - El humano H0012 entra en el comedor.
+2025-05-03 15:14:55 - El humanoH0029 espera a que el tunel esté libre
+2025-05-03 15:14:55 - El humano H0012 coge una pieza de comida del comedor.
+2025-05-03 15:14:55 - El humano H0028 sale de la zona de riesgo 3.
+2025-05-03 15:14:55 - El humano H0028 cruza el túnel 3 de vuelta al refugio.
+2025-05-03 15:14:55 - El humanoH0028 espera a que el tunel esté libre
+2025-05-03 15:14:55 - El humano H0018 sale de la zona de riesgo 2.
+2025-05-03 15:14:55 - El humano H0018 cruza el túnel 2 de vuelta al refugio.
+2025-05-03 15:14:55 - El humanoH0018 espera a que el tunel esté libre
+2025-05-03 15:14:55 - El humano H0021 sale de la zona común del refugio.
+2025-05-03 15:14:55 - El humano H0021 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:55 - El humano H0021 espera en el grupo
+2025-05-03 15:14:55 - El humano H0038 sale de la zona común del refugio.
+2025-05-03 15:14:55 - El humano H0010 sale del comedor.
+2025-05-03 15:14:55 - El humano H0010 entra en la zona común del refugio.
+2025-05-03 15:14:55 - El humano H0038 espera en el túnel 4 para salir al exterior.
+2025-05-03 15:14:55 - El humano H0038 espera en el grupo
+2025-05-03 15:14:55 - El humano H0031 entra en la zona de riesgo 3.
+2025-05-03 15:14:55 - El humano H0016 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:55 - El humano H0013 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:55 - El humano H0018 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:55 - El humano H0030 entra en la zona de riesgo 2.
+2025-05-03 15:14:55 - El humano H0032 entra en la zona de riesgo 1.
+2025-05-03 15:14:55 - El humano H0006 sale de la zona de descanso.
+2025-05-03 15:14:55 - El humano H0006 entra en el comedor.
+2025-05-03 15:14:55 - El humano H0006 coge una pieza de comida del comedor.
+2025-05-03 15:14:55 - El humano H0007 sale de la zona de riesgo 4.
+2025-05-03 15:14:55 - El humano H0007 cruza el túnel 4 de vuelta al refugio.
+2025-05-03 15:14:55 - El humanoH0007 espera a que el tunel esté libre
+2025-05-03 15:14:55 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:14:55 - El humano H0035 entra en la zona de descanso.
+2025-05-03 15:14:55 - El humano H0014 sale de la zona de riesgo 1.
+2025-05-03 15:14:55 - El humano H0000 espera en el túnel 3 para salir al exterior.
+2025-05-03 15:14:55 - El humano H0000 espera en el grupo
+2025-05-03 15:14:55 - El humano H0014 cruza el túnel 1 de vuelta al refugio.
+2025-05-03 15:14:55 - El humano H0029 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:55 - El humanoH0014 espera a que el tunel esté libre
+2025-05-03 15:14:56 - El humano H0027 sale del comedor.
+2025-05-03 15:14:56 - El humano H0027 entra en la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0040 entra en la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0024 sale de la zona de descanso.
+2025-05-03 15:14:56 - El humano H0024 entra en el comedor.
+2025-05-03 15:14:56 - El humano H0024 coge una pieza de comida del comedor.
+2025-05-03 15:14:56 - El humano H0034 cruza el túnel 2 hacia la zona de riesgo.
+2025-05-03 15:14:56 - El humano H0018 deja comida en el comedor.
+2025-05-03 15:14:56 - El humano H0028 cruza el túnel 3 hacia la zona de riesgo.
+2025-05-03 15:14:56 - El humano H0014 cruza el túnel 1 hacia la zona de riesgo.
+2025-05-03 15:14:56 - El humano H0013 entra en la zona de riesgo 1.
+2025-05-03 15:14:56 - El humano H0016 entra en la zona de descanso.
+2025-05-03 15:14:56 - El humano H0018 entra en la zona de descanso.
+2025-05-03 15:14:56 - El humano H0025 sale de la zona de descanso tras recuperarse.
+2025-05-03 15:14:56 - El humano H0025 entra en la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0022 sale del comedor.
+2025-05-03 15:14:56 - El humano H0022 entra en la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0029 deja comida en el comedor.
+2025-05-03 15:14:56 - El humano H0007 cruza el túnel 4 hacia la zona de riesgo.
+2025-05-03 15:14:56 - El humano H0029 entra en la zona de descanso.
+2025-05-03 15:14:56 - El humano H0039 sale de la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0011 sale de la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0009 sale del comedor.
+2025-05-03 15:14:56 - El humano H0009 entra en la zona común del refugio.
+2025-05-03 15:14:56 - El humano H0039 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:56 - El humano H0011 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:14:56 - El humano H0039 espera en el grupo
+2025-05-03 15:14:56 - El humano H0011 espera en el grupo
+2025-05-03 15:14:57 - El humano H0041 entra en la zona común del refugio.
+2025-05-03 15:14:57 - El humano H0005 sale del comedor.
+2025-05-03 15:15:40 - El zombi Z0000 entra en la zona de riesgo 3.
+2025-05-03 15:15:41 - El humano H0000 entra en la zona común del refugio.
+2025-05-03 15:15:42 - El humano H0001 entra en la zona común del refugio.
+2025-05-03 15:15:42 - El humano H0002 entra en la zona común del refugio.
+2025-05-03 15:15:43 - El humano H0000 sale de la zona común del refugio.
+2025-05-03 15:15:43 - El humano H0000 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:15:43 - El humano H0000 espera en el grupo
+2025-05-03 15:15:43 - El humano H0003 entra en la zona común del refugio.
+2025-05-03 15:15:43 - El zombi Z0000 sale de la zona de riesgo 3.
+2025-05-03 15:15:43 - El zombi Z0000 entra en la zona de riesgo 1.
+2025-05-03 15:15:43 - El humano H0001 sale de la zona común del refugio.
+2025-05-03 15:15:43 - El humano H0001 espera en el túnel 1 para salir al exterior.
+2025-05-03 15:15:43 - El humano H0001 espera en el grupo

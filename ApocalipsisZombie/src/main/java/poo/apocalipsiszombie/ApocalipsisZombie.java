@@ -3,7 +3,7 @@
  */
 package poo.apocalipsiszombie;
 
-import interfaz.Boton;
+
 import interfaz.Interfaz;
 import java.util.Random;
 import poo.apocalipsiszombie.areasriesgo.AreaRiesgo;
