@@ -4,35 +4,38 @@
  */
 package poo.apocalipsiszombie.areasriesgo;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import poo.apocalipsiszombie.Logger;
-
 
 /**
  *
  * @author unaih
  */
 public class AreaRiesgo {
+
     private Logger log;
     private interfaz.Interfaz interfaz;
     ZonaRiesgo zona1;
     ZonaRiesgo zona2;
     ZonaRiesgo zona3;
     ZonaRiesgo zona4;
-    public AreaRiesgo(Logger log, interfaz.Interfaz interfaz){
-        this.log=log;
-        this.interfaz=interfaz;
-        zona1=new ZonaRiesgo(1,log,interfaz);
-        zona2=new ZonaRiesgo(2,log,interfaz);
-        zona3=new ZonaRiesgo(3,log,interfaz);
-        zona4=new ZonaRiesgo(4,log,interfaz);
+
+    public AreaRiesgo(Logger log, interfaz.Interfaz interfaz) {
+        this.log = log;
+        this.interfaz = interfaz;
+        zona1 = new ZonaRiesgo(1, log, interfaz);
+        zona2 = new ZonaRiesgo(2, log, interfaz);
+        zona3 = new ZonaRiesgo(3, log, interfaz);
+        zona4 = new ZonaRiesgo(4, log, interfaz);
     }
 
     @Override
     public String toString() {
         return "AreaRiesgo{" + "zona1=" + zona1 + ", zona2=" + zona2 + ", zona3=" + zona3 + ", zona4=" + zona4 + '}';
     }
-    
+
     public ZonaRiesgo getZona1() {
         return zona1;
     }
@@ -48,15 +51,40 @@ public class AreaRiesgo {
     public ZonaRiesgo getZona4() {
         return zona4;
     }
-    public ZonaRiesgo getZonaRiesgoAleatoria(){
+
+    public ZonaRiesgo getZonaRiesgoAleatoria() {
         Random random = new Random();
         int num = random.nextInt(4); // 0, 1, 2 o 3
         switch (num) {
-            case 0: return zona1;
-            case 1: return zona2;
-            case 2: return zona3;
-            case 3: return zona4;
-            default: return zona1;
+            case 0:
+                return zona1;
+            case 1:
+                return zona2;
+            case 2:
+                return zona3;
+            case 3:
+                return zona4;
+            default:
+                return zona1;
         }
     }
+
+    public List<Integer> getNumHumanosPorZona() {
+        List<Integer> resultado = new ArrayList<>();
+        resultado.add(zona1.getPersonas().size());
+        resultado.add(zona2.getPersonas().size());
+        resultado.add(zona3.getPersonas().size());
+        resultado.add(zona4.getPersonas().size());
+        return resultado;
+    }
+
+    public List<Integer> getNumZombisPorZona() {
+        List<Integer> resultado = new ArrayList<>();
+        resultado.add(zona1.getZombis().size());
+        resultado.add(zona2.getZombis().size());
+        resultado.add(zona3.getZombis().size());
+        resultado.add(zona4.getZombis().size());
+        return resultado;
+    }
+
 }

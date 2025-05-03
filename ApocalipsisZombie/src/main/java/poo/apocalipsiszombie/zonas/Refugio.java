@@ -28,7 +28,15 @@ public class Refugio {
         descanso=new Descanso(log,interfaz);
         comedor=new Comedor(log,interfaz,controlPausa);
     }
-
+    
+    public int contarPersonas(){
+        int total=0;
+        total+=descanso.getPersonas().size();
+        total+=comedor.getPersonas().size();
+        total+=comun.getPersonas().size();
+        return total;
+    }
+    
     public Comedor getComedor() {
         return comedor;
     }

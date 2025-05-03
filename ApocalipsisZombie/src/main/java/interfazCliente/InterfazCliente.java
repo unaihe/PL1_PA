@@ -4,17 +4,75 @@
  */
 package interfazCliente;
 
+import java.util.List;
+import javax.swing.DefaultListModel;
+import rmi.SimulacionRemota;
+
 /**
  *
  * @author unaih
  */
 public class InterfazCliente extends javax.swing.JFrame {
 
+    private DefaultListModel<String> modeloRankingZombis = new DefaultListModel<>();
+    private rmi.SimulacionRemota simulacion;
+
     /**
      * Creates new form InterfazCliente
      */
     public InterfazCliente() {
         initComponents();
+        ListaZ.setModel(modeloRankingZombis);
+        try {
+            simulacion = (rmi.SimulacionRemota) java.rmi.Naming.lookup("//localhost/SimulacionZombis");
+        } catch (Exception e) {
+            javax.swing.JOptionPane.showMessageDialog(this, "No se pudo conectar al servidor: " + e.getMessage());
+            System.exit(1);
+        }
+        javax.swing.Timer timer = new javax.swing.Timer(1000, e -> {
+            try {
+                int nRefugio = simulacion.getNumeroHumanosRefugio();
+                java.util.List<Integer> tuneles = simulacion.getNumeroHumanosTuneles();
+                java.util.List<Integer> riesgoH = simulacion.getNumeroHumanosZonasRiesgo();
+                java.util.List<Integer> riesgoZ = simulacion.getNumeroZombisZonasRiesgo();
+                java.util.List<String> ranking = simulacion.getZombisMasLetales();
+
+                actualizarNumeros(nRefugio, tuneles, riesgoH, riesgoZ);
+                actualizarRanking(ranking);
+            } catch (Exception ex) {
+                // Manejo de error de conexión
+            }
+        });
+        timer.start();
+    }
+
+    public void actualizarNumeros(
+            int numRefugio,
+            List<Integer> tuneles,
+            List<Integer> zonas,
+            List<Integer> zombis
+    ) {
+        nRefugio.setText(String.valueOf(numRefugio));
+        nRefugio.setText(String.valueOf(numRefugio));
+        nTunel1.setText(String.valueOf(tuneles.get(0)));
+        nTunel2.setText(String.valueOf(tuneles.get(1)));
+        nTunel3.setText(String.valueOf(tuneles.get(2)));
+        nTunel4.setText(String.valueOf(tuneles.get(3)));
+        nRiesgoH1.setText(String.valueOf(zonas.get(0)));
+        nRiesgoH2.setText(String.valueOf(zonas.get(1)));
+        nRiesgoH3.setText(String.valueOf(zonas.get(2)));
+        nRiesgoH4.setText(String.valueOf(zonas.get(3)));
+        nRiesgoZ1.setText(String.valueOf(zombis.get(0)));
+        nRiesgoZ2.setText(String.valueOf(zombis.get(1)));
+        nRiesgoZ3.setText(String.valueOf(zombis.get(2)));
+        nRiesgoZ4.setText(String.valueOf(zombis.get(3)));
+    }
+
+    public void actualizarRanking(List<String> ranking) {
+        modeloRankingZombis.clear();
+        for (String zombi : ranking) {
+            modeloRankingZombis.addElement(zombi);
+        }
     }
 
     /**
@@ -189,6 +247,11 @@ public class InterfazCliente extends javax.swing.JFrame {
         Detener.setBackground(new java.awt.Color(255, 255, 255));
         Detener.setForeground(new java.awt.Color(0, 0, 0));
         Detener.setText("Detener Ejecución");
+        Detener.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DetenerActionPerformed(evt);
+            }
+        });
 
         ListaZ.setBackground(new java.awt.Color(255, 255, 255));
         ListaZ.setForeground(new java.awt.Color(0, 0, 0));
@@ -321,6 +384,17 @@ public class InterfazCliente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
 
+    private void DetenerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DetenerActionPerformed
+        try {
+            simulacion.togglePausa();
+            // Opcional: cambia el texto del botón según el estado
+            boolean pausado = simulacion.isPausado();
+            Detener.setText(pausado ? "Reanudar ejecución" : "Detener ejecución");
+        } catch (Exception ex) {
+            javax.swing.JOptionPane.showMessageDialog(this, "Error al pausar/reanudar: " + ex.getMessage());
+        }
+    }//GEN-LAST:event_DetenerActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -355,7 +429,6 @@ public class InterfazCliente extends javax.swing.JFrame {
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Base;
     private javax.swing.JButton Detener;
