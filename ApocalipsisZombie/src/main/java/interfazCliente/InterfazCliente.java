@@ -44,6 +44,7 @@ public class InterfazCliente extends javax.swing.JFrame {
             }
         });
         timer.start();
+        
     }
 
     public void actualizarNumeros(
@@ -128,7 +129,9 @@ public class InterfazCliente extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         Base.setBackground(new java.awt.Color(255, 255, 255));
+        Base.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTextField1.setEditable(false);
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setText("Número de humanos en el refugio");
@@ -138,12 +141,15 @@ public class InterfazCliente extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
+        Base.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(62, 67, -1, -1));
 
         nRefugio.setBackground(new java.awt.Color(255, 255, 255));
         nRefugio.setForeground(new java.awt.Color(0, 0, 0));
-        nRefugio.setText("jLabel1");
+        nRefugio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRefugio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRefugio, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 61, 40, 28));
 
+        jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(255, 255, 255));
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
         jTextField2.setText("Número de humanos en los túneles");
@@ -153,27 +159,34 @@ public class InterfazCliente extends javax.swing.JFrame {
                 jTextField2ActionPerformed(evt);
             }
         });
+        Base.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(62, 113, -1, -1));
 
         nTunel1.setBackground(new java.awt.Color(255, 255, 255));
         nTunel1.setForeground(new java.awt.Color(0, 0, 0));
-        nTunel1.setText("jLabel1");
+        nTunel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nTunel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nTunel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 107, 40, 28));
 
         nTunel2.setBackground(new java.awt.Color(255, 255, 255));
         nTunel2.setForeground(new java.awt.Color(0, 0, 0));
-        nTunel2.setText("jLabel1");
+        nTunel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nTunel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nTunel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 107, 40, 28));
 
         nTunel4.setBackground(new java.awt.Color(255, 255, 255));
         nTunel4.setForeground(new java.awt.Color(0, 0, 0));
-        nTunel4.setText("jLabel1");
+        nTunel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nTunel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nTunel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(517, 107, 40, 28));
 
         nTunel3.setBackground(new java.awt.Color(255, 255, 255));
         nTunel3.setForeground(new java.awt.Color(0, 0, 0));
-        nTunel3.setText("jLabel1");
+        nTunel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        nTunel3.setToolTipText("");
         nTunel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nTunel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 107, 40, 28));
 
+        jTextField3.setEditable(false);
         jTextField3.setBackground(new java.awt.Color(255, 255, 255));
         jTextField3.setForeground(new java.awt.Color(0, 0, 0));
         jTextField3.setText("Número de humanos en zonas riesgo");
@@ -183,27 +196,33 @@ public class InterfazCliente extends javax.swing.JFrame {
                 jTextField3ActionPerformed(evt);
             }
         });
+        Base.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 159, -1, -1));
 
         nRiesgoH1.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoH1.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoH1.setText("jLabel1");
+        nRiesgoH1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoH1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoH1, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 153, 40, 28));
 
         nRiesgoH2.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoH2.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoH2.setText("jLabel1");
+        nRiesgoH2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoH2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoH2, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 153, 40, 28));
 
         nRiesgoH3.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoH3.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoH3.setText("jLabel1");
+        nRiesgoH3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoH3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoH3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 153, 40, 28));
 
         nRiesgoH4.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoH4.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoH4.setText("jLabel1");
+        nRiesgoH4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoH4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoH4, new org.netbeans.lib.awtextra.AbsoluteConstraints(517, 153, 40, 28));
 
+        jTextField4.setEditable(false);
         jTextField4.setBackground(new java.awt.Color(255, 255, 255));
         jTextField4.setForeground(new java.awt.Color(0, 0, 0));
         jTextField4.setText("Número de zombis en zonas riesgo");
@@ -213,27 +232,33 @@ public class InterfazCliente extends javax.swing.JFrame {
                 jTextField4ActionPerformed(evt);
             }
         });
+        Base.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 205, -1, -1));
 
         nRiesgoZ1.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoZ1.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoZ1.setText("jLabel1");
+        nRiesgoZ1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoZ1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoZ1, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 199, 40, 28));
 
         nRiesgoZ2.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoZ2.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoZ2.setText("jLabel1");
+        nRiesgoZ2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoZ2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoZ2, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 199, 40, 28));
 
         nRiesgoZ3.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoZ3.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoZ3.setText("jLabel1");
+        nRiesgoZ3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoZ3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoZ3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 199, 40, 28));
 
         nRiesgoZ4.setBackground(new java.awt.Color(255, 255, 255));
         nRiesgoZ4.setForeground(new java.awt.Color(0, 0, 0));
-        nRiesgoZ4.setText("jLabel1");
+        nRiesgoZ4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nRiesgoZ4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        Base.add(nRiesgoZ4, new org.netbeans.lib.awtextra.AbsoluteConstraints(517, 199, 40, 28));
 
+        jTextField5.setEditable(false);
         jTextField5.setBackground(new java.awt.Color(255, 255, 255));
         jTextField5.setForeground(new java.awt.Color(0, 0, 0));
         jTextField5.setText("Zombis más letales");
@@ -243,6 +268,7 @@ public class InterfazCliente extends javax.swing.JFrame {
                 jTextField5ActionPerformed(evt);
             }
         });
+        Base.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 245, -1, -1));
 
         Detener.setBackground(new java.awt.Color(255, 255, 255));
         Detener.setForeground(new java.awt.Color(0, 0, 0));
@@ -252,6 +278,7 @@ public class InterfazCliente extends javax.swing.JFrame {
                 DetenerActionPerformed(evt);
             }
         });
+        Base.add(Detener, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 267, 153, 44));
 
         ListaZ.setBackground(new java.awt.Color(255, 255, 255));
         ListaZ.setForeground(new java.awt.Color(0, 0, 0));
@@ -262,103 +289,17 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         jScrollPane3.setViewportView(ListaZ);
 
-        javax.swing.GroupLayout BaseLayout = new javax.swing.GroupLayout(Base);
-        Base.setLayout(BaseLayout);
-        BaseLayout.setHorizontalGroup(
-            BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BaseLayout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(BaseLayout.createSequentialGroup()
-                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(95, 95, 95)
-                        .addComponent(nRiesgoH1)
-                        .addGap(18, 18, 18)
-                        .addComponent(nRiesgoH2)
-                        .addGap(18, 18, 18)
-                        .addComponent(nRiesgoH3)
-                        .addGap(18, 18, 18)
-                        .addComponent(nRiesgoH4))
-                    .addGroup(BaseLayout.createSequentialGroup()
-                        .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(95, 95, 95)
-                        .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BaseLayout.createSequentialGroup()
-                                .addComponent(nTunel1)
-                                .addGap(18, 18, 18)
-                                .addComponent(nTunel2)
-                                .addGap(18, 18, 18)
-                                .addComponent(nTunel3)
-                                .addGap(18, 18, 18)
-                                .addComponent(nTunel4))
-                            .addComponent(nRefugio)))
-                    .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(BaseLayout.createSequentialGroup()
-                            .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jTextField4)
-                                .addComponent(jScrollPane3))
-                            .addGap(95, 95, 95)
-                            .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(BaseLayout.createSequentialGroup()
-                                    .addComponent(nRiesgoZ1)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(nRiesgoZ2)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(nRiesgoZ3))
-                                .addComponent(Detener, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGap(18, 18, 18)
-                            .addComponent(nRiesgoZ4))))
-                .addContainerGap(44, Short.MAX_VALUE))
-        );
-        BaseLayout.setVerticalGroup(
-            BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BaseLayout.createSequentialGroup()
-                .addGap(61, 61, 61)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRefugio, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nTunel1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nTunel2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nTunel3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nTunel4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nRiesgoH1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoH2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoH3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoH4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nRiesgoZ1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoZ2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoZ3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nRiesgoZ4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Detener, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(64, Short.MAX_VALUE))
-        );
+        Base.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 267, 186, 69));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Base, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Base, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Base, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Base, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
         );
 
         pack();

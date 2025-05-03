@@ -44,7 +44,6 @@ public class Interfaz extends javax.swing.JFrame {
         Comida.setModel(modeloComida);
         Boton botonFrame = new Boton(controlPausa);
         botonFrame.setVisible(true);
-        
     }
     
     private DefaultListModel<String> modeloDescanso = new DefaultListModel<>();
