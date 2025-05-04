@@ -1,0 +1,185 @@
+@startuml
+' Estilo profesional
+skinparam class {
+    BackgroundColor White
+    ArrowColor #0078D7
+    BorderColor #2E2E2E
+    AttributeIconSize 0
+}
+
+' ====== Paquetes y clases ======
+package poo.apocalipsiszombie.areasriesgo {
+    class AreaRiesgo {
+        - Logger log
+        - ZonaRiesgo zona1
+        - ZonaRiesgo zona2
+        - ZonaRiesgo zona3
+        - ZonaRiesgo zona4
+        + getZonaRiesgoAleatoria()
+        + getNumHumanosPorZona()
+        + getNumZombisPorZona()
+    }
+
+    class ZonaRiesgo {
+        - int id
+        - Queue<Humano> personas
+        - Queue<Zombi> zombis
+        + agregarPersona(Humano)
+        + quitarPersona(Humano)
+        + agregarZombi(Zombi)
+        + quitarZombi(Zombi)
+        + hayHumanos()
+        + seleccionarHumanoAleatorio()
+    }
+}
+
+package poo.apocalipsiszombie.hilos {
+    class Humano {
+        - String id
+        - boolean vivo
+        - Refugio refugio
+        - Tuneles tuneles
+        - AreaRiesgo areaRiesgo
+        - ZonaRiesgo zonaRiesgo
+        + serAtacado(int, Zombi)
+        + run()
+    }
+
+    class Zombi {
+        - String id
+        - int muertes
+        - static List<Zombi> zombis
+        + getRankingLetales()
+        + run()
+    }
+}
+
+package poo.apocalipsiszombie.tuneles {
+    class Tuneles {
+        - Tunel tunel1
+        - Tunel tunel2
+        - Tunel tunel3
+        - Tunel tunel4
+        + getTunelAleatorio()
+        + getNumHumanosPorTunel()
+    }
+
+    class Tunel {
+        - int id
+        - Queue<Humano> personasRefugio
+        - Queue<Humano> personasRiesgo
+        + agregarPersonaRefugio(Humano)
+        + quitarPersonaRefugio(Humano)
+        + agregarPersonaRiesgo(Humano)
+        + quitarPersonaRiesgo(Humano)
+        + cruzarTunel(boolean, Humano)
+    }
+}
+
+package poo.apocalipsiszombie.zonas {
+    class Refugio {
+        - Comedor comedor
+        - Comun comun
+        - Descanso descanso
+        + contarPersonas()
+        + getComedor()
+        + getComun()
+        + getDescanso()
+    }
+    class Comedor {
+        - int nComida
+        - Queue<Humano> personas
+        + dejarComida()
+        + cogerComida()
+    }
+    class Comun {
+        - Queue<Humano> personas
+        + agregarPersona(Humano)
+        + quitarPersona(Humano)
+    }
+    class Descanso {
+        - Queue<Humano> personas
+        + agregarPersona(Humano)
+        + quitarPersona(Humano)
+    }
+}
+
+package poo.apocalipsiszombie {
+    class Logger {
+        - BlockingQueue<String> logQueue
+        + escribir(String)
+    }
+    class ControlPausa {
+        - boolean enPausa
+        + pausar()
+        + reanudar()
+        + esperarSiPausado()
+        + isEnPausa()
+    }
+}
+
+package interfaz {
+    class Interfaz {
+        + actualizarDescanso(Collection<Humano>)
+        + actualizarComedor(Collection<Humano>)
+        + actualizarComida(int)
+        + actualizarZonaComun(Collection<Humano>)
+        + actualizarTunelRefugio(int, Collection<Humano>)
+        + actualizarTunelCruzando(int, Collection<Humano>)
+        + actualizarTunelRiesgo(int, Collection<Humano>)
+    }
+}
+
+package interfazCliente {
+    class InterfazCliente {
+        + actualizarNumeros(int, List<Integer>, List<Integer>, List<Integer>)
+        + actualizarRanking(List<String>)
+    }
+}
+
+package rmi {
+    interface SimulacionRemota {
+        + getNumeroHumanosRefugio()
+        + getNumeroHumanosTuneles()
+        + getNumeroHumanosZonasRiesgo()
+        + getNumeroZombisZonasRiesgo()
+        + getZombisMasLetales()
+        + isPausado()
+        + togglePausa()
+    }
+    class SimulacionRemotaImpl
+}
+
+' ====== Relaciones principales ======
+AreaRiesgo "1" *-- "4" ZonaRiesgo: contiene
+ZonaRiesgo "1" o-- "*" Humano: personas
+ZonaRiesgo "1" o-- "*" Zombi: zombis
+Humano --> Refugio
+Humano --> Tuneles
+Humano --> AreaRiesgo
+Humano --> ZonaRiesgo
+Humano --> Logger
+Humano --> ControlPausa
+Zombi --> ZonaRiesgo
+Zombi --> AreaRiesgo
+Zombi --> Logger
+Zombi --> ControlPausa
+Tuneles "1" *-- "4" Tunel: contiene
+Tunel "1" o-- "*" Humano: personasRefugio/personasRiesgo
+Refugio *-- Comedor
+Refugio *-- Comun
+Refugio *-- Descanso
+Comedor o-- Humano: personas
+Comun o-- Humano: personas
+Descanso o-- Humano: personas
+Logger ..> ControlPausa
+Interfaz --> ControlPausa
+InterfazCliente --> SimulacionRemota
+SimulacionRemotaImpl ..|> SimulacionRemota
+SimulacionRemotaImpl --> Refugio
+SimulacionRemotaImpl --> Tuneles
+SimulacionRemotaImpl --> AreaRiesgo
+SimulacionRemotaImpl --> ControlPausa
+SimulacionRemotaImpl --> Interfaz
+
+@enduml
