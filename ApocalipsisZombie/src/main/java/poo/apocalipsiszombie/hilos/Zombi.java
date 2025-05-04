@@ -27,6 +27,14 @@ public class Zombi extends Thread {
     private ControlPausa controlPausa;
     private static final java.util.List<Zombi> zombis = new java.util.concurrent.CopyOnWriteArrayList<>();
 
+    /**
+     * Constructor de la clase Zombi(Hilo).
+     * @param id
+     * @param areaRiesgo
+     * @param log
+     * @param interfaz
+     * @param controlPausa
+     */
     public Zombi(String id, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         this.id = id;
         this.controlPausa = controlPausa;
@@ -34,9 +42,18 @@ public class Zombi extends Thread {
         zonaActual = areaRiesgo.getZonaRiesgoAleatoria();
         this.log = log;
         this.interfaz = interfaz;
-        zombis.add(this);
+        zombis.add(this); //Añadimos a lista de zombis para poder tener control de todos y poder hacer ranking entre ellos.
     }
 
+    /**
+     * Constructor utilizado por humanos transformados al estar ya asignados a una zonaRiesgo.
+     * @param id
+     * @param zonaRiesgo
+     * @param areaRiesgo
+     * @param log
+     * @param interfaz
+     * @param controlPausa
+     */
     public Zombi(String id, ZonaRiesgo zonaRiesgo, AreaRiesgo areaRiesgo, Logger log, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         zonaActual = zonaRiesgo;
         this.areaRiesgo = areaRiesgo;
@@ -47,10 +64,17 @@ public class Zombi extends Thread {
         zombis.add(this);
     }
 
+    
     public String getZombiId() {
         return id;
     }
 
+    /**
+     * Devuelve una lista con los tres zombis más letales de la simulación.
+     * El ranking se ordena de mayor a menor número de muertes.
+     * @return Lista de cadenas de texto, cada una con el formato "ZombiID - X muertes", 
+     * donde aparecen los tres zombis con mayor número de muertes (o menos si hay menos zombis).
+     */
     public static java.util.List<String> getRankingLetales() {
         java.util.List<Zombi> copia = new java.util.ArrayList<>(zombis);
         copia.sort((a, b) -> Integer.compare(b.muertes, a.muertes)); // De mayor a menor
@@ -63,6 +87,15 @@ public class Zombi extends Thread {
         return ranking;
     }
 
+    /**
+     * Método principal del hilo Zombi.
+     * Simula el ciclo de vida de un zombi: 
+     * - Entra en una zona de riesgo.
+     * - Si hay humanos, selecciona uno aleatoriamente y lo ataca.
+     *   Si el humano muere, incrementa su contador de muertes.
+     * - Permanece un tiempo de reposo tras cada acción.
+     * - Se desplaza aleatoriamente a otra zona de riesgo.
+     */
     public void run() {
         while (true) {
             try {

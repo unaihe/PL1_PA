@@ -24,7 +24,6 @@ public class Humano extends Thread {
     private final String id;
     private boolean marcado = false;
     private boolean vivo = true;
-    private String zonaActual;
     private Refugio refugio;
     private int comidaRecolectada = 0;
     private boolean necesitaDescanso = false;
@@ -43,6 +42,16 @@ public class Humano extends Thread {
         return "Humano{" + "id=" + id + '}';
     }
 
+    /**
+     * Constructor de la clase humano(Hilo)
+     * @param id
+     * @param refugio
+     * @param tuneles
+     * @param areas
+     * @param logger
+     * @param interfaz
+     * @param controlPausa
+     */
     public Humano(String id, Refugio refugio, Tuneles tuneles, AreaRiesgo areas, Logger logger, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         this.id = id;
         this.refugio = refugio;
@@ -52,15 +61,28 @@ public class Humano extends Thread {
         this.areaRiesgo = areas;
         this.interfaz = interfaz;
     }
-
+    /**
+     * Método para determinar el estado del humano.
+     * @return true si el humano está vivo, false si ha muerto.
+     */
     public boolean isVivo() {
         return vivo;
     }
-
+    
     public String getHumanoId() {
         return id;
     }
 
+    /**
+     * Método sincronizado que gestiona el ataque de un zombi a este humano.
+     * Marca al humano como atacado, espera el tiempo de ataque y determina
+     * aleatoriamente si el humano sobrevive o muere. Si muere, actualiza el
+     * estado y registra el evento.
+     *
+     * @param tiempo
+     * @param zombi Instancia del zombi atacante.
+     * @throws java.lang.InterruptedException
+     */
     public synchronized void serAtacado(int tiempo, Zombi zombi) throws InterruptedException {
         ataqueFinalizado = false;
         siendoAtacado = true;
@@ -82,6 +104,12 @@ public class Humano extends Thread {
         notifyAll();
     }
 
+    /**
+     * Método principal del hilo Humano. Simula el ciclo de vida del humano:
+     * descanso, alimentación, espera, cruce de túneles, recolección de comida
+     * en zona de riesgo y retorno al refugio, repitiendo el ciclo mientras el
+     * humano siga vivo.
+     */
     public void run() {
         while (isVivo()) {
             try {
