@@ -47,6 +47,13 @@ public class InterfazCliente extends javax.swing.JFrame {
         
     }
 
+    /**
+     * Establece los valores de los metodos que cuentan el número de humanos y zombis.
+     * @param numRefugio
+     * @param tuneles
+     * @param zonas
+     * @param zombis
+     */
     public void actualizarNumeros(
             int numRefugio,
             List<Integer> tuneles,
@@ -69,6 +76,11 @@ public class InterfazCliente extends javax.swing.JFrame {
         nRiesgoZ4.setText(String.valueOf(zombis.get(3)));
     }
 
+    /**
+     * Debido a que es una lista se actualiza por separado del resto de valores.
+     * El ranking es obtenido por el método que se llama desde SimulaciónRemotaImpl.
+     * @param ranking
+     */
     public void actualizarRanking(List<String> ranking) {
         modeloRankingZombis.clear();
         for (String zombi : ranking) {

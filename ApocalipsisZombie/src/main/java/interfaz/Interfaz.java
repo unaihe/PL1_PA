@@ -255,10 +255,18 @@ public class Interfaz extends javax.swing.JFrame {
             }
         }
     }
-     public void pausarBoton(){
+
+    /**
+     * Método llamado para cambiar el botón desde la interfazCliente
+     */
+    public void pausarBoton(){
         boton.setText("Reanudar");
         pausado=true;
     }
+
+    /**
+     * Método llamado para cambiar el botón desde la interfazCliente
+     */
     public void reanudarBoton(){
         boton.setText("Pausar");
         pausado=false;

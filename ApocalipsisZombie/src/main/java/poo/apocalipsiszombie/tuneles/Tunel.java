@@ -12,6 +12,10 @@ import javax.swing.SwingUtilities;
 import poo.apocalipsiszombie.ControlPausa;
 import poo.apocalipsiszombie.Logger;
 
+/**
+ *
+ * @author unaih
+ */
 public class Tunel {
 
     private final int id;
@@ -20,7 +24,6 @@ public class Tunel {
     private Queue<Humano> personasRefugio = new ConcurrentLinkedQueue<>();
     // Humanos esperando para volver del riesgo al refugio
     private Queue<Humano> personasRiesgo = new ConcurrentLinkedQueue<>();
-
     private CyclicBarrier barrier = new CyclicBarrier(3);
     private final Lock lock = new ReentrantLock();
     private final Condition puedeCruzar = lock.newCondition();
@@ -31,6 +34,14 @@ public class Tunel {
     private interfaz.Interfaz interfaz;
     private ControlPausa controlPausa;
 
+    /**
+     * Constructor de la clase Tunel.
+     *
+     * @param id
+     * @param log
+     * @param interfaz
+     * @param controlPausa
+     */
     public Tunel(int id, Logger log, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         this.id = id;
         this.controlPausa = controlPausa;
@@ -42,19 +53,29 @@ public class Tunel {
         return personaCruzando;
     }
 
+    /**
+     * Indica si actualmente hay un humano cruzando el túnel.
+     *
+     * @return true si hay un humano cruzando el túnel, false en caso contrario.
+     */
     public boolean isCruzandoTunel() {
         return cruzandoTunel;
     }
-    
+
     public int getId() {
         return id;
     }
 
-    // --- Métodos para personasRefugio ---
+    // Métodos para Lista personasRefugio
     public Queue<Humano> getPersonasRefugio() {
         return personasRefugio;
     }
 
+    /**
+     * Añade un humano a la lista de personas en el tunel en el lado del refugio
+     *
+     * @param humano
+     */
     public void agregarPersonaRefugio(Humano humano) {
         personasRefugio.add(humano);
         SwingUtilities.invokeLater(() -> {
@@ -62,6 +83,11 @@ public class Tunel {
         });
     }
 
+    /**
+     * Elimina el humano introducido como argumento de la lista
+     *
+     * @param humano
+     */
     public void quitarPersonaRefugio(Humano humano) {
         personasRefugio.remove(humano);
         SwingUtilities.invokeLater(() -> {
@@ -69,11 +95,16 @@ public class Tunel {
         });
     }
 
-    // --- Métodos para personasRiesgo ---
+    //Métodos para Lista personasRiesgo 
     public Queue<Humano> getPersonasRiesgo() {
         return personasRiesgo;
     }
 
+    /**
+     * Añade un humano a la lista de personas en el tunel en el lado del riesgo.
+     *
+     * @param humano
+     */
     public void agregarPersonaRiesgo(Humano humano) {
         personasRiesgo.add(humano);
         SwingUtilities.invokeLater(() -> {
@@ -81,6 +112,11 @@ public class Tunel {
         });
     }
 
+    /**
+     * Elimina el humano introducido como argumento de la lista
+     *
+     * @param humano
+     */
     public void quitarPersonaRiesgo(Humano humano) {
         personasRiesgo.remove(humano);
         SwingUtilities.invokeLater(() -> {
@@ -88,10 +124,27 @@ public class Tunel {
         });
     }
 
+    /**
+     * Hace que el hilo espere hasta que se complete un grupo para cruzar el
+     * túnel.
+     *
+     * @throws InterruptedException
+     * @throws BrokenBarrierException
+     */
     public void esperarGrupo() throws InterruptedException, BrokenBarrierException {
         barrier.await();
     }
 
+    /**
+     * Gestiona el proceso de cruce del túnel por un humano, controlando la
+     * concurrencia, la actualización de la interfaz y el respeto a la pausa
+     * global.
+     *
+     * @param entrandoRefugio true si el humano entra al refugio, false si sale
+     * hacia la zona de riesgo.
+     * @param humano humano que realiza el cruce.
+     * @throws InterruptedException si el hilo es interrumpido durante el cruce.
+     */
     public void cruzarTunel(boolean entrandoRefugio, Humano humano) throws InterruptedException {
         lock.lock();
         log.escribir("El humano" + humano.getHumanoId() + " espera a que el tunel esté libre");
@@ -123,7 +176,7 @@ public class Tunel {
         SwingUtilities.invokeLater(() -> interfaz.actualizarTunelCruzando(id, cruzando));
 
         log.escribir("El humano " + humano.getHumanoId() + " cruza el túnel " + this.id + " hacia la zona de riesgo.");
-        cruzandoTunel=true;
+        cruzandoTunel = true;
         int tiempoCruce = 1000; // total en ms
         int paso = 100;
         for (int t = 0; t < tiempoCruce; t += paso) {
@@ -134,7 +187,7 @@ public class Tunel {
         lock.lock();
         try {
             humanosEnTunel--;
-            cruzandoTunel=false;
+            cruzandoTunel = false;
             puedeCruzar.signalAll();
         } finally {
             lock.unlock();

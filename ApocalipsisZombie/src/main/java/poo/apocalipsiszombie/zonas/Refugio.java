@@ -28,7 +28,10 @@ public class Refugio {
         descanso=new Descanso(log,interfaz);
         comedor=new Comedor(log,interfaz,controlPausa);
     }
-    
+    /**
+     * Contador para la interfaz del cliente.
+     * @return Devuelve el número de personas total en el Refugio entre todas las salas.
+     */
     public int contarPersonas(){
         int total=0;
         total+=descanso.getPersonas().size();

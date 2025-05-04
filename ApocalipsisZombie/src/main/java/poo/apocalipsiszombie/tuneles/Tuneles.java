@@ -21,6 +21,13 @@ public class Tuneles {
     private interfaz.Interfaz interfaz;
     private ControlPausa controlPausa;
 
+    /**
+     * Crea e inicializa el sistema de túneles de la simulación.
+     * Este constructor crea cuatro instancias de la clase Tunel
+     * @param logger
+     * @param interfaz
+     * @param controlPausa
+     */
     public Tuneles(Logger logger, interfaz.Interfaz interfaz, ControlPausa controlPausa) {
         this.logger = logger;
         this.interfaz = interfaz;
@@ -68,7 +75,11 @@ public class Tuneles {
                 return tunel1;
         }
     }
-
+    /**
+     * Contador para la interfaz del cliente
+     * @return Devuelve una lista de 4 elementos,
+     * donde cada uno representa el número de humanos en cada tunel.
+     */
     public List<Integer> getNumHumanosPorTunel() {
         List<Integer> resultado = new ArrayList<>();
         resultado.add(

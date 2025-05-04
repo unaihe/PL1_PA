@@ -67,10 +67,20 @@ public class ZonaRiesgo {
         });
     }
 
+    /**
+     * Método utilizado por zombis para comprobar
+     * si hay humanos en la zona de riesgo en la que se encuentran.
+     * @return True si hay humanos en la lista, False si no los hay.
+     */
     public boolean hayHumanos() {
         return !personas.isEmpty();
     }
 
+    /**
+     * Método para seleccionar un humano aleatorio de la lista.
+     * Se ejecuta si la función anterior es True y hay más de un humano.
+     * @return Humano seleccionado para el ataque del zombi.
+     */
     public Humano seleccionarHumanoAleatorio() {
         if (personas.isEmpty()) {
             return null;
